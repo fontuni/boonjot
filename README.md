@@ -1,1 +1,3 @@
-# boonthing
+# BoonThing
+
+OpenType feature framework for Thai and Lao fonts, a work in progress ...
