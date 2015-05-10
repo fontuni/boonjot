@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0E33" format="1">
+  <advance width="500"/>
+  <unicode hex="0E33"/>
+  <outline>
+    <component base="uni0E32"/>
+    <component base="uni0E4D"/>
+  </outline>
+  <lib>
+    <dict/>
+  </lib>
+</glyph>

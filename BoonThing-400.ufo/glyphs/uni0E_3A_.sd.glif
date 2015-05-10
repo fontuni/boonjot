@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0E3A.sd" format="1">
+  <advance width="0"/>
+  <unicode hex="F89D"/>
+  <outline>
+    <component base="uni0E3A" yOffset="-185"/>
+  </outline>
+  <lib>
+    <dict/>
+  </lib>
+</glyph>
