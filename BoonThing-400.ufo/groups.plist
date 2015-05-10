@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+
+    <!-- Thai Normal Consonants + Dotted Circle -->
+    <key>@NC</key>
+    <array>
+      <string>uni0E01</string>
+      <string>uni0E02</string>
+      <string>uni0E03</string>
+      <string>uni0E04</string>
+      <string>uni0E05</string>
+      <string>uni0E06</string>
+      <string>uni0E07</string>
+      <string>uni0E08</string>
+      <string>uni0E09</string>
+      <string>uni0E0A</string>
+      <string>uni0E0B</string>
+      <string>uni0E0C</string>
+      <string>uni0E0D</string>
+      <string>uni0E10</string>
+      <string>uni0E11</string>
+      <string>uni0E12</string>
+      <string>uni0E13</string>
+      <string>uni0E14</string>
+      <string>uni0E15</string>
+      <string>uni0E16</string>
+      <string>uni0E17</string>
+      <string>uni0E18</string>
+      <string>uni0E19</string>
+      <string>uni0E1A</string>
+      <string>uni0E1C</string>
+      <string>uni0E1E</string>
+      <string>uni0E20</string>
+      <string>uni0E21</string>
+      <string>uni0E22</string>
+      <string>uni0E23</string>
+      <string>uni0E24</string>
+      <string>uni0E25</string>
+      <string>uni0E26</string>
+      <string>uni0E27</string>
+      <string>uni0E28</string>
+      <string>uni0E29</string>
+      <string>uni0E2A</string>
+      <string>uni0E2B</string>
+      <string>uni0E2C</string>
+      <string>uni0E2D</string>
+      <string>uni0E2E</string>
+      <string>uni0E0D.rd</string>
+      <string>uni0E10.rd</string>
+      <string>uni25CC</string>
+    </array><!-- end Thai Normal Consonants -->
+
+  </dict>
+</plist>
+
