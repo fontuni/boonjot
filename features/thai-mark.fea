@@ -1,0 +1,130 @@
+# At least a `mark` feature is required for Adobe's applications 
+# to display Thai script properly with thier World-Ready composer.
+
+lookup ThaiBV.mark {
+
+  markClass @BV <anchor -150 0> @ThaiBV.mark;
+  pos base [ \uni0E01 \uni0E06 \uni0E16 \uni0E20 \uni0E21 \uni25CC ] <anchor 510 0> mark @ThaiBV.mark;
+
+  pos base [ \uni0E02 \uni0E2D \uni0E2E ] <anchor 450 0> mark @ThaiBV.mark;
+  pos base [ \uni0E03 ] <anchor 470 0> mark @ThaiBV.mark;
+  pos base [ \uni0E04 \uni0E05 \uni0E0A \uni0E0B \uni0E28 ] <anchor 480 0> mark @ThaiBV.mark;
+  pos base [ \uni0E07 ] <anchor 390 0> mark @ThaiBV.mark;
+  pos base [ \uni0E08 ] <anchor 420 0> mark @ThaiBV.mark;
+  pos base [ \uni0E09 \uni0E2B ] <anchor 500 0> mark @ThaiBV.mark;
+  pos base [ \uni0E0C ] <anchor 810 0> mark @ThaiBV.mark;
+  pos base @DC <anchor 480 -180> mark @ThaiBV.mark;
+  pos base [ \uni0E11 ] <anchor 550 0> mark @ThaiBV.mark;
+  pos base [ \uni0E12 \uni0E13 \uni0E0D.rd ] <anchor 790 0> mark @ThaiBV.mark;
+  pos base [ \uni0E14 \uni0E15 \uni0E17 \uni0E1A \uni0E29 ] <anchor 520 0> mark @ThaiBV.mark;
+  pos base [ \uni0E18 ] <anchor 410 0> mark @ThaiBV.mark;
+  pos base [ \uni0E19 \uni0E25 \uni0E2A ] <anchor 490 0> mark @ThaiBV.mark;
+  pos base [ \uni0E1B ] <anchor 530 0> mark @ThaiBV.mark;
+  pos base [ \uni0E1C \uni0E1D ] <anchor 560 0> mark @ThaiBV.mark;
+  pos base [ \uni0E1E \uni0E1F ] <anchor 580 0> mark @ThaiBV.mark;
+  pos base [ \uni0E22 ] <anchor 460 0> mark @ThaiBV.mark;
+  pos base [ \uni0E23 ] <anchor 360 0> mark @ThaiBV.mark;
+  pos base [ \uni0E10.rd ] <anchor 400 0> mark @ThaiBV.mark;
+  pos base [ \uni0E27 ] <anchor 370 0> mark @ThaiBV.mark;
+  pos base [ \uni0E2C ] <anchor 570 0> mark @ThaiBV.mark;
+  pos base [ \uni0E32 ] <anchor 350 0> mark @ThaiBV.mark;
+  pos base [ \uni0E40 ] <anchor 210 0> mark @ThaiBV.mark;
+  pos base [ \uni0E42 \uni0E43 \uni0E44 ] <anchor 270 0> mark @ThaiBV.mark;
+
+} ThaiBV.mark;
+
+# This lookup treat @T as @AV
+lookup ThaiAV.mark {
+
+  markClass [\uni0E31 \uni0E34 \uni0E35 \uni0E36 \uni0E37 \uni0E47 \uni0E4E ] <anchor -150 600> @ThaiAV.mark;
+  markClass [\uni0E4D ] <anchor -130 600> @ThaiAV.mark;
+  markClass @T <anchor -150 840> @ThaiAV.mark;
+  
+  # @NC, @DC, @RC vs @AV
+  pos base [\uni25CC ] <anchor 570 600> mark @ThaiAV.mark;
+  pos base [\uni0E01 \uni0E04 \uni0E0E \uni0E0F \uni0E14 \uni0E15 \uni0E16 \uni0E17 \uni0E20 \uni0E21 ] <anchor 510 600> mark @ThaiAV.mark;
+  pos base [\uni0E02 \uni0E03 \uni0E25 \uni0E28 ] <anchor 470 600> mark @ThaiAV.mark;
+  pos base [\uni0E05 \uni0E2B ] <anchor 500 600> mark @ThaiAV.mark;
+  pos base [\uni0E06 \uni0E1A \uni0E29 ] <anchor 520 600> mark @ThaiAV.mark;
+  pos base [\uni0E07 \uni0E10 \uni0E27 \uni0E10.rd ] <anchor 390 600> mark @ThaiAV.mark;
+  pos base [\uni0E08 \uni0E2A \uni0E2D \uni0E2E ] <anchor 450 600> mark @ThaiAV.mark;
+  pos base [\uni0E09 \uni0E19 ] <anchor 480 600> mark @ThaiAV.mark;
+  pos base [\uni0E0A \uni0E0B ] <anchor 430 600> mark @ThaiAV.mark;
+  pos base [\uni0E0C \uni0E0D \uni0E12 \uni0E0D.rd ] <anchor 810 600> mark @ThaiAV.mark;
+  pos base [\uni0E11 ] <anchor 530 600> mark @ThaiAV.mark;
+  pos base [\uni0E13 ] <anchor 770 600> mark @ThaiAV.mark;
+  pos base [\uni0E18 ] <anchor 420 600> mark @ThaiAV.mark;
+  pos base [\uni0E1C ] <anchor 560 600> mark @ThaiAV.mark;
+  pos base [\uni0E1E ] <anchor 580 600> mark @ThaiAV.mark;
+  pos base [\uni0E22 ] <anchor 490 600> mark @ThaiAV.mark;
+  pos base [\uni0E23 ] <anchor 380 600> mark @ThaiAV.mark;
+  pos base [\uni0E2C ] <anchor 550 600> mark @ThaiAV.mark;
+  pos base [\uni0E32 ] <anchor 360 600> mark @ThaiAV.mark;
+  pos base [\uni0E40 ] <anchor 210 600> mark @ThaiAV.mark;
+
+} ThaiAV.mark;
+
+lookup ThaiContextT {
+
+  markClass [ \uni0E48 \uni0E4C ] <anchor -90 840> @ThaiContextT.mark;
+  markClass [ \uni0E49 \uni0E4A \uni0E4B ] <anchor -60 840> @ThaiContextT.mark;
+  
+  # @NC, @DC, @RC vs @AV
+  pos base [\uni25CC ] <anchor 570 600> mark @ThaiContextT.mark;
+  pos base [\uni0E01 \uni0E04 \uni0E0E \uni0E0F \uni0E14 \uni0E15 \uni0E16 \uni0E17 \uni0E20 \uni0E21 ] <anchor 510 600> mark @ThaiContextT.mark;
+  pos base [\uni0E02 \uni0E03 \uni0E25 \uni0E28 ] <anchor 470 600> mark @ThaiContextT.mark;
+  pos base [\uni0E05 \uni0E2B ] <anchor 500 600> mark @ThaiContextT.mark;
+  pos base [\uni0E06 \uni0E1A \uni0E29 ] <anchor 520 600> mark @ThaiContextT.mark;
+  pos base [\uni0E07 \uni0E10 \uni0E27 \uni0E10.rd ] <anchor 390 600> mark @ThaiContextT.mark;
+  pos base [\uni0E08 \uni0E2A \uni0E2D \uni0E2E ] <anchor 450 600> mark @ThaiContextT.mark;
+  pos base [\uni0E09 \uni0E19 ] <anchor 480 600> mark @ThaiContextT.mark;
+  pos base [\uni0E0A \uni0E0B ] <anchor 430 600> mark @ThaiContextT.mark;
+  pos base [\uni0E0C \uni0E0D \uni0E12 \uni0E0D.rd ] <anchor 810 600> mark @ThaiContextT.mark;
+  pos base [\uni0E11 ] <anchor 530 600> mark @ThaiContextT.mark;
+  pos base [\uni0E13 ] <anchor 770 600> mark @ThaiContextT.mark;
+  pos base [\uni0E18 ] <anchor 420 600> mark @ThaiContextT.mark;
+  pos base [\uni0E1C ] <anchor 560 600> mark @ThaiContextT.mark;
+  pos base [\uni0E1E ] <anchor 580 600> mark @ThaiContextT.mark;
+  pos base [\uni0E22 ] <anchor 490 600> mark @ThaiContextT.mark;
+  pos base [\uni0E23 ] <anchor 380 600> mark @ThaiContextT.mark;
+  pos base [\uni0E2C ] <anchor 550 600> mark @ThaiContextT.mark;
+
+} ThaiContextT;
+
+lookup ThaiContextT.mark {
+
+  @N1 = [\uni0E01 \uni0E02 \uni0E03 \uni0E04 \uni0E05 \uni0E06 \uni0E07 \uni0E08 \uni0E09 
+  \uni0E0A \uni0E0B \uni0E0C \uni0E0D \uni0E0E \uni0E0F \uni0E10 \uni0E11 
+  \uni0E12 \uni0E13 \uni0E14 \uni0E15 \uni0E16 \uni0E17 \uni0E18 \uni0E19 
+  \uni0E1A \uni0E1C \uni0E1E \uni0E20 \uni0E21 \uni0E22 \uni0E23 \uni0E24 
+  \uni0E25 \uni0E26 \uni0E27 \uni0E28 \uni0E29 \uni0E2A \uni0E2B \uni0E2C 
+  \uni0E2D \uni0E2E \uni0E38 \uni0E39 \uni0E3A \uni0E0D.rd \uni0E10.rd ];
+  @T1 = [ \uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C ];
+  @LV1 = [\uni0E42 \uni0E43 \uni0E44 ];
+
+  pos @N1 @T1' lookup ThaiContextT  @LV1;
+
+} ThaiContextT.mark;
+
+lookup ThaiAV.left.mark {
+
+  # @AC vs @AV, @T
+  markClass [ \uni0E48 \uni0E49 \uni0E4A \uni0E4B ] <anchor -150 840> @ThaiBV.left.mark;
+  markClass [ \uni0E4C ] <anchor -210 840> @ThaiBV.left.mark;
+  markClass [ \uni0E31 ] <anchor -150 600> @ThaiBV.left.mark;
+  markClass [ \uni0E34 \uni0E35 \uni0E36 \uni0E37 ] <anchor -240 600> @ThaiBV.left.mark;
+  markClass [ \uni0E47 ] <anchor -210 600> @ThaiBV.left.mark;
+  markClass [ \uni0E4D ] <anchor -160 600> @ThaiBV.left.mark;
+  markClass [ \uni0E4E ] <anchor -270 600> @ThaiBV.left.mark;
+
+  pos base [\uni0E1B ] <anchor 330 600> mark @ThaiBV.left.mark;
+  pos base [\uni0E1D \uni0E1F ] <anchor 360 600> mark @ThaiBV.left.mark;
+
+} ThaiAV.left.mark;
+
+feature mark {
+  lookup ThaiBV.mark;
+  lookup ThaiAV.mark;
+  lookup ThaiAV.left.mark;
+  lookup ThaiContextT.mark;
+} mark;

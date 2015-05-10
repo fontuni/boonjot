@@ -58,3 +58,9 @@ target/
 
 # FontForge
 *.sfd-*
+
+# Binary files
+*.otf
+*.ttf
+*.woff
+*.woff2

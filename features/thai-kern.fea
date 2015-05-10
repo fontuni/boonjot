@@ -1,0 +1,10 @@
+feature kern {
+
+  @LV = [ \uni0E40 \uni0E41 \uni0E42 \uni0E43 \uni0E44 ];
+  @C1 = [\uni0E02 \uni0E03 \uni0E07 \uni0E08 \uni0E0A \uni0E0B \uni0E10 \uni0E11 \uni0E23 \uni0E27 \uni0E10.rd ];
+
+  lookup Thai.kern {
+    pos @LV @C1 -20;
+  } Thai.kern;
+
+} kern;
