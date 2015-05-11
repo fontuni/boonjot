@@ -1,9 +1,4 @@
-#
-# Script and language coverage
-#
 languagesystem DFLT dflt;
-languagesystem DFLT PAL ;
-languagesystem DFLT SAN ;
 languagesystem latn dflt;
 languagesystem latn PAL ;
 languagesystem latn SAN ;
@@ -14,7 +9,7 @@ languagesystem thai SAN ;
 #
 # Include Thai global classes
 #
-include(./thai-classes.fea)
+include(thai-classes.fea)
 
 # GSUB 
 
@@ -124,9 +119,9 @@ feature ss20 {
   lookup ThaiRC.rd;
 } ss20;
 
-include(./thai-liga.fea)
+include(thai-liga.fea)
 
 # GPOS
-include(./thai-kern.fea)
-include(./thai-mark.fea)
-include(./thai-mkmk.fea)
+include(thai-kern.fea)
+include(thai-mark.fea)
+include(thai-mkmk.fea)

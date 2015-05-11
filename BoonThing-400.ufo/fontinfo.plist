@@ -70,7 +70,7 @@
       <integer>0</integer>
     </array>
     <key>openTypeOS2Type</key>
-    <array/>
+    <integer>4</integer>
     <key>openTypeOS2TypoAscender</key>
     <integer>960</integer>
     <key>openTypeOS2TypoDescender</key>

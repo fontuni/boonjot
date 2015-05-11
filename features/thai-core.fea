@@ -14,7 +14,7 @@ languagesystem thai SAN ;
 #
 # Include Thai global classes
 #
-include(./thai-classes.fea)
+include(thai-classes.fea)
 
 # Remove descender
 lookup ThaiRC.rd {
@@ -128,4 +128,4 @@ feature ss20 {
   lookup ThaiRC.rd;
 } ss20;
 
-include(./thai-liga.fea)
+include(thai-liga.fea)

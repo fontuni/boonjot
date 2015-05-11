@@ -1,4 +1,4 @@
-include(./thai-core.fea)
+include(thai-core.fea)
 
 lookup Thai.sd {
   sub @T by @T.sd;
@@ -65,6 +65,13 @@ feature ccmp {
 
 # GPOS features
 
-## Some Adobe apps can not display Thai characters if the font has no GPOS table at all, so add `kern` or any positional feature can fix it.
+include(thai-kern.fea)
 
-include(./thai-kern.fea)
+## Some Adobe apps can not display Thai characters if the font has no `mark` or `mkmk` any a dummy one to fix it.
+
+feature mark {
+  lookup Dummy.mark {
+    markClass @T <anchor -150 840> @Dummy.mark;
+    pos base [ \uni0E01 ] <anchor 510 600> mark @Dummy.mark;
+  } Dummy.mark;
+} mark;
