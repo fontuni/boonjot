@@ -1,9 +1,0 @@
-feature liga {
-
-  lookup Thai.liga {
-    sub \uni0E24 \uni0E45 by \uni0E240E45.liga;
-    sub \uni0E26 \uni0E45 by \uni0E260E45.liga;
-    sub \uni0E4F \uni0E48 \uni0E48 by \uni0E4F0E480E48.liga;
-  } Thai.liga;
-
-} liga;

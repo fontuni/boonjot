@@ -1,4 +1,0 @@
-include(./thai-core.fea)
-
-include(./thai-mark.fea)
-include(./thai-mkmk.fea)

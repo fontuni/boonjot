@@ -6,7 +6,7 @@ tmp/*
 *.swp
 *.psd
 *.svg
-
+*.bak
 
 # FontForge backup files
 *.sfd-*
