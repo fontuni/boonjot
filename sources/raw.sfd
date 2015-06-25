@@ -17,7 +17,6 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 PreferredKerning: 4
-StrokedFont: 1
 XUID: [1021 692 2137105781 2794086]
 StyleMap: 0x0000
 FSType: 0
@@ -25,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1429887875
-ModificationTime: 1431289745
+ModificationTime: 1435160859
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
@@ -75,7 +74,7 @@ Encoding: 3585 3585 0
 GlifName: uni0E_01
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 21G<121 151.5> 544 72<197.714 454.688>
 VStem: 91 98<-8.88208 309.75> 105 98<106.234 529.522> 467 98<9.95226 457.843> 476 98<181.079 182.89 186.032 521.386>
 LayerCount: 2
@@ -95,7 +94,7 @@ Encoding: 160 160 1
 GlifName: uni00A_0
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -106,7 +105,7 @@ Encoding: 111 111 2
 GlifName: o
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 72<264.383 415.134> 552 72<253.982 415.243>
 VStem: 61 98<167.546 436.89> 506 98<153.815 395.285>
 LayerCount: 2
@@ -125,7 +124,7 @@ Encoding: 79 79 3
 GlifName: O_
 Width: 830
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -22 79<331.951 521.844> 742 79<323.643 516.994>
 VStem: 66 108<242.258 554.392> 659 108<229.005 504.703>
 LayerCount: 2
@@ -144,7 +143,7 @@ Encoding: 81 81 4
 GlifName: Q_
 Width: 830
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -206 68<708.212 769.478> -17 73<334.308 459.534> 514 72<547.031 645.147> 742 79<323.643 516.994>
 VStem: 66 108<242.641 554.392> 407 94<149.632 458.517> 593 107<607.739 670.872> 675 95<230.164 482.681>
 LayerCount: 2
@@ -164,7 +163,7 @@ Encoding: 99 99 5
 GlifName: c
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -22 76<256.408 426.357> 548 76<256.238 407.325>
 VStem: 58 104<161.017 438.343> 433 104<441.156 522.171>
 LayerCount: 2
@@ -182,7 +181,7 @@ Encoding: 67 67 6
 GlifName: C_
 Width: 750
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -20 82<327.782 540.15> 739 82<331.244 521.092>
 VStem: 68 114<235.841 554.552> 569 114<596.072 692.146>
 LayerCount: 2
@@ -200,7 +199,7 @@ Encoding: 97 97 7
 GlifName: a
 Width: 680
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 72<225.748 357.571> -11 70<607.178 653.525> 549 72<293.112 416.394>
 VStem: 60 99<126.817 379.327> 441 98<224.477 360 438.78 523.374>
 LayerCount: 2
@@ -220,7 +219,7 @@ Encoding: 105 105 8
 GlifName: i
 Width: 340
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 21G<181.5 194> 585 20G<151.5 184.5> 725 137<109.137 229.514>
 VStem: 86 168<749.13 838.517> 114 100<34.625 596.875>
 LayerCount: 2
@@ -239,7 +238,7 @@ Encoding: 33 33 9
 GlifName: exclam
 Width: 330
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -5 137<104.137 224.514>
 VStem: 81 168<19.1304 108.517> 101 119<494.584 825.529> 125 80<274.406 573.436>
 LayerCount: 2
@@ -259,7 +258,7 @@ Encoding: 108 108 10
 GlifName: l
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -23 70<240.5 319.523> 820 20G<146.5 179>
 VStem: 106 98<84.8896 830.452>
 LayerCount: 2
@@ -277,7 +276,7 @@ Encoding: 117 117 11
 GlifName: u
 Width: 680
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 72<235.75 364.815> 591 20G<135.5 148 504.5 527>
 VStem: 86 98<109.842 605.889> 471 93<300.737 592>
 LayerCount: 2
@@ -297,7 +296,7 @@ Encoding: 46 46 12
 GlifName: period
 Width: 330
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -5 137<104.137 224.514>
 VStem: 81 168<19.1304 108.517>
 LayerCount: 2
@@ -318,7 +317,7 @@ Encoding: 98 98 13
 GlifName: b
 Width: 670
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 72<221.914 380.375> 524 67<214.334 356.012> 546 71<253.376 424.378> 826 20G<134 147>
 VStem: 81 98<525.874 839.172> 91 98<83.3053 765.94> 504 99<207.586 458.949>
 LayerCount: 2
@@ -337,7 +336,7 @@ Encoding: 58 58 14
 GlifName: colon
 Width: 330
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -5 137<104.137 224.514> 475 137<104.137 224.514>
 VStem: 81 168<19.1304 108.517 499.13 588.517>
 LayerCount: 2
@@ -352,7 +351,7 @@ Encoding: 44 44 15
 GlifName: comma
 Width: 330
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -182 58<66.3318 120.687> 48 79<81.6628 147.997>
 VStem: 170 91<-71.6335 57.8213>
 LayerCount: 2
@@ -369,7 +368,7 @@ Encoding: 59 59 16
 GlifName: semicolon
 Width: 330
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -182 58<66.3318 120.687> 48 79<81.6628 147.997> 475 137<104.137 224.514>
 VStem: 81 168<499.13 588.517> 170 91<-71.6335 57.8213>
 LayerCount: 2
@@ -384,7 +383,7 @@ Encoding: 113 113 17
 GlifName: q
 Width: 670
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -261 87<578.047 640.687> -17 71<234.208 417.755> 9 67<307.989 450.666> 549 72<280.417 438.086>
 VStem: 59 100<142.27 397.349> 459 98<-183.872 308.749> 471 98<176.162 517.066>
 LayerCount: 2
@@ -404,7 +403,7 @@ Encoding: 100 100 18
 GlifName: d
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 72<249.299 384.415> 544 72<264.592 425.53> 826 20G<531.5 544.5>
 VStem: 61 98<158.648 417.704> 476 98<183.141 490.816 586 838.076>
 LayerCount: 2
@@ -426,7 +425,7 @@ Encoding: 9676 9676 19
 GlifName: uni25C_C_
 Width: 720
 VWidth: -360
-Flags: W
+Flags: HW
 HStem: -20 60<326.061 394.777> 19 60<183.146 243.808 476.19 516.718> 122 66<78.7902 128.856 596.187 630.922> 265 70<41.8555 98.1472 621.856 678.147> 412 66<94.1868 128.922 583.425 630.856> 518 66<186.19 226.718 473.146 533.808> 560 60<326.061 394.777> 583 1<220.141 227.906>
 VStem: 40 60<266.061 334.777> 76 1<160.141 167.906> 79 60<126.19 166.718 413.146 473.808> 182 66<29.0781 63.8132 531.144 581.21> 325 70<-18.1472 38.1445 561.853 618.144> 472 66<29.1435 76.5752 531.078 565.813> 581 60<123.146 183.808 416.19 456.718> 620 60<266.061 334.777>
 LayerCount: 2
@@ -581,7 +580,7 @@ Encoding: 3586 3586 20
 GlifName: uni0E_02
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 21G<288.5 389> 584 20G<102.5 205>
 LayerCount: 2
 Back
@@ -602,7 +601,7 @@ Encoding: 3648 3648 21
 GlifName: uni0E_40
 Width: 330
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -30 21G<190.5 203>
 VStem: 116 98<41.6746 588.592>
 LayerCount: 2
@@ -620,7 +619,7 @@ Encoding: 3649 3649 22
 GlifName: uni0E_41
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -26 36G<206.5 219 461 473.5> 586 20G<441 454>
 VStem: 116 98<58.0983 588.614> 391 98<52.2125 600.984>
 LayerCount: 2
@@ -641,7 +640,7 @@ Encoding: 3650 3650 23
 GlifName: uni0E_42
 Width: 390
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -29 21G<216 228> 929 65<400.81 524.758>
 VStem: 165 93<2.09914 525.281> 175 92<306.878 784.238>
 LayerCount: 2
@@ -660,7 +659,7 @@ Encoding: 3651 3651 24
 GlifName: uni0E_43
 Width: 390
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 21G<227 239> 588 64<306 341.777> 948 64<114.234 214.102>
 VStem: 1 91<752.392 927.282> 189 100<-18.2443 172.045> 189 91<-8.63584 433.486> 232 89<663.051 932.553>
 LayerCount: 2
@@ -679,7 +678,7 @@ Encoding: 3652 3652 25
 GlifName: uni0E_44
 Width: 390
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -28 21G<203 215> 849 67<135.797 249> 861 62<354.566 389>
 VStem: 152 92<182.533 748.331>
 LayerCount: 2
@@ -698,7 +697,7 @@ Encoding: 3634 3634 26
 GlifName: uni0E_32
 Width: 500
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -25 21G<321 354.5> 545 71<182.704 295.182>
 VStem: 291 98<-18.5163 340.78> 312 98<145.286 529.652>
 LayerCount: 2
@@ -716,6 +715,7 @@ Encoding: 3661 3661 27
 GlifName: uni0E_4D_
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 703 54<-200.566 -124.57> 863 54<-201.035 -160.235>
 VStem: -282 74<763.863 862.064> -122 74<760.044 859.038>
 LayerCount: 2
@@ -735,7 +735,7 @@ Encoding: 3635 3635 28
 GlifName: uni0E_33
 Width: 500
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -25 21G<321 354.5> 545 71<182.704 295.182> 703 54<-200.566 -124.57> 863 54<-201.035 -160.235>
 VStem: -282 74<763.863 862.064> -122 74<760.044 859.038> 291 98<-18.5163 340.78> 312 98<145.286 529.652>
 LayerCount: 2
@@ -750,7 +750,7 @@ Encoding: 3605 3605 29
 GlifName: uni0E_15
 Width: 690
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 67<231.142 301.762> 546 67<226.791 322.604> 580 20G<567.5 587>
 VStem: 64 92<145.509 456.014> 309 92<49.3362 137.193> 337 78<500 531.594> 513 94<-9.26863 485>
 LayerCount: 2
@@ -770,7 +770,7 @@ Encoding: 3604 3604 30
 GlifName: uni0E_14
 Width: 680
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -23 73<232.819 297.641> 547 72<246.376 431.378>
 VStem: 60 99<163.087 450.875> 306 98<54.8887 143.22> 495 98<-8.72837 491.913>
 LayerCount: 2
@@ -789,7 +789,7 @@ Encoding: 3587 3587 31
 GlifName: uni0E_03
 Width: 610
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 21G<293 407> 593 20G<54 64.5 229.5 240.5>
 VStem: 11 78<500.55 609.807> 224 83<163.53 519.716>
 LayerCount: 2
@@ -812,7 +812,7 @@ Encoding: 3588 3588 32
 GlifName: uni0E_04
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -4 6G<170.5 190.5 463.5 490> 312 61<330.116 386.666> 551 67<234.688 415.816>
 VStem: 59 93<198.383 462.644> 508 92<190.631 454.14>
 LayerCount: 2
@@ -832,7 +832,7 @@ Encoding: 3589 3589 33
 GlifName: uni0E_05
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -4 7G<177 194.5 468 494.5> 549 67<190.156 268.394 403.731 467.73>
 VStem: 60 92<166.929 499.848> 508 92<155.562 496.733>
 LayerCount: 2
@@ -853,7 +853,7 @@ Encoding: 3590 3590 34
 GlifName: uni0E_06
 Width: 670
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -27 21G<147.5 199.5 527.5 547> 223 64<136.264 239.482> 598 10G<54 64.5 245 257 528.5 557>
 VStem: 11 78<511.716 614.807> 35 85<58.1167 209.093> 251 84<280 526.456> 486 90<106 297.644> 494 92<287.992 602.595>
 LayerCount: 2
@@ -879,7 +879,7 @@ Encoding: 3591 3591 35
 GlifName: uni0E_07
 Width: 540
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -26 21G<237.5 334> 549 72<240.906 337.189>
 VStem: 41 97<265.623 358.893> 381 98<139.637 492.995>
 LayerCount: 2
@@ -902,7 +902,7 @@ Encoding: 3592 3592 36
 GlifName: uni0E_08
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -11 21G<320.5 338> 229 88<121.127 187.907> 552 72<204.068 369.742>
 VStem: 444 95<204.54 473.303>
 LayerCount: 2
@@ -921,7 +921,7 @@ Encoding: 3593 3593 37
 GlifName: uni0E_09
 Width: 670
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 58<496.115 552.441> 231 58<496 549.607> 557 69<207.184 378.89>
 VStem: 410 80<39.2246 191> 426 82<288.816 507.937> 570 80<52.5811 212.557>
 LayerCount: 2
@@ -946,7 +946,7 @@ Encoding: 3594 3594 38
 GlifName: uni0E_0A_
 Width: 630
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -29 68<294.375 415.929> 589 20G<148.5 242>
 VStem: 186 92<47.2937 398.972> 197 92<484 536.428> 473 92<94.5951 273.127>
 LayerCount: 2
@@ -970,7 +970,7 @@ Encoding: 3595 3595 39
 GlifName: uni0E_0B_
 Width: 630
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 68<310.214 416.319> 593 20G<54 64.5 246.5 263>
 VStem: 11 78<506.58 609.807> 199 89<61.3323 388.147> 226 74<235.267 391 483 502.579> 474 92<99.0483 277.384>
 LayerCount: 2
@@ -993,7 +993,7 @@ Encoding: 3596 3596 40
 GlifName: uni0E_0C_
 Width: 965
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -26 59<451.311 500.156> -17 68<186.071 263.733> 234 62<443.662 494.931> 546 68<198.929 454.516> 583 20G<823.5 852>
 VStem: 84 92<56.0967 368.592> 114 92<189.304 524.888> 343 81<57.8448 218.476> 507 79<33.6803 194.569> 780 91<88 305.514> 789 92<286.626 597.595>
 LayerCount: 2
@@ -1021,7 +1021,7 @@ Encoding: 3597 3597 41
 GlifName: uni0E_0D_
 Width: 965
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -252 65<612.022 754.975> -21 72<189.781 280.625 600.144 759.481> 544 72<191.472 455.263> 585 20G<806.5 839>
 VStem: 81 98<57.8308 415.966> 101 98<143.17 523.843> 471 98<81.1507 523.934> 513 88<-174.887 -115.094> 771 98<66.3469 124.765 282.902 598.22> 781 98<72.4912 425.41>
 LayerCount: 2
@@ -1039,7 +1039,7 @@ Encoding: 3598 3598 42
 GlifName: uni0E_0E_
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -137 60<236.976 373.106> -16 92<41.4082 127.626> 544 72<184.839 455.263>
 VStem: 126 88<-236.956 -153.25> 131 98<62 360.527> 470 93<-152 213.171>
 LayerCount: 2
@@ -1063,7 +1063,7 @@ Encoding: 3599 3599 43
 GlifName: uni0E_0F_
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -240 59<176.77 259.236> -16 92<41.4082 127.717> 544 72<184.884 455.263>
 VStem: 97 79<-180.03 -105.993> 131 100<63.2031 360.527> 470 93<-161.764 335.351> 476 98<54.1479 521.386>
 LayerCount: 2
@@ -1088,7 +1088,7 @@ Encoding: 3600 3600 44
 GlifName: uni0E_10
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -237 58<159.114 245.112> -229 167<447.141 513.957> -9 21G<306.5 323> 215 67<178 205.666> 366 64<123.389 309.985> 558 64<161.458 347.577>
 VStem: 30 90<435.803 520.457> 80 79<-178.918 -106.515> 92 78<-150.576 -85.1747> 430 90<205.034 434.491> 434 80<-171.919 -65.0426>
 LayerCount: 2
@@ -1108,7 +1108,7 @@ Encoding: 3601 3601 45
 GlifName: uni0E_11
 Width: 700
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -8 14G<185 203.5 557 588> 592 20G<54 64.5 241 256.5 450.5 558.5>
 VStem: 11 78<487.127 608.807> 161 84<184 382.781> 529 92<-2.4357 526.592>
 LayerCount: 2
@@ -1132,7 +1132,7 @@ Encoding: 3602 3602 46
 GlifName: uni0E_12
 Width: 965
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -22 71<224.5 331.694> -22 69<228.051 295.766 471.574 525.563> 241 58<472.33 532.752> 546 67<222.58 316.03> 583 20G<823.5 852>
 VStem: 64 92<143.491 458.737> 375 80<58.3691 227.46> 535 80<39.7756 190 299 492.363> 781 90<100 308.932> 789 92<290.26 597.595>
 LayerCount: 2
@@ -1158,7 +1158,7 @@ Encoding: 3603 3603 47
 GlifName: uni0E_13
 Width: 975
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 58<816 855.295> -17 68<186.071 280.671> 241 58<799 845.277> 546 68<188.929 445.124> 584 20G<770.5 797.5>
 VStem: 84 92<56.0967 408.701> 104 92<150.194 524.888> 454 96<115 296.529> 469 92<175.502 523.568> 709 81<40.9427 192.947> 865 80<43.8588 224.03>
 LayerCount: 2
@@ -1187,7 +1187,7 @@ Encoding: 3606 3606 48
 GlifName: uni0E_16
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 72<185.304 280.625> -2 68<215.403 321.711> 544 72<199.454 455.263>
 VStem: 81 98<57.8308 368.587> 111 98<189.311 524.017> 465 98<-9.73438 435.754> 476 98<171.456 521.386>
 LayerCount: 2
@@ -1211,7 +1211,7 @@ Encoding: 3607 3607 49
 GlifName: uni0E_17
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -8 21G<120.5 140.5 507 537.5> 546 68<389.705 455.132>
 VStem: 58 92<384.461 607.648> 104 91<1 88.0892> 484 92<0.474579 513.624>
 LayerCount: 2
@@ -1233,7 +1233,7 @@ Encoding: 3608 3608 50
 GlifName: uni0E_18
 Width: 580
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 68<203.347 388.006> 555 67<176.873 390.632>
 VStem: 64 92<442.716 529.878> 109 96<62.1829 297.286> 430 93<96.3209 241.57>
 LayerCount: 2
@@ -1253,7 +1253,7 @@ Encoding: 3609 3609 51
 GlifName: uni0E_19
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -27 59<478.065 534.082> 248 69<475 531.41> 588 11G<111.5 123.5 445.5 472.5>
 VStem: 84 94<117 568.719> 387 80<34.4563 223.791> 391 110<320.332 579.118> 550 85<47.0879 232.283>
 LayerCount: 2
@@ -1277,7 +1277,7 @@ Encoding: 3610 3610 52
 GlifName: uni0E_1A_
 Width: 710
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -26 72<218.891 483.639> 586 20G<132 144 552.5 583>
 VStem: 106 98<65.4674 568.673> 511 98<72.4926 596.285>
 LayerCount: 2
@@ -1298,7 +1298,7 @@ Encoding: 3611 3611 53
 GlifName: uni0E_1B_
 Width: 725
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -26 72<218.78 491.267> 590 20G<132 144> 826 20G<562.5 593>
 VStem: 106 98<65.2071 568.673> 521 98<76.3154 836.285>
 LayerCount: 2
@@ -1319,7 +1319,7 @@ Encoding: 3612 3612 54
 GlifName: uni0E_1C_
 Width: 750
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 27G<188.5 293.5 600 621> 544 70<216.696 306.098>
 VStem: 64 94<155.613 460.414> 559 94<85.4322 596.718> 569 94<362.121 602.373>
 LayerCount: 2
@@ -1342,7 +1342,7 @@ Encoding: 3613 3613 55
 GlifName: uni0E_1D_
 Width: 760
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 27G<188.5 293.5 601 622> 544 70<216.696 306.098> 824 20G<608.5 634>
 VStem: 64 94<155.613 460.414> 559 94<85.8 831.718> 569 94<597.121 837.373>
 LayerCount: 2
@@ -1365,7 +1365,7 @@ Encoding: 3614 3614 56
 GlifName: uni0E_1E_
 Width: 750
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -12 19G<122.5 143 581.5 601> 594 20G<108 120 610.5 638>
 VStem: 104 88<189 292.963> 556 110<273.088 489.172> 574 92<295.097 607.681>
 LayerCount: 2
@@ -1385,7 +1385,7 @@ Encoding: 3615 3615 57
 GlifName: uni0E_1F_
 Width: 760
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -12 19G<122.5 143 591.5 611> 594 20G<108 120> 824 20G<643.5 667.5>
 VStem: 104 88<188 292.963> 563 87<20 52.2549> 604 93<533.847 837.988>
 LayerCount: 2
@@ -1405,7 +1405,7 @@ Encoding: 3616 3616 58
 GlifName: uni0E_20
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 92<41.4082 127.626> 544 72<184.839 455.263>
 VStem: 131 98<62 360.527> 465 98<-9.73438 435.754> 476 98<171.456 521.386>
 LayerCount: 2
@@ -1428,7 +1428,7 @@ Encoding: 3617 3617 59
 GlifName: uni0E_21
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -27 59<139.365 192.111> 243 64<132.641 200> 548 64<86.7095 186.996>
 VStem: 25 85<59.1944 222.66> 200 90<32.9236 200 307 541.821> 476 90<111 303.932> 484 92<285.26 592.595>
 LayerCount: 2
@@ -1452,7 +1452,7 @@ Encoding: 3618 3618 60
 GlifName: uni0E_22
 Width: 640
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -26 72<261.816 390.295> 278 65<227.871 314> 546 68<155.288 288.836>
 VStem: 44 92<388.661 527.273> 114 92<99.8356 252.977> 474 98<193.807 599.578>
 LayerCount: 2
@@ -1475,7 +1475,7 @@ Encoding: 3619 3619 61
 GlifName: uni0E_23
 Width: 530
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 72<211.091 347.122> 548 72<144.028 360.021>
 VStem: 31 95<421.931 523.059> 362 94<70.2694 191.537>
 LayerCount: 2
@@ -1494,7 +1494,7 @@ Encoding: 3620 3620 62
 GlifName: uni0E_24
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -246 21G<498.5 511.5> -19 72<185.304 280.625> -2 68<215.403 321.711> 544 72<199.454 455.263>
 VStem: 81 98<57.8308 368.587> 111 98<189.311 524.017> 465 98<-239.734 199.197> 476 98<171.013 521.386>
 LayerCount: 2
@@ -1518,7 +1518,7 @@ Encoding: 3621 3621 63
 GlifName: uni0E_25
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 21G<142.5 155.5 455.5 462.5> 549 71<223.87 409.622>
 VStem: 91 98<31.0583 232.645> 504 95<119.951 435.648>
 LayerCount: 2
@@ -1540,7 +1540,7 @@ Encoding: 3622 3622 64
 GlifName: uni0E_26
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -246 21G<498.5 511.5> -16 92<41.4082 127.626> 544 72<184.839 455.263>
 VStem: 131 98<62 360.527> 465 98<-239.734 199.197> 476 98<171.013 521.386>
 LayerCount: 2
@@ -1563,7 +1563,7 @@ Encoding: 3623 3623 65
 GlifName: uni0E_27
 Width: 570
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -15 71<265.719 339.869> 552 72<194.485 335.121>
 VStem: 21 97<400.902 477.363> 168 97<56.5993 136.329> 411 98<151.965 457.007>
 LayerCount: 2
@@ -1581,7 +1581,7 @@ Encoding: 3624 3624 66
 GlifName: uni0E_28
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -4 21G<167.5 187 463.5 490> 551 67<234.296 418.094>
 VStem: 59 93<204.955 464.09> 508 92<190.631 450.637>
 LayerCount: 2
@@ -1601,7 +1601,7 @@ Encoding: 3625 3625 67
 GlifName: uni0E_29
 Width: 750
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 68<218.975 493.205> 391 58<394.239 508.815> 561 58<389.476 489.297> 589 20G<130 142>
 VStem: 109 92<65.5339 569.672> 312 73<458.257 556.816> 524 92<73.5431 425>
 LayerCount: 2
@@ -1625,7 +1625,7 @@ Encoding: 3626 3626 68
 GlifName: uni0E_2A_
 Width: 670
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 31G<144 156.5 457 463.5> 235 69<187.708 243.137> 370 69<159.443 398.009> 548 68<178.11 393.793>
 VStem: 54 92<465.948 517.825> 94 92<19.6286 234.753> 504 92<120.369 425.781> 534 92<559.94 658.307>
 LayerCount: 2
@@ -1648,7 +1648,7 @@ Encoding: 3627 3627 69
 GlifName: uni0E_2B_
 Width: 680
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 33G<148.5 246.5 587.5 600> 553 59<411.574 516.807> 579 20G<149.5 173.5>
 VStem: 84 92<77.905 569.276> 320 85<368.752 547.933> 525 85<389.982 547.018>
 LayerCount: 2
@@ -1672,7 +1672,7 @@ Encoding: 3629 3629 70
 GlifName: uni0E_2D_
 Width: 640
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 72<216.596 388.906> 215 66<192.407 288.479> 230 72<161.125 241.626> 549 72<221.577 381.294>
 VStem: 61 98<108.262 229.343> 481 98<159.177 433.292>
 LayerCount: 2
@@ -1691,7 +1691,7 @@ Encoding: 3630 3630 71
 GlifName: uni0E_2E_
 Width: 650
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -18 68<218.02 386.751> 233 66<164.41 265.142> 363 67<167.021 393.724> 552 68<176.398 377.456>
 VStem: 54 92<450.806 522.876> 64 92<109.437 231.158> 484 92<161.017 414.648> 534 92<557.513 658.307>
 LayerCount: 2
@@ -1711,7 +1711,7 @@ Encoding: 3631 3631 72
 GlifName: uni0E_2F_
 Width: 530
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 72<157.594 313.277> 394 72<138.155 272.541> 586 20G<79.5 105 402.5 424>
 VStem: 31 104<468.33 596.216> 351 93<90.042 466>
 LayerCount: 2
@@ -1733,7 +1733,7 @@ Encoding: 3628 3628 73
 GlifName: uni0E_2C_000000000000001
 Width: 770
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -18 26G<142.5 162 587.5 606.5> 391 58<451.787 568.949> 561 58<444.769 552.957>
 VStem: 104 91<133 292.963> 367 73<460.031 556.816> 587 84<146.889 423>
 LayerCount: 2
@@ -1756,6 +1756,7 @@ Encoding: 3633 3633 74
 GlifName: uni0E_31
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 717 65<-299.141 -160.502>
 VStem: -391 88<788.393 883.42>
 LayerCount: 2
@@ -1772,7 +1773,7 @@ Encoding: 3636 3636 75
 GlifName: uni0E_34
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 871 58<-444.219 -298.288>
 VStem: -534 88<803.567 866.554>
 LayerCount: 2
@@ -1792,7 +1793,7 @@ Encoding: 3637 3637 76
 GlifName: uni0E_35
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 861 58<-448.973 -303.056>
 VStem: -530 80<791.537 856.533> -189 83<759.541 934.445> -175 65<757 914.136>
 LayerCount: 2
@@ -1813,7 +1814,7 @@ Encoding: 3638 3638 77
 GlifName: uni0E_36
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 689 44<-200.672 -146.857> 861 58<-454.871 -337.25> 863 39<-193.831 -147.911>
 VStem: -544 88<781.823 859.019> -134 60<748.432 857.686>
 LayerCount: 2
@@ -1836,7 +1837,7 @@ Encoding: 3639 3639 78
 GlifName: uni0E_37
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 861 58<-464.796 -347.91>
 VStem: -554 88<796.008 859.751> -280 70<810.688 939.104> -159 70<779.572 929.706> -148 58<747 915.149>
 LayerCount: 2
@@ -1859,6 +1860,7 @@ Encoding: 3640 3640 79
 GlifName: uni0E_38
 Width: 0
 VWidth: 0
+Flags: H
 HStem: -172 84<-261.847 -187.288>
 VStem: -185 91<-316.76 -152.378>
 LayerCount: 2
@@ -1877,6 +1879,7 @@ Encoding: 3641 3641 80
 GlifName: uni0E_39
 Width: 0
 VWidth: 0
+Flags: H
 HStem: -154 58<-400.194 -352>
 VStem: -183 78<-185.422 -100.175>
 LayerCount: 2
@@ -1897,6 +1900,7 @@ Encoding: 3642 3642 81
 GlifName: uni0E_3A_
 Width: 0
 VWidth: 0
+Flags: H
 HStem: -231 131<-208.2 -91.5721>
 VStem: -229 158<-209.154 -120.84>
 LayerCount: 2
@@ -1917,7 +1921,7 @@ Encoding: 3654 3654 82
 GlifName: uni0E_46
 Width: 630
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -244 21G<473 485> 216 68<183.582 272.733> 536 68<182.64 248.392>
 VStem: 54 92<323.663 499.272> 434 92<-227.524 387.409> 444 92<-237.8 2.78791>
 LayerCount: 2
@@ -1939,6 +1943,7 @@ Encoding: 3655 3655 83
 GlifName: uni0E_47
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 691 58<-371.233 -268.167> 796 20G<-239 -220.5> 861 58<-374.881 -93.4219>
 VStem: -460 80<757.827 857.89>
 LayerCount: 2
@@ -1960,7 +1965,7 @@ Encoding: 3656 3656 84
 GlifName: uni0E_48
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 985 222<-191.988 -131.376>
 VStem: -203 86<1003.78 1188.52>
 LayerCount: 2
@@ -1979,7 +1984,7 @@ Encoding: 3657 3657 85
 GlifName: uni0E_49
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 1156 51<-301.574 -257.785>
 VStem: -247 69<1036.26 1145.47>
 LayerCount: 2
@@ -1998,6 +2003,7 @@ Encoding: 3658 3658 86
 GlifName: uni0E_4A_
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 980 50<-285.964 -233.151> 1185 20G<-269.5 -246 -138.5 -130>
 VStem: -365 70<1033.74 1154.34> -130 61<1074.5 1148.95>
 LayerCount: 2
@@ -2020,7 +2026,7 @@ Encoding: 3659 3659 87
 GlifName: uni0E_4B_
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 1073 54<-305.804 -195.893 -121 -41.0945> 1197 20G<-168.5 -144.5>
 VStem: -203 82<1120 1199.99> -193 72<1003.57 1076>
 LayerCount: 2
@@ -2041,7 +2047,7 @@ Encoding: 3660 3660 88
 GlifName: uni0E_4C_
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 978 155<-252.098 -191.463> 1202 20G<-45 -19.5>
 VStem: -277 87<1005.02 1082.05>
 LayerCount: 2
@@ -2060,6 +2066,7 @@ Encoding: 3662 3662 89
 GlifName: uni0E_4E_
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 661 58<-318.379 -201.806> 805 58<-276.417 -186.382> 930 56<-234.734 -136.427> 943 56<-285.559 -154.837>
 VStem: -400 75<729.015 798.624> -363 75<878.058 937.264>
 LayerCount: 2
@@ -2078,7 +2085,7 @@ Encoding: 3653 3653 90
 GlifName: uni0E_45
 Width: 500
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -245 21G<321 354.5> 545 71<182.704 295.182>
 VStem: 291 98<-238.516 128.875> 312 98<147.771 529.652>
 LayerCount: 2
@@ -2096,7 +2103,7 @@ Encoding: 63642 63642 91
 GlifName: uni0E_0D_.rd
 Width: 965
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 72<189.781 280.625 600.144 759.481> 544 72<191.472 455.263> 585 20G<806.5 839>
 VStem: 81 98<57.8308 415.966> 101 98<143.17 523.843> 471 98<81.1507 523.934> 771 98<66.3469 124.765 282.902 598.22> 781 98<72.4912 425.41>
 LayerCount: 2
@@ -2122,7 +2129,7 @@ Encoding: 63617 63617 92
 GlifName: uni0E_240E_45.liga
 Width: 965
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -245 21G<498.5 511.5 786 819.5> -19 72<185.304 280.625> -2 68<215.403 321.711> 544 72<199.454 454.162 652.478 765.182>
 VStem: 81 98<57.8308 368.587> 111 98<189.311 524.017> 465 98<-239.734 199.197> 476 97<166.745 462.383> 756 98<-238.516 128.875> 782 98<147.771 529.652>
 LayerCount: 2
@@ -2137,7 +2144,7 @@ Encoding: 63618 63618 93
 GlifName: uni0E_260E_45.liga
 Width: 965
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -245 20G<498.5 511.5 786 819.5> -16 92<41.4082 127.626> 544 72<184.839 454.162 652.478 765.182>
 VStem: 131 98<62 360.527> 465 98<-239.734 199.197> 476 97<166.745 462.383> 756 98<-238.516 128.875> 782 98<147.771 529.652>
 LayerCount: 2
@@ -2152,7 +2159,7 @@ Encoding: 63646 63646 94
 GlifName: uni0E_10.rd
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -9 21G<306.5 323> 215 67<178 205.666> 366 64<123.389 309.985> 558 64<161.458 347.577>
 VStem: 30 90<435.803 520.457> 430 90<205.034 434.491>
 LayerCount: 2
@@ -2172,7 +2179,7 @@ Encoding: 3632 3632 95
 GlifName: uni0E_30
 Width: 540
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 60 72<151.529 272.384> 360 71<163.467 267.195>
 VStem: 51 98<134.542 227.099> 60 98<433.043 534.504>
 LayerCount: 2
@@ -2191,7 +2198,7 @@ Encoding: 3665 3665 96
 GlifName: uni0E_51
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -36 69<293.574 394.434> 144 72<186.467 297.313> 544 72<256.545 451.049>
 VStem: 61 98<246.747 438.4> 311 98<230.15 323.22> 561 98<190.537 424.859>
 CounterMasks: 1 1c
@@ -2213,7 +2220,7 @@ Encoding: 3675 3675 97
 GlifName: uni0E_5B_
 Width: 1230
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 1 58<274.518 490.766> 191 58<306.806 395.481> 258 54<1006 1155.48> 531 58<244.964 389.684>
 VStem: 80 80<184.612 428.418> 430 80<284.812 487.377> 633 67<504 521.031>
 LayerCount: 2
@@ -2240,7 +2247,7 @@ Encoding: 3674 3674 98
 GlifName: uni0E_5A_
 Width: 680
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 68<139.767 292.69> 396 68<137.41 254.493> 584 19G<79.5 103.5 537.5 568>
 VStem: 34 98<468.876 595.51> 329 92<86.916 465> 510 92<12.8977 599.548>
 LayerCount: 2
@@ -2264,7 +2271,7 @@ Encoding: 3667 3667 99
 GlifName: uni0E_53
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 72<221.986 309.717> 596 20G<200.5 275.5 487 564>
 VStem: 61 98<135.375 458.729> 561 98<132.38 488.442>
 LayerCount: 2
@@ -2287,7 +2294,7 @@ Encoding: 3673 3673 100
 GlifName: uni0E_59
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -26 72<233.495 495.467> 281 49<507.842 530> 314 66<205.918 286> 786 20G<631.5 659>
 VStem: 61 98<110.43 269.088> 205 98<443.854 536.951> 531 98<80.2657 158.22> 591 98<697.518 798.547>
 LayerCount: 2
@@ -2310,7 +2317,7 @@ Encoding: 3672 3672 101
 GlifName: uni0E_58
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21G<241 252.5> 4 72<465.704 551.436> 786 20G<645.5 658.5>
 VStem: 61 98<169.096 413.787> 369 76<95.4729 124> 581 98<106.384 283.4> 591 98<652.77 798.288>
 LayerCount: 2
@@ -2335,7 +2342,7 @@ Encoding: 3670 3670 102
 GlifName: uni0E_56
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 72<277.488 463.971> 255 71<233.999 304.116> 544 72<240.104 450.008> 785 20G<84 96.5>
 VStem: 31 97<709.455 798.526> 123 98<111.305 247.21> 561 98<175.95 425.018>
 LayerCount: 2
@@ -2357,7 +2364,7 @@ Encoding: 3668 3668 103
 GlifName: uni0E_54
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 73<267.939 489 610.02 657> 786 20G<645.5 658.5>
 VStem: 61 98<183.794 413.787> 400 98<168.136 304.03> 591 98<652.77 798.288>
 LayerCount: 2
@@ -2380,7 +2387,7 @@ Encoding: 3666 3666 104
 GlifName: uni0E_52
 Width: 810
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 14 68<193.319 634> 216 68<378.582 467.733> 536 68<375.116 453.523> 784 20G<139.5 151.5>
 VStem: 89 92<492.279 798.212> 101 92<75 601.884> 249 92<323.663 496.773> 463 75<492 527.219> 638 93<76 479>
 LayerCount: 2
@@ -2404,7 +2411,7 @@ Encoding: 3669 3669 105
 GlifName: uni0E_55
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 4 68<269.094 489 610.02 657> 506 68<460 524.552> 701 63<318.33 383.191> 784 20G<646.5 658.5>
 VStem: 61 98<188.932 397.608> 224 87<590.39 697.283> 394 87<582.306 694.211> 400 98<167.896 304.03> 594 93<649.977 797.286>
 LayerCount: 2
@@ -2430,7 +2437,7 @@ Encoding: 3663 3663 106
 GlifName: uni0E_4F_
 Width: 750
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 1 58<273.886 483.527> 199 202<303.122 390.811 391.234 448.967> 531 58<264.87 466.855>
 VStem: 80 80<177.066 420.777> 267 220<234.794 365.256> 590 80<172.877 410.55>
 LayerCount: 2
@@ -2456,7 +2463,7 @@ Encoding: 3664 3664 107
 GlifName: uni0E_50
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -26 72<274.054 453.858> 544 72<264.475 447.058>
 VStem: 61 98<173.676 422.515> 561 98<165.416 418.385>
 LayerCount: 2
@@ -2477,7 +2484,7 @@ Encoding: 3671 3671 108
 GlifName: uni0E_57
 Width: 840
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 72<221.986 309.717> 596 20G<200.5 275.5 487 564>
 VStem: 61 98<135.375 458.729> 561 88<139.429 488.442> 716 93<319.485 630.156>
 LayerCount: 2
@@ -2501,6 +2508,7 @@ Encoding: 63643 63643 109
 GlifName: uni0E_38.sd
 Width: 0
 VWidth: -180
+Flags: H
 HStem: -352 84<-261.847 -187.288>
 VStem: -185 91<-496.76 -332.378>
 LayerCount: 2
@@ -2514,6 +2522,7 @@ Encoding: 63644 63644 110
 GlifName: uni0E_39.sd
 Width: 0
 VWidth: -180
+Flags: H
 HStem: -334 58<-400.194 -352>
 VStem: -183 78<-365.422 -280.175>
 LayerCount: 2
@@ -2527,6 +2536,7 @@ Encoding: 63645 63645 111
 GlifName: uni0E_3A_.sd
 Width: 0
 VWidth: -180
+Flags: H
 HStem: -416 131<-208.2 -91.5721>
 VStem: -229 158<-394.154 -305.84>
 LayerCount: 2
@@ -2540,7 +2550,7 @@ Encoding: 63627 63627 112
 GlifName: uni0E_48.sd
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 715 222<-191.988 -131.376>
 VStem: -203 86<733.784 918.522>
 LayerCount: 2
@@ -2554,7 +2564,7 @@ Encoding: 63630 63630 113
 GlifName: uni0E_49.sd
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 886 51<-301.574 -257.785>
 VStem: -247 69<766.263 875.47>
 LayerCount: 2
@@ -2568,7 +2578,7 @@ Encoding: 63633 63633 114
 GlifName: uni0E_4A_.sd
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 710 50<-285.964 -233.151> 915 20G<-269.5 -246 -138.5 -130>
 VStem: -365 70<763.737 884.341> -130 61<804.499 878.953>
 LayerCount: 2
@@ -2582,7 +2592,7 @@ Encoding: 63636 63636 115
 GlifName: uni0E_4B_.sd
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 803 54<-305.804 -195.893 -121 -41.0945> 927 20G<-168.5 -144.5>
 VStem: -203 82<850 929.987> -193 72<733.574 806>
 LayerCount: 2
@@ -2596,7 +2606,7 @@ Encoding: 63639 63639 116
 GlifName: uni0E_4C_.sd
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 708 155<-252.098 -191.463> 932 20G<-45 -19.5>
 VStem: -277 87<735.016 812.046>
 LayerCount: 2
@@ -2610,6 +2620,7 @@ Encoding: 63628 63628 117
 GlifName: uni0E_48.sdl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 715 222<-461.988 -401.376>
 VStem: -473 86<733.784 918.522>
 LayerCount: 2
@@ -2623,6 +2634,7 @@ Encoding: 63631 63631 118
 GlifName: uni0E_49.sdl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 886 51<-571.574 -527.785>
 VStem: -517 69<766.263 875.47>
 LayerCount: 2
@@ -2636,6 +2648,7 @@ Encoding: 63634 63634 119
 GlifName: uni0E_4A_.sdl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 710 50<-555.964 -503.151> 915 20G<-539.5 -516 -408.5 -400>
 VStem: -635 70<763.737 884.341> -400 61<804.499 878.953>
 LayerCount: 2
@@ -2649,6 +2662,7 @@ Encoding: 63637 63637 120
 GlifName: uni0E_4B_.sdl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 803 54<-575.804 -465.893 -391 -311.094> 927 20G<-438.5 -414.5>
 VStem: -473 82<850 929.987> -463 72<733.574 806>
 LayerCount: 2
@@ -2662,6 +2676,7 @@ Encoding: 63640 63640 121
 GlifName: uni0E_4C_.sdl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 708 155<-522.098 -461.463> 932 20G<-315 -289.5>
 VStem: -547 87<735.016 812.046>
 LayerCount: 2
@@ -2675,6 +2690,7 @@ Encoding: 63620 63620 122
 GlifName: uni0E_31.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 717 65<-479.141 -340.502>
 VStem: -571 88<788.393 883.42>
 LayerCount: 2
@@ -2688,6 +2704,7 @@ Encoding: 63621 63621 123
 GlifName: uni0E_34.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 871 58<-624.219 -478.288>
 VStem: -714 88<803.567 866.554>
 LayerCount: 2
@@ -2701,6 +2718,7 @@ Encoding: 63622 63622 124
 GlifName: uni0E_35.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 861 58<-628.973 -483.056>
 VStem: -710 80<791.537 856.533> -369 83<759.541 934.445> -355 65<757 914.136>
 LayerCount: 2
@@ -2714,6 +2732,7 @@ Encoding: 63623 63623 125
 GlifName: uni0E_36.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 689 44<-380.672 -326.857> 861 58<-634.871 -517.25> 863 39<-373.831 -327.911>
 VStem: -724 88<781.823 859.019> -314 60<748.432 857.686>
 LayerCount: 2
@@ -2727,6 +2746,7 @@ Encoding: 63624 63624 126
 GlifName: uni0E_37.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 861 58<-644.796 -527.91>
 VStem: -734 88<796.008 859.751> -460 70<810.688 939.104> -339 70<779.572 929.706> -328 58<747 915.149>
 LayerCount: 2
@@ -2740,6 +2760,7 @@ Encoding: 63625 63625 127
 GlifName: uni0E_47.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 691 58<-551.233 -448.167> 796 20G<-419 -400.5> 861 58<-554.881 -273.422>
 VStem: -640 80<757.827 857.89>
 LayerCount: 2
@@ -2753,6 +2774,7 @@ Encoding: 63626 63626 128
 GlifName: uni0E_48.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 985 222<-371.988 -311.376>
 VStem: -383 86<1003.78 1188.52>
 LayerCount: 2
@@ -2766,6 +2788,7 @@ Encoding: 63629 63629 129
 GlifName: uni0E_49.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 1156 51<-481.574 -437.785>
 VStem: -427 69<1036.26 1145.47>
 LayerCount: 2
@@ -2779,6 +2802,7 @@ Encoding: 63632 63632 130
 GlifName: uni0E_4A_.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 980 50<-465.964 -413.151> 1185 20G<-449.5 -426 -318.5 -310>
 VStem: -545 70<1033.74 1154.34> -310 61<1074.5 1148.95>
 LayerCount: 2
@@ -2792,6 +2816,7 @@ Encoding: 63635 63635 131
 GlifName: uni0E_4B_.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 1073 54<-485.804 -375.893 -301 -221.094> 1197 20G<-348.5 -324.5>
 VStem: -383 82<1120 1199.99> -373 72<1003.57 1076>
 LayerCount: 2
@@ -2805,6 +2830,7 @@ Encoding: 63638 63638 132
 GlifName: uni0E_4C_.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 978 155<-432.098 -371.463> 1202 20G<-225 -199.5>
 VStem: -457 87<1005.02 1082.05>
 LayerCount: 2
@@ -2818,6 +2844,7 @@ Encoding: 63641 63641 133
 GlifName: uni0E_4D_.sl
 Width: 0
 VWidth: 0
+Flags: H
 HStem: 703 54<-410.566 -334.57> 863 54<-411.035 -370.235>
 VStem: -492 74<763.863 862.064> -332 74<760.044 859.038>
 LayerCount: 2
@@ -2831,7 +2858,7 @@ Encoding: 32 32 134
 GlifName: space
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -2842,7 +2869,7 @@ Encoding: 34 34 135
 GlifName: quotedbl
 Width: 510
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 548 290 819 20G<347 378.5>
 VStem: 107 99<558.996 832.861> 304 99<581.009 834.861>
 LayerCount: 2
@@ -2865,7 +2892,7 @@ Encoding: 35 35 136
 GlifName: numbersign
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -29 31G<134.5 154.5 404.5 424.5> 236 58<21.1999 160 250 428 517 658.194> 516 58<61.1999 214 301 482 570 698.194> 809 20G<294.5 315> 819 20G<564.5 585>
 VStem: 261 78<644.375 825.612> 531 78<650.943 835.612>
 LayerCount: 2
@@ -2888,7 +2915,7 @@ Encoding: 36 36 137
 GlifName: dollar
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -20 83<258.359 323> 744 78<263.083 321 396 460.427>
 VStem: 70 109<142.936 187.748 538.02 670.239> 318 75<68.2874 350 474 733.554> 323 74<-124.9 -19.0383 63 328.378 477.938 738 822 923.688> 504 110<594.958 703.511> 565 109<126.374 273.929>
 LayerCount: 2
@@ -2906,7 +2933,7 @@ Encoding: 37 37 138
 GlifName: percent
 Width: 780
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 58<534.596 613.398> 369 57<182.989 249.271 525.091 606.739> 757 57<165.091 246.739>
 VStem: 50 80<483.383 716.397> 290 80<470.229 696.405> 410 80<95.3829 328.397> 650 80<82.2295 308.405>
 LayerCount: 2
@@ -2931,7 +2958,7 @@ Encoding: 38 38 139
 GlifName: ampersand
 Width: 800
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -29 78<219.5 417.689> 734 72<323.482 433.378>
 VStem: 66 108<93.4772 237.488> 202 104<513.311 719.761> 450 98<564.255 718.069> 596 109<271.823 389.25>
 LayerCount: 2
@@ -2953,7 +2980,7 @@ Encoding: 39 39 140
 GlifName: quotesingle
 Width: 330
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 544 298<121.562 203.378>
 VStem: 110 109<559.9 836.81>
 LayerCount: 2
@@ -2972,7 +2999,7 @@ Encoding: 40 40 141
 GlifName: parenleft
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 VStem: 55 90<186.137 628.347>
 LayerCount: 2
 Back
@@ -2989,7 +3016,7 @@ Encoding: 41 41 142
 GlifName: parenright
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 VStem: 215 90<151.653 593.863>
 LayerCount: 2
 Back
@@ -3006,7 +3033,7 @@ Encoding: 42 42 143
 GlifName: asterisk
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 691 54<93.4255 154.076> 829 20G<300 310>
 VStem: 256 80<675.295 845.126> 265 80<395.043 568.611>
 LayerCount: 2
@@ -3030,7 +3057,7 @@ Encoding: 43 43 144
 GlifName: plus
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 310 70<82.8322 257 349 517.563>
 VStem: 260 90<150.151 300.218 375.06 528.696>
 LayerCount: 2
@@ -3049,7 +3076,7 @@ Encoding: 45 45 145
 GlifName: hyphen
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 301 80<79.9924 517.039>
 LayerCount: 2
 Back
@@ -3065,7 +3092,7 @@ Encoding: 47 47 146
 GlifName: slash
 Width: 480
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -29 21G<73 83> 808 20G<396 418>
 VStem: 41 76<-26.2118 42.9601>
 LayerCount: 2
@@ -3082,7 +3109,7 @@ Encoding: 48 48 147
 GlifName: zero
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 80<310.077 439.163> 742 79<282.739 430.926>
 VStem: 66 108<230.554 580.991> 546 108<215.506 555.262>
 LayerCount: 2
@@ -3101,7 +3128,7 @@ Encoding: 49 49 148
 GlifName: one
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 78<132.289 369.125> -9 76<277.453 373 479.953 678.93> 591 73<130.336 219.047> 792 20G<434 456.5>
 VStem: 364 108<83.3049 676>
 LayerCount: 2
@@ -3121,7 +3148,7 @@ Encoding: 101 101 149
 GlifName: e
 Width: 630
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -20 72<267.898 443.698> 552 71<270.521 435.261>
 VStem: 71 98<299 435.133> 471 98<368.776 516.355>
 LayerCount: 2
@@ -3140,7 +3167,7 @@ Encoding: 110 110 150
 GlifName: n
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 16G<120.5 145.5 516 549.5> 549 72<339.452 448.164>
 VStem: 55 98<444.545 608.365> 96 98<10 204.201> 486 98<-3.5163 502.798>
 LayerCount: 2
@@ -3162,7 +3189,7 @@ Encoding: 115 115 151
 GlifName: s
 Width: 570
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -20 72<206.302 391.967> 554 72<193.763 360.726>
 VStem: 56 93<404.592 513.567> 60 98<97.8161 153.365> 381 99<441.662 533.436> 431 95<89.8179 209.212>
 LayerCount: 2
@@ -3183,7 +3210,7 @@ Encoding: 83 83 152
 GlifName: S_
 Width: 700
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -22 78<260.996 480.108> 744 78<252.092 451.148>
 VStem: 60 109<142.472 187.748 538.02 669.495> 494 110<594.958 701.06> 555 109<126.374 273.929>
 LayerCount: 2
@@ -3204,7 +3231,7 @@ Encoding: 109 109 153
 GlifName: m
 Width: 965
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 21G<115.5 141 455.5 481 806 838.5> 549 72<290.474 403.271 630.144 741.261>
 VStem: 76 101<467.705 609.112> 96 98<7 297.902> 436 98<16 286.612> 781 98<-0.452385 503.983>
 LayerCount: 2
@@ -3229,7 +3256,7 @@ Encoding: 65 65 154
 GlifName: A_
 Width: 810
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -16 21G<79 92.5> 209 72<268.033 582.954> 800 20G<399 421.5>
 VStem: 670 103<8.61237 82.6019>
 LayerCount: 2
@@ -3249,7 +3276,7 @@ Encoding: 103 103 155
 GlifName: g
 Width: 650
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -266 72<262.638 423.667> -21 72<225.748 358.538> 549 72<293.112 416.394>
 VStem: 60 99<126.817 379.327> 441 98<236.17 356 438.78 523.374> 493 89<-104.182 164.897>
 LayerCount: 2
@@ -3271,7 +3298,7 @@ Encoding: 104 104 156
 GlifName: h
 Width: 670
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 21G<125.5 148.5 526 559.5> 549 72<346.483 458.164> 826 20G<119 131.5>
 VStem: 106 98<12 220.803> 496 98<-3.5163 502.798>
 LayerCount: 2
@@ -3293,7 +3320,7 @@ Encoding: 114 114 157
 GlifName: r
 Width: 510
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -13 21G<189 217> 536 70<26.4775 83.8188> 549 72<323.233 431.531>
 VStem: 171 100<15 312.546>
 LayerCount: 2
@@ -3313,7 +3340,7 @@ Encoding: 116 116 158
 GlifName: t
 Width: 480
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -18 69<253.394 358.347> 524 77<24.9924 141 239 404.093>
 VStem: 131 98<74.332 444.741> 145 89<596 747.03>
 LayerCount: 2
@@ -3333,7 +3360,7 @@ Encoding: 102 102 159
 GlifName: f
 Width: 480
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -20 21G<196 228.5> 529 72<24.9924 147 248 406.873> 803 71<252.461 378.453>
 VStem: 132 96<597.594 785.672> 167 98<-12.6965 391.009>
 LayerCount: 2
@@ -3353,7 +3380,7 @@ Encoding: 106 106 160
 GlifName: j
 Width: 340
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -246 67<34.334 102.693> 586 20G<180.5 193.5> 725 137<109.137 229.514>
 VStem: 86 168<749.13 838.517> 126 98<279.624 598.807> 146 98<-130.651 301.542>
 LayerCount: 2
@@ -3372,7 +3399,7 @@ Encoding: 120 120 161
 GlifName: x
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -6 21G<64.5 77> 581 20G<121.5 134.5 483 495.5>
 LayerCount: 2
 Back
@@ -3390,7 +3417,7 @@ Encoding: 88 88 162
 GlifName: X_
 Width: 780
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -9 21G<74 88> 779 20G<147 161 642 655.5>
 LayerCount: 2
 Back
@@ -3408,7 +3435,7 @@ Encoding: 118 118 163
 GlifName: v
 Width: 630
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -18 21G<291.5 312> 581 20G<87 99.5>
 VStem: 497 97<483.313 582.985>
 LayerCount: 2
@@ -3426,7 +3453,7 @@ Encoding: 119 119 164
 GlifName: w
 Width: 840
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -11 21G<211 231 572 592.5> 581 20G<94 106.5 746 774>
 VStem: 41 97<495.924 593.526>
 LayerCount: 2
@@ -3446,7 +3473,7 @@ Encoding: 86 86 165
 GlifName: V_
 Width: 810
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 21G<379 401.5> 784 20G<96.5 110.5>
 VStem: 662 107<680.691 782.04>
 LayerCount: 2
@@ -3464,7 +3491,7 @@ Encoding: 87 87 166
 GlifName: W_
 Width: 1100
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 21G<273 295.5 763.5 786> 779 20G<104 118 995.5 1026>
 VStem: 46 107<697.267 790.261> 952 103<690.348 791.846>
 LayerCount: 2
@@ -3484,7 +3511,7 @@ Encoding: 85 85 167
 GlifName: U_
 Width: 820
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 78<296.636 528.842> 779 20G<146 182 641 677.5>
 VStem: 96 108<156.872 623.077> 107 108<462.671 790.169> 603 108<133.948 312.314 463.637 790.698> 616 108<161.738 624.517>
 LayerCount: 2
@@ -3504,7 +3531,7 @@ Encoding: 122 122 168
 GlifName: z
 Width: 590
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -17 78<161.547 530.174> -3 72<257.505 548.066> 525 72<63.875 392> 530 72<66.8279 273.982>
 LayerCount: 2
 Back
@@ -3522,7 +3549,7 @@ Encoding: 90 90 169
 GlifName: Z_
 Width: 750
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -13 87<178.542 627.034> 5 80<369.651 699.113> 709 80<71.5543 517> 715 80<76.5212 344.279> 780 20G<568.5 640>
 LayerCount: 2
 Back
@@ -3540,7 +3567,7 @@ Encoding: 112 112 170
 GlifName: p
 Width: 680
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -246 21G<130 160.5> -16 72<264.547 426.843> 549 72<288.628 430.001>
 VStem: 41 88<547.62 613.54> 101 102<-236.646 33 118.451 423.152> 523 99<176.148 434.745>
 LayerCount: 2
@@ -3562,7 +3589,7 @@ Encoding: 76 76 171
 GlifName: L_
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -23 78<236.103 581.46> -9 78<310.529 627.711> 784 20G<190 204>
 VStem: 126 108<61.2591 401.953 529.125 791.845> 144 108<215.256 793.948>
 LayerCount: 2
@@ -3580,7 +3607,7 @@ Encoding: 77 77 172
 GlifName: M_
 Width: 900
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 21G<98.5 130 761 775> 785 20G<751.5 774>
 VStem: 66 108<-9.94189 322.478> 102 105<354.505 586> 691 104<457.428 598 733.577 784> 726 108<0.260559 322.033>
 LayerCount: 2
@@ -3600,7 +3627,7 @@ Encoding: 78 78 173
 GlifName: N_
 Width: 820
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 21G<144 180 660.5 684.5> 784 20G<158 179.5 660.5 674.5>
 VStem: 97 118<432.177 602> 112 108<-4.625 504.52> 601 108<471.838 795.591> 613 108<177 548.843>
 LayerCount: 2
@@ -3619,7 +3646,7 @@ Encoding: 70 70 174
 GlifName: F_
 Width: 710
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 21G<149.5 183> 355 78<69.834 123 232 562.68> 726 78<219 606.913> 736 78<341.248 647.479>
 VStem: 116 108<-5.05273 356 435 725.874>
 LayerCount: 2
@@ -3640,7 +3667,7 @@ Encoding: 69 69 175
 GlifName: E_
 Width: 740
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 80<220.433 605.197> -9 78<357.598 677.711> 355 78<69.834 119 229 562.68> 726 78<74.3922 112.796 219 606.913> 736 78<341.248 647.479>
 VStem: 106 108<66.4187 351.602> 122 108<62.723 356 435 723.694>
 LayerCount: 2
@@ -3662,7 +3689,7 @@ Encoding: 72 72 176
 GlifName: H_
 Width: 820
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 25G<144 180 644 658.5> 355 78<69.834 113 221 606> 789 15G<161 175.5 645 681>
 VStem: 101 108<472.332 799.84> 113 108<-3.98047 357 436 742.797> 606 108<-2.8169 358 435 795.169>
 LayerCount: 2
@@ -3683,7 +3710,7 @@ Encoding: 107 107 177
 GlifName: k
 Width: 620
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -15 25G<141 173.5 525.5 538> 586 20G<501 513.5> 826 20G<129 141.5>
 VStem: 107 100<-9.1669 265 414 660.713>
 LayerCount: 2
@@ -3703,7 +3730,7 @@ Encoding: 84 84 178
 GlifName: T_
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 21G<339 374> 722 78<402 659.422> 731 78<405.564 677.594>
 VStem: 309 108<-8.54387 705.75>
 LayerCount: 2
@@ -3724,7 +3751,7 @@ Encoding: 75 75 179
 GlifName: K_
 Width: 780
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 26G<154 190 673 687> 789 20G<145 159 633.5 647.5>
 VStem: 86 107<580.186 800.281> 121 108<-5.16879 367 544 721.233>
 LayerCount: 2
@@ -3744,7 +3771,7 @@ Encoding: 121 121 180
 GlifName: y
 Width: 630
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -257 72<210.983 332.032> 585 20G<111 123.5>
 VStem: 56 98<436.609 598.096>
 LayerCount: 2
@@ -3766,7 +3793,7 @@ Encoding: 73 73 181
 GlifName: I_
 Width: 480
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 3 66<57.8147 192> 11 64<292.734 390> 729 69<82.1704 187.859 288 419.766>
 VStem: 194 104<77.3115 717.164>
 LayerCount: 2
@@ -3787,7 +3814,7 @@ Encoding: 92 92 182
 GlifName: backslash
 Width: 480
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -29 21G<388 398> 809 20G<82.5 93>
 VStem: 40 79<738.245 825.389>
 LayerCount: 2
@@ -3804,7 +3831,7 @@ Encoding: 64 64 183
 GlifName: at
 Width: 1020
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -179 58<363.96 626.488> 38 64<419.118 520.897> 490 64<496.168 607.063> 711 58<421.405 685.872>
 VStem: 74 79<93.1392 402.861> 293 89<142.029 351.161> 603 87<243.517 345> 622 90<404.542 479.185> 865 80<256.798 527.563>
 LayerCount: 2
@@ -3828,7 +3855,7 @@ Encoding: 126 126 184
 GlifName: asciitilde
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 249 72<359.281 430.115> 359 72<170.621 240.622>
 VStem: 51 96<266 337.053> 452 97<340.566 414.098>
 LayerCount: 2
@@ -3847,7 +3874,7 @@ Encoding: 123 123 185
 GlifName: braceleft
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -89 58<205.639 298.194> 831 58<198.979 298.194>
 VStem: 112 80<-18.0431 239.758 548.456 827.072> 128 79<52.1201 332.986 448.085 764.925>
 LayerCount: 2
@@ -3867,7 +3894,7 @@ Encoding: 124 124 186
 GlifName: bar
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 VStem: 137 89<-85.863 888.291>
 LayerCount: 2
 Back
@@ -3883,7 +3910,7 @@ Encoding: 125 125 187
 GlifName: braceright
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -89 58<61.8055 161.021> 831 58<61.8055 154.361>
 VStem: 145 81<35.0754 345.485 476.129 747.88> 166 81<-27.4075 251.544 560.242 819.956>
 LayerCount: 2
@@ -3903,7 +3930,7 @@ Encoding: 61 61 188
 GlifName: equal
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 201 80<79.9924 517.039> 401 80<79.9924 517.039>
 LayerCount: 2
 Back
@@ -3921,7 +3948,7 @@ Encoding: 74 74 189
 GlifName: J_
 Width: 540
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 78<155.859 292.647> 734 64<157.17 276.631 388 498.924>
 VStem: 318 104<87.6492 523.556>
 LayerCount: 2
@@ -3942,7 +3969,7 @@ Encoding: 89 89 190
 GlifName: Y_
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -20 21G<350.5 364.5> 779 20G<93.5 108 627 658.5>
 VStem: 35 108<715.854 800.407> 310 114<-10.5907 304.25> 578 107<710.674 790.238>
 LayerCount: 2
@@ -3963,7 +3990,7 @@ Encoding: 71 71 191
 GlifName: G_
 Width: 790
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 78<330.079 527.394> 741 79<331.616 521.238>
 VStem: 71 108<232.809 554.632> 572 108<595.831 691.682> 615 110<148.012 318.614>
 LayerCount: 2
@@ -3983,7 +4010,7 @@ Encoding: 68 68 192
 GlifName: D_
 Width: 810
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -21 80<229.796 462.974> 742 78<214.588 482.074>
 VStem: 116 108<392.077 634.739> 125 108<67.7108 636.47> 630 109<246.078 572.867>
 LayerCount: 2
@@ -4002,7 +4029,7 @@ Encoding: 80 80 193
 GlifName: P_
 Width: 760
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 21G<159 194> 302 77<240.583 490.296> 365 74<46.5691 126.753> 744 79<227.62 497.044>
 VStem: 116 108<436.538 634.739> 130 109<-11.6406 312 433 632.471> 592 111<469.638 654.502>
 LayerCount: 2
@@ -4021,7 +4048,7 @@ Encoding: 82 82 194
 GlifName: R_
 Width: 780
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 21G<159 194 675.5 689.5> 332 79<403.337 529.185> 745 77<237.621 511.191>
 VStem: 116 108<430.947 634.739> 130 108<-12.3127 350 426 560.61> 605 110<485.258 661.146>
 LayerCount: 2
@@ -4041,7 +4068,7 @@ Encoding: 66 66 195
 GlifName: B_
 Width: 800
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -22 81<229.699 479.762> 742 77<228.118 481.273>
 VStem: 116 108<424.41 634.739> 125 108<63.627 383 421 636.47> 537 109<547.438 691.264> 637 108<184.874 355.515>
 LayerCount: 2
@@ -4062,7 +4089,7 @@ Encoding: 3647 3647 196
 GlifName: uni0E_3F_
 Width: 800
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -22 81<229.763 348> -11 80<424 506.547> 661 71<31.3794 113.404> 741 76<225.211 346 421 482.784>
 VStem: 116 108<424.41 634.739> 125 108<63.627 383 421 636.47> 343 74<74.4742 371 481 733.693> 348 74<-124.9 -20 69 333.848 484.799 738 815.452 923.688> 537 109<547.438 691.721> 637 108<185.771 355.515>
 LayerCount: 2
@@ -4080,7 +4107,7 @@ Encoding: 60 60 197
 GlifName: less
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 596 20G<475 487.5>
 LayerCount: 2
 Back
@@ -4097,7 +4124,7 @@ Encoding: 62 62 198
 GlifName: greater
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 595 20G<114 127>
 LayerCount: 2
 Back
@@ -4114,7 +4141,7 @@ Encoding: 96 96 199
 GlifName: grave
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 541 307
 VStem: 20 303
 LayerCount: 2
@@ -4133,7 +4160,7 @@ Encoding: 94 94 200
 GlifName: asciicircum
 Width: 510
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 531 318
 LayerCount: 2
 Back
@@ -4152,7 +4179,7 @@ Encoding: 95 95 201
 GlifName: underscore
 Width: 600
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -69 80<34.9924 562.039>
 LayerCount: 2
 Back
@@ -4168,7 +4195,7 @@ Encoding: 91 91 202
 GlifName: bracketleft
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -91 57<156 297.393> 830 58<153 298.27>
 VStem: 92 79<130.506 681.815>
 LayerCount: 2
@@ -4187,7 +4214,7 @@ Encoding: 93 93 203
 GlifName: bracketright
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -90 58<61.7299 207> 829 58<61.8055 204>
 VStem: 189 79<116.185 667.494>
 LayerCount: 2
@@ -4206,7 +4233,7 @@ Encoding: 56 56 204
 GlifName: eight
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 78<265.419 477.528> 600 20G<550.5 564.5> 741 78<247.781 433.619>
 VStem: 76 108<125.485 282.824> 87 108<559.013 688.989> 549 110<121.051 283.344>
 LayerCount: 2
@@ -4228,7 +4255,7 @@ Encoding: 54 54 205
 GlifName: six
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -29 78<294.351 481.131> 397 79<295.307 489.048> 809 20G<420.5 434.5>
 VStem: 32 166<257.96 318.867> 90 108<157.386 251> 560 108<129.726 319.801>
 LayerCount: 2
@@ -4246,7 +4273,7 @@ Encoding: 57 57 206
 GlifName: nine
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -29 21G<285.5 299.5> 324 79<230.952 424.693> 751 78<238.869 425.649>
 VStem: 52 108<480.199 670.274> 522 108<549 642.614>
 LayerCount: 2
@@ -4264,7 +4291,7 @@ Encoding: 51 51 207
 GlifName: three
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -27 81<252.159 478.944> 361 76<229 367.542> 630 21G<118 132> 741 79<247.895 439.861>
 VStem: 491 108<521.79 690.515> 546 108<120.892 316.947>
 LayerCount: 2
@@ -4284,7 +4311,7 @@ Encoding: 63 63 208
 GlifName: question
 Width: 480
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -5 137<175.137 295.514> 784 72<140.646 311.389>
 VStem: 11 97<624.203 753.365> 152 168<19.1304 108.517> 161 90<285.726 418.325> 351 98<598.532 744.867>
 LayerCount: 2
@@ -4303,7 +4330,7 @@ Encoding: 55 55 209
 GlifName: seven
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -19 21G<307 334.5> 716 78<184.35 520.217> 785 20G<611.5 623>
 VStem: 111 98<561.318 699.998>
 LayerCount: 2
@@ -4323,7 +4350,7 @@ Encoding: 53 53 210
 GlifName: five
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -26 79<257.415 462.518> 409 78<261.006 484.769> 716 78<237.484 593.117> 726 79<387.055 618.012>
 VStem: 128 108<454.668 719> 541 108<131.208 350.885>
 LayerCount: 2
@@ -4344,7 +4371,7 @@ Encoding: 50 50 211
 GlifName: two
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -13 84<181.689 598.011> 6 78<332.232 642.479> 620 21G<123.5 137.5> 740 79<256.59 444.738>
 VStem: 501 108<519.364 683.913>
 LayerCount: 2
@@ -4363,7 +4390,7 @@ Encoding: 52 52 212
 GlifName: four
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -30 21G<494 508.5> 174 79<154.587 456> 191 78<564 682.884> 599 20G<495 530.5> 809 20G<315 351>
 VStem: 276 108<635.01 820.169> 456 108<-22.7069 179 263 610.53>
 LayerCount: 2
@@ -4383,7 +4410,7 @@ Encoding: 8203 8203 213
 GlifName: uni200B_
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -4394,7 +4421,7 @@ Encoding: 8288 8288 214
 GlifName: uni2060
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -4405,7 +4432,7 @@ Encoding: 63616 63616 215
 GlifName: uni0E_4F_0E_480E_48.liga
 Width: 750
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 1 58<273.886 483.527> 199 202<303.122 390.811 391.234 448.967> 531 58<264.87 466.855> 668 290 939 20G<467 498.5>
 VStem: 80 80<177.066 420.777> 227 99<678.996 952.861> 267 220<234.794 365.256> 424 99<701.009 954.861> 590 80<172.877 410.55>
 LayerCount: 2
@@ -4420,7 +4447,7 @@ Encoding: 8226 8226 216
 GlifName: bullet
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 234 232<280.203 376.766 377.234 436.403>
 VStem: 231 258<282.222 418.241>
 LayerCount: 2
@@ -4440,7 +4467,7 @@ Encoding: 8230 8230 217
 GlifName: ellipsis
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 2 123<78.75 190.788 303.75 415.788 528.75 640.788>
 VStem: 60 150<22.0399 105.386> 285 150<22.0399 105.386> 510 150<22.0399 105.386>
 CounterMasks: 1 70
@@ -4474,7 +4501,7 @@ Encoding: 8217 8217 218
 GlifName: quoteright
 Width: 330
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 538 58<66.3318 120.687> 768 79<81.6628 147.997>
 VStem: 170 91<648.366 777.821>
 LayerCount: 2
@@ -4491,7 +4518,7 @@ Encoding: 8216 8216 219
 GlifName: quoteleft
 Width: 330
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 533 79<182.003 248.337> 784 58<209.313 263.668>
 VStem: 69 91<602.179 731.634>
 LayerCount: 2
@@ -4508,7 +4535,7 @@ Encoding: 8220 8220 220
 GlifName: quotedblleft
 Width: 570
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 533 79<182.003 248.337 422.003 488.337> 784 58<209.313 263.668 449.313 503.668>
 VStem: 69 91<602.179 731.634> 309 91<602.179 731.634>
 LayerCount: 2
@@ -4523,7 +4550,7 @@ Encoding: 8221 8221 221
 GlifName: quotedblright
 Width: 570
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 538 58<66.3318 120.687 306.332 360.687> 768 79<81.6628 147.997 321.663 387.997>
 VStem: 170 91<648.366 777.821> 410 91<648.366 777.821>
 LayerCount: 2
@@ -4538,7 +4565,7 @@ Encoding: 8211 8211 222
 GlifName: endash
 Width: 660
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 301 80<79.9924 577.039>
 LayerCount: 2
 Back
@@ -4554,7 +4581,7 @@ Encoding: 8212 8212 223
 GlifName: emdash
 Width: 1200
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 299 72<360.495 1055.19> 309 72<94.9924 394.108 797.815 1106.87>
 LayerCount: 2
 Back
@@ -4570,7 +4597,7 @@ Encoding: 171 171 224
 GlifName: guillemotleft
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 596 20G<323.5 335 593.5 605>
 LayerCount: 2
 Back
@@ -4590,7 +4617,7 @@ Encoding: 187 187 225
 GlifName: guillemotright
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 595 20G<112 122.5 382 392.5>
 LayerCount: 2
 Back
@@ -4610,7 +4637,7 @@ Encoding: 169 169 226
 GlifName: copyright
 Width: 1020
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -27 54<382.399 649.244> 170 64<451.94 577.488> 549 64<449.629 556.355> 773 54<362.579 639.594>
 VStem: 83 74<253.793 541.089> 315 90<283.95 499.4> 565 90<477.542 541.836> 863 74<259.102 519.715>
 LayerCount: 2
@@ -4633,7 +4660,7 @@ Encoding: 174 174 227
 GlifName: registered
 Width: 810
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 319 42<317.475 518.357> 757 52<346.531 470.065> 919 42<302.019 512.618>
 VStem: 90 60<515.572 763.929> 301 71<470.75 592 664 721.248> 480 74<660.273 740.807> 677 60<521.228 741.723>
 LayerCount: 2
@@ -4657,7 +4684,7 @@ StartChar: uni0E4D.sul
 Encoding: 63649 63649 228
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 973 54<-380.566 -304.57> 1133 54<-381.035 -340.235>
 VStem: -462 74<1033.86 1132.06> -302 74<1030.04 1129.04>
 LayerCount: 2
@@ -4670,7 +4697,7 @@ StartChar: uni0E4D.su
 Encoding: 63648 63648 229
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 973 54<-200.566 -124.57> 1133 54<-201.035 -160.235>
 VStem: -282 74<1033.86 1132.06> -122 74<1030.04 1129.04>
 LayerCount: 2
@@ -4683,7 +4710,7 @@ StartChar: uni0E47.su
 Encoding: 63650 63650 230
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 961 58<-251.233 -148.167> 1066 20G<-119 -100.5> 1131 58<-254.881 26.5781>
 VStem: -340 80<1027.83 1127.89>
 LayerCount: 2
@@ -4696,7 +4723,7 @@ StartChar: uni0E47.sul
 Encoding: 63651 63651 231
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 961 58<-461.233 -358.167> 1066 20G<-329 -310.5> 1131 58<-464.881 -183.422>
 VStem: -550 80<1027.83 1127.89>
 LayerCount: 2
@@ -4709,7 +4736,7 @@ StartChar: uni0000
 Encoding: 0 0 232
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -4719,7 +4746,7 @@ StartChar: uni000D
 Encoding: 13 13 233
 Width: 360
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -4729,7 +4756,7 @@ StartChar: .notdef
 Encoding: 1114112 -1 234
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 40<200 520> 560 40<200 520>
 VStem: 160 40<40 560> 520 40<40 560>
 LayerCount: 2
@@ -4748,7 +4775,7 @@ StartChar: uni0009
 Encoding: 9 9 235
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -4758,7 +4785,7 @@ StartChar: Euro
 Encoding: 8364 8364 236
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -15 72<334.37 505.812> 277 56<22.29 117 224 305.688 309.297 493.748> 448 58<221 448.7> 453 56<22.29 118 221 296.688 300.392 493.602> 745 71<339.291 498.111>
 VStem: 115 98<330.148 449> 566 99<597.814 676.719>
 LayerCount: 2
@@ -4779,7 +4806,7 @@ StartChar: trademark
 Encoding: 8482 8482 237
 Width: 930
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 745 68<46.0913 177.792> 755 58<256 391.753> 798 20G<776.5 794>
 VStem: 181 80<384.902 744.999> 440 74<490.312 661 764.157 802.638> 735 75<512.265 668 756.517 813.254> 751 78<398.569 662.849>
 LayerCount: 2
