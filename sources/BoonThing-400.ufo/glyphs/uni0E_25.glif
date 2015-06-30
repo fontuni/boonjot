@@ -4,6 +4,15 @@
   <unicode hex="0E25"/>
   <outline>
     <contour>
+      <point x="640" y="0" type="move" name="ThaiOpt.mark"/>
+    </contour>
+    <contour>
+      <point x="640" y="0" type="move" name="ThaiAbove.mark"/>
+    </contour>
+    <contour>
+      <point x="630" y="0" type="move" name="ThaiBelow.mark"/>
+    </contour>
+    <contour>
       <point x="168" y="-14" type="curve" smooth="yes"/>
       <point x="163" y="-15"/>
       <point x="158" y="-16"/>
@@ -91,6 +100,40 @@
     </contour>
   </outline>
   <lib>
-    <dict/>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-16</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>549</integer>
+            <key>width</key>
+            <integer>71</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>91</integer>
+            <key>width</key>
+            <integer>98</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>504</integer>
+            <key>width</key>
+            <integer>95</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

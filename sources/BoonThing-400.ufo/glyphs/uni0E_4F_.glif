@@ -4,6 +4,15 @@
   <unicode hex="0E4F"/>
   <outline>
     <contour>
+      <point x="660" y="0" type="move" name="ThaiOpt.mark"/>
+    </contour>
+    <contour>
+      <point x="660" y="0" type="move" name="ThaiAbove.mark"/>
+    </contour>
+    <contour>
+      <point x="660" y="0" type="move" name="ThaiBelow.mark"/>
+    </contour>
+    <contour>
       <point x="391" y="398" type="curve"/>
       <point x="396" y="400"/>
       <point x="401" y="401"/>
@@ -103,7 +112,4 @@
       <point x="498" y="552"/>
     </contour>
   </outline>
-  <lib>
-    <dict/>
-  </lib>
 </glyph>

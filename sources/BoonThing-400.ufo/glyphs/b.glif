@@ -4,6 +4,12 @@
   <unicode hex="0062"/>
   <outline>
     <contour>
+      <point x="330" y="0" type="move" name="LatinBelow.mark"/>
+    </contour>
+    <contour>
+      <point x="160" y="180" type="move" name="LatinAbove.mark"/>
+    </contour>
+    <contour>
       <point x="214" y="542" type="curve" smooth="yes"/>
       <point x="212" y="546"/>
       <point x="211" y="550"/>
@@ -14,9 +20,7 @@
       <point x="287" y="608"/>
       <point x="330" y="617"/>
       <point x="371" y="617" type="curve" smooth="yes"/>
-      <point x="372" y="617"/>
-      <point x="372" y="617"/>
-      <point x="373" y="617" type="curve" smooth="yes"/>
+      <point x="373" y="617" type="line" smooth="yes"/>
       <point x="541" y="617"/>
       <point x="603" y="482"/>
       <point x="603" y="350" type="curve" smooth="yes"/>
@@ -28,16 +32,14 @@
       <point x="273" y="-21" type="curve" smooth="yes"/>
       <point x="172" y="-21"/>
       <point x="91" y="47"/>
-      <point x="91" y="125" type="curve"/>
+      <point x="91" y="125" type="curve" smooth="yes"/>
       <point x="91" y="232"/>
       <point x="93" y="356"/>
       <point x="93" y="470" type="curve" smooth="yes"/>
       <point x="93" y="616"/>
       <point x="91" y="745"/>
-      <point x="81" y="801" type="curve" smooth="yes"/>
-      <point x="81" y="802"/>
-      <point x="81" y="804"/>
-      <point x="81" y="805" type="curve" smooth="yes"/>
+      <point x="81" y="801" type="curve"/>
+      <point x="81" y="805" type="line" smooth="yes"/>
       <point x="81" y="823"/>
       <point x="99" y="840"/>
       <point x="124" y="845" type="curve" smooth="yes"/>
@@ -52,7 +54,7 @@
       <point x="192" y="507" type="curve" smooth="yes"/>
       <point x="192" y="385"/>
       <point x="189" y="251"/>
-      <point x="189" y="135" type="curve"/>
+      <point x="189" y="135" type="curve" smooth="yes"/>
       <point x="189" y="89"/>
       <point x="246" y="51"/>
       <point x="287" y="51" type="curve" smooth="yes"/>
@@ -76,6 +78,58 @@
     </contour>
   </outline>
   <lib>
-    <dict/>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-21</integer>
+            <key>width</key>
+            <integer>72</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>524</integer>
+            <key>width</key>
+            <integer>67</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>546</integer>
+            <key>width</key>
+            <integer>71</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>826</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>81</integer>
+            <key>width</key>
+            <integer>98</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>91</integer>
+            <key>width</key>
+            <integer>98</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>504</integer>
+            <key>width</key>
+            <integer>99</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

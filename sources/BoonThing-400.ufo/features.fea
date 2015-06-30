@@ -1,0 +1,96 @@
+
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\null \nonmarkingreturn \space \uni25CC \exclam \quotedbl 
+	\numbersign \dollar \percent \ampersand \quotesingle \parenleft \parenright 
+	\asterisk \plus \comma \hyphen \period \slash \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon \semicolon \less \equal \greater \question \at \A \B 
+	\C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash 
+	\bracketright \asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o 
+	\p \q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde \exclamdown 
+	\cent \sterling \brokenbar \dieresis \copyright \guillemotleft \logicalnot 
+	\registered \macron \degree \plusminus \acute \uni00B5 \periodcentered \cedilla 
+	\guillemotright \onequarter \onehalf \threequarters \questiondown \Agrave 
+	\Aacute \Acircumflex \Atilde \Adieresis \Aring \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
+	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ccedilla \egrave \eacute \ecircumflex 
+	\edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute 
+	\ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex 
+	\udieresis \yacute \thorn \ydieresis \dotlessi \Lslash \lslash \Scaron \scaron 
+	\Ydieresis \Zcaron \zcaron \florin \circumflex \caron \breve \dotaccent \ring 
+	\ogonek \tilde \hungarumlaut \endash \emdash \quoteleft \quoteright 
+	\quotesinglbase \quotedblleft \quotedblright \quotedblbase \dagger \daggerdbl 
+	\bullet \guilsinglleft \guilsinglright \fraction \Euro \trademark \minus \yen 
+	\currency \section \ordfeminine \two.superior \three.superior \paragraph 
+	\one.superior \ordmasculine \AE \ae \OE \oe \perthousand \uni00AD \uni02C9 \pi 
+	\uni2113 \estimated \partialdiff \uni2206 \product \summation \uni2215 \uni2219 
+	\radical \infinity \integral \approxequal \notequal \lessequal \greaterequal 
+	\lozenge \uni2126 \Amacron \amacron \Abreve \abreve \Aogonek \aogonek \Cacute 
+	\cacute \Ccaron \ccaron \Dcaron \dcaron \Dcroat \dcroat \Emacron \emacron 
+	\Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gbreve \gbreve 
+	\uni0122 \uni0123 \Imacron \imacron \Iogonek \iogonek \Idotaccent \uni0136 
+	\uni0137 \Lacute \lacute \uni013B \uni013C \Lcaron \lcaron \Nacute \nacute 
+	\uni0145 \uni0146 \Ncaron \ncaron \Omacron \omacron \Ohungarumlaut 
+	\ohungarumlaut \Racute \racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute 
+	\Scedilla \scedilla \uni0162 \uni0163 \Tcaron \tcaron \Umacron \umacron \Uring 
+	\uring \Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Zacute \zacute 
+	\Zdotaccent \zdotaccent \uni0218 \uni0219 \uni021A \uni021B \uni20BA \uni20BD 
+	\Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ebreve \ebreve \Gcircumflex 
+	\gcircumflex \Gdotaccent \gdotaccent \Hcircumflex \hcircumflex \Hbar \hbar 
+	\Itilde \itilde \Jcircumflex \jcircumflex \kgreenlandic \Ldot \ldot 
+	\napostrophe \Scircumflex \scircumflex \Utilde \utilde \Ubreve \ubreve 
+	\Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \uni018F \Ohorn \ohorn 
+	\Uhorn \uhorn \uni01CD \uni01CE \uni01CF \uni01D0 \uni01D1 \uni01D2 \uni01D3 
+	\uni01D4 \uni01D5 \uni01D6 \uni01D7 \uni01D8 \uni01D9 \uni01DA \uni01DB \uni01DC 
+	\Gcaron \gcaron \uni0237 \uni0251 \uni0259 \uni0261 \uni02BB \uni02BC \uni02BE 
+	\uni02BF \uni02C8 \uni02CA \uni02CB \uni02CC \uni1E0C \uni1E0D \uni1E0E \uni1E0F 
+	\uni1E20 \uni1E21 \uni1E24 \uni1E25 \uni1E2A \uni1E2B \uni1E36 \uni1E37 \uni1E38 
+	\uni1E39 \uni1E3A \uni1E3B \uni1E42 \uni1E43 \uni1E44 \uni1E45 \uni1E46 \uni1E47 
+	\uni1E48 \uni1E49 \uni1E5A \uni1E5B \uni1E5C \uni1E5D \uni1E5E \uni1E5F \uni1E60 
+	\uni1E61 \uni1E62 \uni1E63 \uni1E6C \uni1E6D \uni1E6E \uni1E6F \Wgrave \wgrave 
+	\Wacute \wacute \Wdieresis \wdieresis \uni1E8E \uni1E8F \uni1E92 \uni1E93 
+	\uni1E97 \uni1E9E \uni1EA0 \uni1EA1 \uni1EA2 \uni1EA3 \uni1EA4 \uni1EA5 \uni1EA6 
+	\uni1EA7 \uni1EA8 \uni1EA9 \uni1EAA \uni1EAB \uni1EAC \uni1EAD \uni1EAE \uni1EAF 
+	\uni1EB0 \uni1EB1 \uni1EB2 \uni1EB3 \uni1EB4 \uni1EB5 \uni1EB6 \uni1EB7 \uni1EB8 
+	\uni1EB9 \uni1EBA \uni1EBB \uni1EBC \uni1EBD \uni1EBE \uni1EBF \uni1EC0 \uni1EC1 
+	\uni1EC2 \uni1EC3 \uni1EC4 \uni1EC5 \uni1EC6 \uni1EC7 \uni1EC8 \uni1EC9 \uni1ECA 
+	\uni1ECB \uni1ECC \uni1ECD \uni1ECE \uni1ECF \uni1ED0 \uni1ED1 \uni1ED2 \uni1ED3 
+	\uni1ED4 \uni1ED5 \uni1ED6 \uni1ED7 \uni1ED8 \uni1ED9 \uni1EDA \uni1EDB \uni1EDC 
+	\uni1EDD \uni1EDE \uni1EDF \uni1EE0 \uni1EE1 \uni1EE2 \uni1EE3 \uni1EE4 \uni1EE5 
+	\uni1EE6 \uni1EE7 \uni1EE8 \uni1EE9 \uni1EEA \uni1EEB \uni1EEC \uni1EED \uni1EEE 
+	\uni1EEF \uni1EF0 \uni1EF1 \Ygrave \ygrave \uni1EF4 \uni1EF5 \uni1EF6 \uni1EF7 
+	\uni1EF8 \uni1EF9 \uni2007 \uni2010 \figuredash \uni2015 \uni2032 \uni2033 
+	\zero.superior \four.superior \five.superior \six.superior \seven.superior 
+	\eight.superior \nine.superior \parenleft.superior \parenright.superior 
+	\n.superior \zero.inferior \one.inferior \two.inferior \three.inferior 
+	\four.inferior \five.inferior \six.inferior \seven.inferior \eight.inferior 
+	\nine.inferior \parenleft.inferior \parenright.inferior \colonmonetary \lira 
+	\uni20A6 \peseta \dong \uni20B1 \uni20B2 \uni20B5 \uni20B9 \uni2117 \uni2120 
+	\onethird \twothirds \oneeighth \threeeighths \fiveeighths \seveneighths 
+	\arrowleft \arrowup \arrowright \arrowdown \uni25A0 \uni25B2 \uni25B3 \uni25B6 
+	\uni25B7 \uni25BC \uni25BD \uni25C0 \uni25C1 \uni25C6 \uni200B \uni200C \uni200D 
+	\uni200E \uni200F \uni2060 \uni0358 \uni01EA \uni01EB \uni0E01 \uni0E02 \uni0E03 
+	\uni0E04 \uni0E05 \uni0E06 \uni0E07 \uni0E08 \uni0E09 \uni0E0A \uni0E0B \uni0E0C 
+	\uni0E0D \uni0E0D.rd \uni0E0E \uni0E0F \uni0E10 \uni0E10.rd \uni0E11 \uni0E12 
+	\uni0E13 \uni0E14 \uni0E15 \uni0E16 \uni0E17 \uni0E18 \uni0E19 \uni0E1A \uni0E1B 
+	\uni0E1C \uni0E1D \uni0E1E \uni0E1F \uni0E20 \uni0E21 \uni0E22 \uni0E23 \uni0E24 
+	\uni0E25 \uni0E26 \uni0E27 \uni0E28 \uni0E29 \uni0E2A \uni0E2B \uni0E2C \uni0E2D 
+	\uni0E2E \uni0E2F \uni0E30 \uni0E32 \uni0E33 \uni0E3F \uni0E40 \uni0E41 \uni0E42 
+	\uni0E43 \uni0E44 \uni0E45 \uni0E46 \uni0E4F \uni0E50 \uni0E51 \uni0E52 \uni0E53 
+	\uni0E54 \uni0E55 \uni0E56 \uni0E57 \uni0E58 \uni0E59 \uni0E5A \uni0E5B \uniFEFF ];
+@GDEF_Ligature = [\ellipsis \fi \fl \uni0E240E45.liga \uni0E260E45.liga 
+	\uni0E4F.extra ];
+@GDEF_Mark = [\uni0300 \uni0301 \uni0302 \uni0303 \uni0306 \uni0307 \uni0308 
+	\uni030A \uni0327 \uni0304 \uni0309 \uni030B \uni030C \uni031B \uni0323 \uni0324 
+	\uni0326 \uni0328 \uni032E \uni0331 \uni030D \uni030E \uni030F \uni0305 \uni0311 
+	\uni0312 \uni0313 \uni0314 \uni0351 \uni0357 \uni0329 \uni0E31 \uni0E34 \uni0E35 
+	\uni0E36 \uni0E37 \uni0E38 \uni0E39 \uni0E3A \uni0E47 \uni0E48 \uni0E49 \uni0E4A 
+	\uni0E4B \uni0E4C \uni0E4D \uni0E4E ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+
