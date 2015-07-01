@@ -12,7 +12,11 @@ tmp/*
 *.sfd-*
 
 # Binary files
-*.otf
-*.ttf
-*.woff
-*.woff2
+#*.otf
+#*.ttf
+#*.woff
+#*.woff2
+
+# Jekyll
+*.sass-cache
+*_site

@@ -19,7 +19,7 @@ weights = [400]
 copyright =  'Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).'
 features = ['Thai-Basic', 'Latin-4']
 feature_dir = 'libraries/f0ntuni/features/'
-build_dir = 'fonts/'
+build_dir = 'pages/fonts/'
 
 def setFontInfo(source,family,weight):
   font = fontforge.open(source)
@@ -47,12 +47,15 @@ def buildFont(source,family,weight):
   setFontInfo(source,family,weight)
 
   ttf = build_dir + font.fontname + '.ttf'
+  of = build_dir + font.fontname + '.otf'
   genflags  = ('opentype', 'PfEd-lookups', 'no-hints')
 
   for feature in features:
     font.mergeFeature(feature_dir + feature + '.fea')  
 
   font.generate(ttf, flags=genflags)
+  printFontInfo(ttf)
+  font.generate(of, flags=genflags)
   printFontInfo(ttf)
   font.close()
 
