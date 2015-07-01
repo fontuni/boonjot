@@ -1,5 +1,3 @@
-source: pages
-destination: pages/_site
 encoding: utf-8
 
 # Site settings
@@ -7,3 +5,5 @@ title: บุญจด ฟอนต์หรรษา | BoonJot Font Testing
 
 # Build settings
 markdown: kramdown
+
+exclude: [libraries, sources, build.py, README.md, OFL.txt]
