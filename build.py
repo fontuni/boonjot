@@ -47,7 +47,7 @@ def buildFont(source,family,weight):
   setFontInfo(source,family,weight)
 
   ttf = build_dir + font.fontname + '.ttf'
-  of = build_dir + font.fontname + '.otf'
+  otf = build_dir + font.fontname + '.otf'
   genflags  = ('opentype', 'PfEd-lookups', 'no-hints')
 
   for feature in features:
@@ -55,8 +55,8 @@ def buildFont(source,family,weight):
 
   font.generate(ttf, flags=genflags)
   printFontInfo(ttf)
-  font.generate(of, flags=genflags)
-  printFontInfo(ttf)
+  font.generate(otf, flags=genflags)
+  printFontInfo(otf)
   font.close()
 
 if not os.path.exists(build_dir):
