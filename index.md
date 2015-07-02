@@ -6,6 +6,9 @@ permalink: /
 
 ฝุ่นน้ำท้องฟ้า ทุ่งหญ้าป้ำเป๋อ ชนชั้นกระฎุมพี เป่าปี่กตัญญู
 
+ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ
+{: lang="pi-Thai"}
+
 Quick zephyrs blow, vexing daft Jim.
 
 Do bạch kim rất quý, sẽ để lắp vô xương.
