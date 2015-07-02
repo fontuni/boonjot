@@ -1,6 +1,5 @@
-# Buid dirs
-build/*
-tmp/*
+# temp dirs
+temp/*
 
 *.DS_Store
 *.swp
