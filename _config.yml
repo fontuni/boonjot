@@ -6,4 +6,4 @@ title: บุญจด ฟอนต์หรรษา | BoonJot Font Testing
 # Build settings
 markdown: kramdown
 
-exclude: [libraries, sources, build.py, README.md, OFL.txt]
+exclude: [libraries, sources, scripts, README.md, OFL.txt]

@@ -11,7 +11,7 @@ Binary fonts were already built & included in `fonts` dir but you can do it your
 - Install FontForge (+Python extention)
 - Clone this repos & get inside it.
 - Run `git submodule init && git submodule update`
-- Run `fontforge -script build.py`
+- Run `fontforge -script scripts/build.py`
 
 ## Serve Test Pages (locally)
 
@@ -21,5 +21,18 @@ I'm just too lazy to write HTML by hand, Markdown is pretty much easier (but Jek
 - Install Gem 'github-pages'
 - (Jekyll also requires NodeJS or another JavaScript runtime, [nvm](https://github.com/creationix/nvm) is recommended if you want NodeJS.)
 - Run `jekyll serve`
-- Open your browser & go to `http://localhost:4000/`
+- Open your browser & go to <http://localhost:4000/>
+
+## CSS workarounds
+
+- The `locl` feature only works for installed fonts. For web fonts we need to precisely enable this feature like this one:
+    ```css
+    html {
+      -moz-font-feature-settings:"locl" 1; 
+      -ms-font-feature-settings:"locl" 1; 
+      -o-font-feature-settings:"locl" 1; 
+      -webkit-font-feature-settings:"locl" 1; 
+      font-feature-settings:"locl" 1;
+    }
+    ```
 

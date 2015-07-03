@@ -39,6 +39,7 @@ Příliš žluťoučký kůň úpěl ďábelské ódy
 Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa
 
 Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie kilowaţioră.
+{: lang="ro"}
 
 Egy hűtlen vejét fülöncsípő, dühös mexikói úr Wesselényinél mázol Quitóban.
 

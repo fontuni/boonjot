@@ -14,14 +14,30 @@ $font-family: "BoonJot";
   font-style: normal;
 }
 
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+@mixin ot-feature($tag) {
+  @include vendor-prefix(font-feature-settings, #{$tag})
+}
+
+html {
+  @include ot-feature('"locl" 1');
+}
+
 .ss01,
 [lang|="pi"],
 [lang|="sa"] {
-  -moz-font-feature-settings:"ss01" 1; 
-  -ms-font-feature-settings:"ss01" 1; 
-  -o-font-feature-settings:"ss01" 1; 
-  -webkit-font-feature-settings:"ss01" 1; 
-  font-feature-settings:"ss01" 1;
+  @include ot-feature('"ss01"');
+}
+
+.tnum {
+  @include ot-feature('"tnum"');
 }
 
 

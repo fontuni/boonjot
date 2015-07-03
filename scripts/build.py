@@ -68,10 +68,11 @@ def ttf2Woff(ttf,woff,genflags):
 
 def buildFont(source,family,weight):
   font = fontforge.open(source)
+
   setFontInfo(source,family,weight)
 
   for feature in features:
-    font.mergeFeature(feature_dir + feature + '.fea')  
+    font.mergeFeature(feature_dir + feature + '.fea')
 
   genflags  = ('opentype', 'PfEd-lookups', 'no-hints')
 
@@ -86,10 +87,11 @@ def buildFont(source,family,weight):
   ttf2Woff(ttf,woff,genflags)
   subprocess.call(['woff2_compress',ttf])
 
+  font.save('sources/boonjot-master-temp.sfd')
   font.close()
 
-if not os.path.exists(build_dir):
-  os.makedirs(build_dir)
+if not os.path.exists(unhinted_dir):
+  os.makedirs(unhinted_dir)
 
 for weight in weights:
   buildFont(source,family,weight)

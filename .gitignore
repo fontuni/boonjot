@@ -1,5 +1,6 @@
 # temp dirs
-temp/*
+*bak
+*temp*
 
 *.DS_Store
 *.swp
