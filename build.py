@@ -10,16 +10,18 @@
 # This script will only work with FontForge's Python extension.
 import fontforge
 import os
+import subprocess
 
 # Predifined vars
 family = 'BoonJot'
-version = '1.0-alpha1'
-source = 'sources/BoonJot-400.ufo'
+version = '1.0-alpha2'
+source = 'sources/boonjot-master.sfd'
 weights = [400]
 copyright =  'Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).'
 features = ['Thai-Basic', 'Latin-4']
 feature_dir = 'libraries/f0ntuni/features/'
 build_dir = 'fonts/'
+unhinted_dir = 'fonts/unhinted/'
 
 def setFontInfo(source,family,weight):
   font = fontforge.open(source)
@@ -30,10 +32,12 @@ def setFontInfo(source,family,weight):
   font.os2_weight = weight
   font.version = version
   font.copyright = copyright
+  font.save()
 
 def printFontInfo(fontfile):
   font = fontforge.open(fontfile)
-  print('\nFamily Name: ' + font.familyname)
+  print('\nFont File: ' + fontfile)
+  print('Family Name: ' + font.familyname)
   print('Font Name: ' + font.fontname)
   print('Full Name: ' + font.fullname)
   print('Font Weight: ' + font.weight)
@@ -42,21 +46,46 @@ def printFontInfo(fontfile):
   print('Font Copyright: ' + font.copyright)
   font.close()
 
+def ttfHint(unhinted,hinted):
+  subprocess.call([
+    'ttfautohint',
+    '--default-script=thai',
+    '--fallback-script=latn',
+    '--strong-stem-width=gGD',
+    '--hinting-range-min=8',
+    '--hinting-range-max=50',
+    '--hinting-limit=200',
+    '--increase-x-height=12',
+    '--verbose',
+    unhinted,
+    hinted
+  ])
+
+def ttf2Woff(ttf,woff,genflags):
+  font = fontforge.open(ttf)
+  font.generate(woff, flags=genflags)
+  font.close()
+
 def buildFont(source,family,weight):
   font = fontforge.open(source)
   setFontInfo(source,family,weight)
 
-  ttf = build_dir + font.fontname + '.ttf'
-  otf = build_dir + font.fontname + '.otf'
-  genflags  = ('opentype', 'PfEd-lookups', 'no-hints')
-
   for feature in features:
     font.mergeFeature(feature_dir + feature + '.fea')  
 
-  font.generate(ttf, flags=genflags)
+  genflags  = ('opentype', 'PfEd-lookups', 'no-hints')
+
+  ttf = build_dir + font.fontname + '.ttf'
+  woff = build_dir + font.fontname + '.woff'
+  ttfunhinted = unhinted_dir + font.fontname + '-unhinted.ttf'
+
+  font.generate(ttfunhinted, flags=genflags)
+  ttfHint(ttfunhinted,ttf)
   printFontInfo(ttf)
-  font.generate(otf, flags=genflags)
-  printFontInfo(otf)
+
+  ttf2Woff(ttf,woff,genflags)
+  subprocess.call(['woff2_compress',ttf])
+
   font.close()
 
 if not os.path.exists(build_dir):

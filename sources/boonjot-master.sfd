@@ -3,8 +3,8 @@ FontName: BoonJot-400
 FullName: BoonJot 400
 FamilyName: BoonJot
 Weight: 400
-Copyright: Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com). \n      \nThis Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
-Version: 1.0-alpha1
+Copyright: Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+Version: 1.0-alpha2
 ItalicAngle: 0
 UnderlinePosition: -120
 UnderlineWidth: 60
@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435153839
-ModificationTime: 1435772122
+ModificationTime: 1435882539
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -64,8 +64,16 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 14 7
-BeginPrivate: 0
+WinInfo: 28 14 7
+BeginPrivate: 8
+BlueValues 32 [-30 -3 601 624 804 821 846 876]
+StdHW 4 [78]
+StdVW 5 [108]
+StemSnapH 13 [60 68 72 78]
+StemSnapV 12 [98 104 108]
+BlueShift 1 7
+BlueScale 8 0.039625
+OtherBlues 11 [-261 -246]
 EndPrivate
 AnchorClass2: "ThaiBelow.mark" "" "ThaiAbove.mark" "" "ThaiAbove.left.mark" "" "ThaiOpt.mark" "" "ThaiBelow.mkmk" "" "ThaiAbove.mkmk" "" "LatinAbove.mark" "" "LatinBelow.mark" "" "LatinAbove.mark_1" "" "LatinCedilla.mark" "" "LatinOgonek.mark" "" "LatinAbove.mkmk" "" "LatinBelow.mkmk" "" 
 BeginChars: 1114113 733
@@ -137,7 +145,7 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 3
-AltUni2: 000009.ffffffff.0 0000a0.ffffffff.0
+AltUni2: 0000a0.ffffffff.0 000009.ffffffff.0
 Width: 360
 VWidth: 0
 GlyphClass: 2

@@ -66,5 +66,17 @@ Egy hűtlen vejét fülöncsípő, dühös mexikói úr Wesselényinél mázol Q
 Đông Nam Á là một khu vực của châu Á, bao gồm các nước nằm ở phía nam Trung Quốc, phía đông Ấn Độ và phía bắc của Úc, rộng 4.494.047 km² và bao gồm 11 quốc gia: Brunei, Campuchia, Đông Timor, Indonesia, Lào, Malaysia, Myanma, Philippines, Singapore, Thái Lan và Việt Nam cũng có chỗ ở Papua New Guinea. Vào năm 2004, dân số của cả khu vực lên đến 556.2 triệu người (số liệu năm 2005), trong đó hơn 1/6 sống trên đảo Java (Indonesia).
 {: style="font-size:12px;"}
 
+เอเชียตะวันออกเฉียงใต้, อุษาคเนย์ หรือ เอเชียอาคเนย์ เป็นอนุภูมิภาคของทวีปเอเชีย ประกอบด้วยประเทศซึ่งทิศเหนือติดจีน ทิศตะวันตกติดอินเดีย ทิศตะวันออกติดปาปัวนิวกินี และทิศใต้ติดออสเตรเลีย ภูมิภาคดังกล่าวตั้งอยู่บนรอยต่อของแผ่นทวีปหลายแผ่นที่ยังมีการไหวสะเทือนรุนแรงและการปะทุของภูเขาไฟอยู่ต่อเนื่อง เอเชียตะวันออกเฉียงใต้แบ่งได้ภาคภูมิศาสตร์ได้สองภาค ได้แก่ เอเชียตะวันออกเฉียงใต้แผ่นดินใหญ่ หรืออินโดจีน ประกอบด้วย กัมพูชา ลาว พม่า ไทย เวียดนาม และมาเลเซียตะวันตก และเอเชียตะวันออกเฉียงใต้สมุทร ประกอบด้วย บรูไน มาเลเซียตะวันออก ติมอร์-เลสเต อินโดนีเซีย ฟิลิปปินส์ และสิงคโปร์
+{: style="font-size:10px;"}
+
+Đông Nam Á là một khu vực của châu Á, bao gồm các nước nằm ở phía nam Trung Quốc, phía đông Ấn Độ và phía bắc của Úc, rộng 4.494.047 km² và bao gồm 11 quốc gia: Brunei, Campuchia, Đông Timor, Indonesia, Lào, Malaysia, Myanma, Philippines, Singapore, Thái Lan và Việt Nam cũng có chỗ ở Papua New Guinea. Vào năm 2004, dân số của cả khu vực lên đến 556.2 triệu người (số liệu năm 2005), trong đó hơn 1/6 sống trên đảo Java (Indonesia).
+{: style="font-size:10px;"}
+
+เอเชียตะวันออกเฉียงใต้, อุษาคเนย์ หรือ เอเชียอาคเนย์ เป็นอนุภูมิภาคของทวีปเอเชีย ประกอบด้วยประเทศซึ่งทิศเหนือติดจีน ทิศตะวันตกติดอินเดีย ทิศตะวันออกติดปาปัวนิวกินี และทิศใต้ติดออสเตรเลีย ภูมิภาคดังกล่าวตั้งอยู่บนรอยต่อของแผ่นทวีปหลายแผ่นที่ยังมีการไหวสะเทือนรุนแรงและการปะทุของภูเขาไฟอยู่ต่อเนื่อง เอเชียตะวันออกเฉียงใต้แบ่งได้ภาคภูมิศาสตร์ได้สองภาค ได้แก่ เอเชียตะวันออกเฉียงใต้แผ่นดินใหญ่ หรืออินโดจีน ประกอบด้วย กัมพูชา ลาว พม่า ไทย เวียดนาม และมาเลเซียตะวันตก และเอเชียตะวันออกเฉียงใต้สมุทร ประกอบด้วย บรูไน มาเลเซียตะวันออก ติมอร์-เลสเต อินโดนีเซีย ฟิลิปปินส์ และสิงคโปร์
+{: style="font-size:8px;"}
+
+Đông Nam Á là một khu vực của châu Á, bao gồm các nước nằm ở phía nam Trung Quốc, phía đông Ấn Độ và phía bắc của Úc, rộng 4.494.047 km² và bao gồm 11 quốc gia: Brunei, Campuchia, Đông Timor, Indonesia, Lào, Malaysia, Myanma, Philippines, Singapore, Thái Lan và Việt Nam cũng có chỗ ở Papua New Guinea. Vào năm 2004, dân số của cả khu vực lên đến 556.2 triệu người (số liệu năm 2005), trong đó hơn 1/6 sống trên đảo Java (Indonesia).
+{: style="font-size:8px;"}
+
 
 

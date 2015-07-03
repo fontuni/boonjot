@@ -7,7 +7,9 @@ $font-family: "BoonJot";
 
 @font-face {
   font-family: $font-family;
-  src: url(../fonts/BoonJot-400.ttf);
+  src: url('../fonts/BoonJot-400.woff2') format('woff2'),
+       url('../fonts/BoonJot-400.woff') format('woff'),
+       url('../fonts/BoonJot-400.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
