@@ -38,7 +38,7 @@ I'm just too lazy to write HTML by hand, Markdown is pretty much easier (but Jek
   }
   ```
 
-# Known issues & Wontfix
+## Known issues & Wontfix
 
 See [#12](https://github.com/fontuni/boonjot/issues/12)
 

@@ -19,7 +19,7 @@ source = 'sources/boonjot-master.sfd'
 weights = [400]
 copyright =  'Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).'
 features = ['Thai-Basic', 'Latin-4']
-feature_dir = 'libraries/f0ntuni/features/'
+feature_dir = 'libraries/fontuni/features/'
 build_dir = 'fonts/'
 unhinted_dir = 'fonts/unhinted/'
 
