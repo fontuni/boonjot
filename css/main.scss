@@ -22,8 +22,8 @@ $font-family: "BoonJot";
   #{$name}: #{$argument};
 }
 
-@mixin ot-feature($tag) {
-  @include vendor-prefix(font-feature-settings, #{$tag})
+@mixin ot-feature($argument) {
+  @include vendor-prefix(font-feature-settings, #{$argument})
 }
 
 html {
@@ -32,7 +32,9 @@ html {
 
 .ss01,
 [lang|="pi"],
-[lang|="sa"] {
+[lang|="sa"],
+[lang|="ro"],
+[lang|="mo"] {
   @include ot-feature('"ss01"');
 }
 
@@ -40,6 +42,29 @@ html {
   @include ot-feature('"tnum"');
 }
 
+.pnum {
+  @include ot-feature('"pnum"');
+}
+
+.sups {
+  @include ot-feature('"sups"');
+}
+
+.subs {
+  @include ot-feature('"subs"');
+}
+
+.numr {
+  @include ot-feature('"numr"');
+}
+
+.dnom {
+  @include ot-feature('"dnom"');
+}
+
+.frac {
+  @include ot-feature('"frac"');
+}
 
 // Our variables
 $base-font-family: $font-family;
@@ -58,7 +83,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        840px;
 
 
 
