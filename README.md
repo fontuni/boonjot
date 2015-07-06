@@ -10,6 +10,7 @@ Binary fonts were already built & included in `fonts` dir but you can do it your
 
 - Install FontForge (+Python extention)
 - Compile ttfautohint from dev repo <http://repo.or.cz/w/ttfautohint.git> or `brew install ttfautohint --HEAD` for better Thai hinting.
+- Compile Google's woff2 compressor <https://github.com/google/woff2>.
 - Clone this repos & get inside it.
 - Fontuni library is required for building OT features. Run `git submodule init && git submodule update`
 - Then run `fontforge -script scripts/build.py` to build TTF, WOFF & WOFF2 fonts
