@@ -14,7 +14,7 @@ import subprocess
 
 # Predifined vars
 family = 'BoonJot'
-version = '1.0-alpha2'
+version = '1.0-beta1'
 source = 'sources/boonjot-master.sfd'
 weights = [400]
 copyright =  'Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).'

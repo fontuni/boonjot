@@ -4,7 +4,7 @@ FullName: BoonJot 400
 FamilyName: BoonJot
 Weight: 400
 Copyright: Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
-Version: 1.0-alpha2
+Version: 1.0-beta1
 ItalicAngle: 0
 UnderlinePosition: -120
 UnderlineWidth: 60
@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435153839
-ModificationTime: 1435991799
+ModificationTime: 1436185436
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,6 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 364 14 7
 BeginPrivate: 8
 BlueValues 32 [-30 -3 601 624 804 821 846 876]
 StdHW 4 [78]
@@ -149,7 +148,7 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 3
-AltUni2: 000009.ffffffff.0 0000a0.ffffffff.0
+AltUni2: 0000a0.ffffffff.0 000009.ffffffff.0
 Width: 330
 VWidth: 0
 GlyphClass: 2
@@ -987,7 +986,7 @@ Encoding: 48 48 20
 Width: 710
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -24 80<305.077 434.163> 742 79<277.739 425.926>
 VStem: 61 108<230.554 580.991> 541 108<215.506 555.262>
 LayerCount: 2
@@ -999,8 +998,28 @@ SplineSet
  120 798 393 861 520 700 c 1029
 EndSplineSet
 Fore
-Refer: 733 -1 N 1 0 0 1 -5 0 2
-Validated: 1
+SplineSet
+562 685 m 257
+ 624 620 649 516 649 416 c 256
+ 649 162 551 -4 381 -22 c 256
+ 371 -23 361 -24 352 -24 c 256
+ 180 -24 61 145 61 384 c 256
+ 61 599 131 737 252 795 c 256
+ 289 813 327 821 363 821 c 256
+ 444 821 517 781 563 723 c 256
+ 567 718 569 711 569 705 c 256
+ 569 698 567 691 562 685 c 257
+459 686 m 257
+ 423 727 384 742 350 742 c 256
+ 331 742 314 738 299 730 c 256
+ 243 701 169 600 169 396 c 256
+ 169 153 303 56 374 56 c 256
+ 376 56 379 56 381 56 c 256
+ 433 62 541 143 541 404 c 256
+ 541 501 509 601 461 642 c 256
+ 454 648 451 656 451 664 c 256
+ 451 671 453 679 459 686 c 257
+EndSplineSet
 EndChar
 
 StartChar: one
@@ -21773,7 +21792,7 @@ StartChar: zero.tnum
 Encoding: 1114113 -1 733
 Width: 720
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -24 80<310.077 439.163> 742 79<282.739 430.926>
 VStem: 66 108<230.554 580.991> 546 108<215.506 555.262>
 LayerCount: 2
@@ -21800,7 +21819,7 @@ SplineSet
  459 648 456 656 456 664 c 256
  456 671 458 679 464 686 c 257
 EndSplineSet
-Validated: 1
+Refer: 18 46 S 1 0 0 1 195 345 2
 EndChar
 
 StartChar: one.tnum
