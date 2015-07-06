@@ -27,7 +27,7 @@ $font-family: "BoonJot";
 }
 
 html {
-  @include ot-feature('"locl" 1');
+  @include ot-feature('"locl", "liga", "kern" on');
 }
 
 .ss01,
