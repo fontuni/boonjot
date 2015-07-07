@@ -1,0 +1,117 @@
+/**
+ * BoojJot theme for reveal.js.
+ *
+ * Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+ *
+ */
+
+
+// Default mixins and settings -----------------
+@import "../libraries/reveal.js/css/theme/template/mixins";
+@import "../libraries/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+$font-family: "BoonJot";
+
+@font-face {
+  font-family: $font-family;
+  src: url('/fonts/BoonJot-400.woff2') format('woff2'),
+       url('/fonts/BoonJot-400.woff') format('woff'),
+       url('/fonts/BoonJot-400.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+@mixin ot-feature($argument) {
+  @include vendor-prefix(font-feature-settings, #{$argument})
+}
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$mainFontSize: 48px;
+$mainLineHeight: 1.5;
+$mainFont: $font-family;
+$headingFont: $font-family;
+$headingLineHeight: 1.25;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: capitalize;
+$headingFontWeight: 400;
+$linkColor: #2a76dd;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2em;
+$heading2Size: 1.5em;
+$heading3Size: 1.2em;
+$heading4Size: 1.0em;
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+// Theme template ------------------------------
+@import "../libraries/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+// BoonJot customizations
+
+html {
+  @include ot-feature('"locl", "liga", "kern" on');
+}
+
+.ss01,
+[lang|="pi"],
+[lang|="sa"],
+[lang|="ro"],
+[lang|="mo"] {
+  @include ot-feature('"ss01"');
+}
+
+.tnum {
+  @include ot-feature('"tnum"');
+}
+
+.pnum {
+  @include ot-feature('"pnum"');
+}
+
+.sups {
+  @include ot-feature('"sups"');
+}
+
+.subs {
+  @include ot-feature('"subs"');
+}
+
+.numr {
+  @include ot-feature('"numr"');
+}
+
+.dnom {
+  @include ot-feature('"dnom"');
+}
+
+.frac {
+  @include ot-feature('"frac"');
+}
+
+.reveal p {
+	line-height: 1.5;
+}

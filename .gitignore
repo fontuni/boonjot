@@ -1,7 +1,7 @@
 # temp dirs
 *bak
 *temp*
-
+*~
 *.DS_Store
 *.swp
 *.psd
