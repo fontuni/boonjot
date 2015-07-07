@@ -1,3 +1,6 @@
 [submodule "fontuni"]
 	path = libraries/fontuni
 	url = https://github.com/fontuni/fontuni.git
+[submodule "libraries/reveal.js"]
+	path = libraries/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
