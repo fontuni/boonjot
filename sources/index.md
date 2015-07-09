@@ -106,3 +106,7 @@ sup { font-feature-settings: "sups"; }
 ~~~
 
 <small>Don&rsquo;t worry about old encoded texts, BoonJot can correct Romanian/Moldovan for you.</small>
+
+# Fork me on GitHub
+
+<https://github.com/fontuni/boonjot>

@@ -17,7 +17,7 @@ Binary fonts were already built & included in `fonts` dir but you can do it your
 
 ## Build Pages (locally)
 
-- I use [Pandoc (v1.15+)](http://pandoc.org/installing.html#installing-from-source) & [Sass](http://sass-lang.com/install) to convert markdown to html (my in-progress [RevealJS](https://github.com/hakimel/reveal.js/) slides). If you edit the file `sources/index.md`, just run `sh scripts/build-pages.sh` to rebuild it.
+- I use [Pandoc (v1.15+)](http://pandoc.org/installing.html#installing-from-source), [RevealJS](https://github.com/hakimel/reveal.js/) & [Sass](http://sass-lang.com/install) to convert markdown to html. If you edit the file `sources/index.md`, just run `sh scripts/build-pages.sh` to rebuild it.
 - The slides won't work properly with file uri scheme (for example `file:///fontuni/boonjot/index.html`) so you need whatever webserver which can serve static html. Many built-in webservers will work just fine, for example `python2 -m SimpleHTTPServer 4000` or `python3 -m http.server 4000` or `ruby -run -e httpd -- -p 4000 .` or `php -S localhost:4000`.
 - Then open your browser & go to <http://localhost:4000/>
 
