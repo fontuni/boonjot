@@ -72,46 +72,51 @@ section.has-dark-background {
 
 // BoonJot customizations
 
-html {
+html,
+.reveal {
   @include ot-feature('"locl", "liga", "kern" on');
 }
 
-.ss01,
-[lang|="pi"],
-[lang|="sa"],
-[lang|="ro"],
-[lang|="mo"] {
-  @include ot-feature('"ss01"');
-}
+.reveal {
 
-.tnum {
-  @include ot-feature('"tnum"');
-}
+  .ss01,
+  [lang|="pi"],
+  [lang|="sa"],
+  [lang|="ro"],
+  [lang|="mo"] {
+    @include ot-feature('"ss01"');
+  }
+  
+  .tnum {
+    @include ot-feature('"tnum"');
+  }
+  
+  .pnum {
+    @include ot-feature('"pnum"');
+  }
+  
+  .sups {
+    @include ot-feature('"sups"');
+  }
+  
+  .subs {
+    @include ot-feature('"subs"');
+  }
+  
+  .numr {
+    @include ot-feature('"numr"');
+  }
+  
+  .dnom {
+    @include ot-feature('"dnom"');
+  }
+  
+  .frac {
+    @include ot-feature('"frac"');
+  }
+  
+  p {
+    line-height: 1.5;
+  }
 
-.pnum {
-  @include ot-feature('"pnum"');
-}
-
-.sups {
-  @include ot-feature('"sups"');
-}
-
-.subs {
-  @include ot-feature('"subs"');
-}
-
-.numr {
-  @include ot-feature('"numr"');
-}
-
-.dnom {
-  @include ot-feature('"dnom"');
-}
-
-.frac {
-  @include ot-feature('"frac"');
-}
-
-.reveal p {
-	line-height: 1.5;
-}
+} // end .reveal
