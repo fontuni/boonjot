@@ -26,9 +26,8 @@ $font-family: "BoonJot";
 
 @mixin vendor-prefix($name, $argument) {
   -webkit-#{$name}: #{$argument};
-  -ms-#{$name}: #{$argument};
   -moz-#{$name}: #{$argument};
-  -o-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
   #{$name}: #{$argument};
 }
 
@@ -37,12 +36,12 @@ $font-family: "BoonJot";
 }
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #fff;
+$backgroundColor: #fcfcfc;
 
 $mainColor: #222;
 $headingColor: #222;
 
-$mainFontSize: 48px;
+$mainFontSize: 60px;
 $mainLineHeight: 1.5;
 $mainFont: $font-family;
 $headingFont: $font-family;
@@ -55,10 +54,10 @@ $linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
-$heading1Size: 2em;
-$heading2Size: 1.5em;
-$heading3Size: 1.2em;
-$heading4Size: 1.0em;
+$heading1Size: 24px;
+$heading2Size: 18px;
+$heading3Size: 15px;
+$heading4Size: 12px;
 
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
@@ -71,12 +70,11 @@ section.has-dark-background {
 // ---------------------------------------------
 
 // BoonJot customizations
-
 body .reveal {
-  @include ot-feature('"locl", "liga", "kern" on');
-}
 
-body .reveal {
+  @include ot-feature('"locl"');
+  @include vendor-prefix(font-kerning, normal);
+  @include vendor-prefix(font-variant, common-ligatures);
 
   .ss01,
   [lang|="pi"],
@@ -94,11 +92,11 @@ body .reveal {
     @include ot-feature('"pnum"');
   }
   
-  .sups {
+  sup, .sups {
     @include ot-feature('"sups"');
   }
   
-  .subs {
+  sub, .subs {
     @include ot-feature('"subs"');
   }
   
@@ -117,5 +115,27 @@ body .reveal {
   p {
     line-height: 1.5;
   }
+
+  .slides {
+    text-align: left;
+    section:first-child {
+      h1 {
+        font-size: 1em;
+        margin-bottom: 60px;
+      }
+      h2,h3 {
+        font-size: 0.5em;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  pre {
+    margin: 0;
+    width: 100%;
+    code { font-size: 24px; }
+  }
+
+  small { font-size: 18px; }
 
 } // end .reveal
