@@ -3,4 +3,4 @@
 	url = https://github.com/fontuni/fontuni.git
 [submodule "libraries/reveal.js"]
 	path = libraries/reveal.js
-	url = https://github.com/fontuni/reveal.js.git
+	url = https://github.com/hakimel/reveal.js.git
