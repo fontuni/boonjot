@@ -72,12 +72,11 @@ section.has-dark-background {
 
 // BoonJot customizations
 
-html,
-.reveal {
+body .reveal {
   @include ot-feature('"locl", "liga", "kern" on');
 }
 
-.reveal {
+body .reveal {
 
   .ss01,
   [lang|="pi"],
