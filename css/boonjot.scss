@@ -54,10 +54,10 @@ $linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
-$heading1Size: 24px;
-$heading2Size: 18px;
-$heading3Size: 15px;
-$heading4Size: 12px;
+$heading1Size: 36px;
+$heading2Size: 30px;
+$heading3Size: 24px;
+$heading4Size: 20px;
 
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
@@ -118,16 +118,6 @@ body .reveal {
 
   .slides {
     text-align: left;
-    section:first-child {
-      h1 {
-        font-size: 1em;
-        margin-bottom: 60px;
-      }
-      h2,h3 {
-        font-size: 0.5em;
-        margin-bottom: 0;
-      }
-    }
   }
 
   pre {
@@ -136,6 +126,17 @@ body .reveal {
     code { font-size: 24px; }
   }
 
-  small { font-size: 18px; }
+  small { font-size: 24px; }
+  
+  header {
+    .title {
+      font-size: 60px;
+      margin-bottom: 0px;
+    }
+    .subtitle {
+      margin-bottom: 0px;
+      margin-top: 15px;
+    }
+  }
 
 } // end .reveal

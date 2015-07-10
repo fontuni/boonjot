@@ -55,16 +55,16 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 24px; }
+  font-size: 36px; }
 
 .reveal h2 {
-  font-size: 18px; }
+  font-size: 30px; }
 
 .reveal h3 {
-  font-size: 15px; }
+  font-size: 24px; }
 
 .reveal h4 {
-  font-size: 12px; }
+  font-size: 20px; }
 
 .reveal h1 {
   text-shadow: none; }
@@ -355,18 +355,18 @@ body .reveal {
     line-height: 1.5; }
   body .reveal .slides {
     text-align: left; }
-    body .reveal .slides section:first-child h1 {
-      font-size: 1em;
-      margin-bottom: 60px; }
-    body .reveal .slides section:first-child h2, body .reveal .slides section:first-child h3 {
-      font-size: 0.5em;
-      margin-bottom: 0; }
   body .reveal pre {
     margin: 0;
     width: 100%; }
     body .reveal pre code {
       font-size: 24px; }
   body .reveal small {
-    font-size: 18px; }
+    font-size: 24px; }
+  body .reveal header .title {
+    font-size: 60px;
+    margin-bottom: 0px; }
+  body .reveal header .subtitle {
+    margin-bottom: 0px;
+    margin-top: 15px; }
 
 /*# sourceMappingURL=boonjot.css.map */
