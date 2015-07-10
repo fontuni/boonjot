@@ -22,9 +22,15 @@ $highlighting-css$
 $endif$
 $if(theme)$
   <link rel="stylesheet" href="$revealjs-url$/css/theme/$theme$.css" id="theme">
+  <link rel="stylesheet" href="css/boonjot.css">
 $else$
   <link rel="stylesheet" href="css/boonjot.css" id="theme">
 $endif$
+
+<!-- For syntax highlight.js -->
+<!-- <link rel="stylesheet" href="$revealjs-url$/lib/css/zenburn.css"> -->
+<!-- <link rel="stylesheet" href="css/xcode.css"> -->
+
 $for(css)$
   <link rel="stylesheet" href="$css$"/>
 $endfor$
@@ -56,7 +62,7 @@ $endfor$
     <div class="slides">
 
 
-<section>
+<section id="cover">
 
   $if(title)$
   <header>
@@ -68,12 +74,10 @@ $endfor$
   $endif$
 
   $for(author)$
-  <div><small class="meta">
-    <span class="author">$author$</span> <span class="date">$date$</span>
-  </small></div>
+  <div class="print-hide" style="margin-top:120px;">
+    <p><small>Press arrow keys or swipe to navigate.</small></p>
+  </div>
   $endfor$
-
-  <small style="margin-top:120px;">Press arrow keys or swipe to navigate.</small>
 
 </section>
 
@@ -109,14 +113,17 @@ $body$
         // Optional libraries used to extend on reveal.js
         dependencies: [
           { src: '$revealjs-url$/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '$revealjs-url$/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
           { src: '$revealjs-url$/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
           { src: '$revealjs-url$/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
 //          { src: '$revealjs-url$/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
 //          { src: '$revealjs-url$/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 ]});
     </script>
+  
   $for(include-after)$
   $include-after$
   $endfor$
+
   </body>
 </html>

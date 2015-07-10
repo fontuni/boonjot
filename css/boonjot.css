@@ -4,6 +4,7 @@
  * Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
  *
  */
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 @font-face {
   font-family: "BoonJot";
   src: url("/fonts/BoonJot-400.woff2") format("woff2"), url("/fonts/BoonJot-400.woff") format("woff"), url("/fonts/BoonJot-400.ttf") format("truetype");
@@ -27,7 +28,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #98bdef;
+  background: #91d5ee;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -211,20 +212,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #2a76dd;
+  color: #2ad;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #6ca0e8;
+  color: #64c4e7;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #1a53a1; }
+  background: #18779b; }
 
 /*********************************************
  * IMAGES
@@ -242,7 +243,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #2a76dd;
+  border-color: #2ad;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -250,31 +251,31 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #2a76dd; }
+  border-right-color: #2ad; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #2a76dd; }
+  border-left-color: #2ad; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #2a76dd; }
+  border-bottom-color: #2ad; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #2a76dd; }
+  border-top-color: #2ad; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #6ca0e8; }
+  border-right-color: #64c4e7; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #6ca0e8; }
+  border-left-color: #64c4e7; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #6ca0e8; }
+  border-bottom-color: #64c4e7; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #6ca0e8; }
+  border-top-color: #64c4e7; }
 
 /*********************************************
  * PROGRESS BAR
@@ -283,7 +284,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #2a76dd;
+  background: #2ad;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -292,9 +293,10 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #2a76dd; }
+  color: #2ad; }
 
 body .reveal {
+  font-family: "BoonJot";
   -webkit-font-feature-settings: "locl";
   -moz-font-feature-settings: "locl";
   -ms-font-feature-settings: "locl";
@@ -330,22 +332,26 @@ body .reveal {
     -webkit-font-feature-settings: "sups";
     -moz-font-feature-settings: "sups";
     -ms-font-feature-settings: "sups";
-    font-feature-settings: "sups"; }
+    font-feature-settings: "sups";
+    vertical-align: unset; }
   body .reveal sub, body .reveal .subs {
     -webkit-font-feature-settings: "subs";
     -moz-font-feature-settings: "subs";
     -ms-font-feature-settings: "subs";
-    font-feature-settings: "subs"; }
+    font-feature-settings: "subs";
+    vertical-align: unset; }
   body .reveal .numr {
     -webkit-font-feature-settings: "numr";
     -moz-font-feature-settings: "numr";
     -ms-font-feature-settings: "numr";
-    font-feature-settings: "numr"; }
+    font-feature-settings: "numr";
+    vertical-align: unset; }
   body .reveal .dnom {
     -webkit-font-feature-settings: "dnom";
     -moz-font-feature-settings: "dnom";
     -ms-font-feature-settings: "dnom";
-    font-feature-settings: "dnom"; }
+    font-feature-settings: "dnom";
+    vertical-align: unset; }
   body .reveal .frac {
     -webkit-font-feature-settings: "frac";
     -moz-font-feature-settings: "frac";
@@ -353,20 +359,109 @@ body .reveal {
     font-feature-settings: "frac"; }
   body .reveal p {
     line-height: 1.5; }
+  body .reveal pre {
+    /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+    /* Tomorrow Comment */
+    /* Tomorrow Red */
+    /* Tomorrow Orange */
+    /* Tomorrow Yellow */
+    /* Tomorrow Green */
+    /* Tomorrow Aqua */
+    /* Tomorrow Blue */
+    /* Tomorrow Purple */
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 0 0 transparent; }
+    body .reveal pre .hljs-comment {
+      color: #8e908c; }
+    body .reveal pre .hljs-variable,
+    body .reveal pre .hljs-attribute,
+    body .reveal pre .hljs-tag,
+    body .reveal pre .hljs-regexp,
+    body .reveal pre .ruby .hljs-constant,
+    body .reveal pre .xml .hljs-tag .hljs-title,
+    body .reveal pre .xml .hljs-pi,
+    body .reveal pre .xml .hljs-doctype,
+    body .reveal pre .html .hljs-doctype,
+    body .reveal pre .css .hljs-id,
+    body .reveal pre .css .hljs-class,
+    body .reveal pre .css .hljs-pseudo {
+      color: #c82829; }
+    body .reveal pre .hljs-number,
+    body .reveal pre .hljs-preprocessor,
+    body .reveal pre .hljs-pragma,
+    body .reveal pre .hljs-built_in,
+    body .reveal pre .hljs-literal,
+    body .reveal pre .hljs-params,
+    body .reveal pre .hljs-constant {
+      color: #f5871f; }
+    body .reveal pre .ruby .hljs-class .hljs-title,
+    body .reveal pre .css .hljs-rule .hljs-attribute {
+      color: #eab700; }
+    body .reveal pre .hljs-string,
+    body .reveal pre .hljs-value,
+    body .reveal pre .hljs-inheritance,
+    body .reveal pre .hljs-header,
+    body .reveal pre .hljs-name,
+    body .reveal pre .ruby .hljs-symbol,
+    body .reveal pre .xml .hljs-cdata {
+      color: #718c00; }
+    body .reveal pre .hljs-title,
+    body .reveal pre .css .hljs-hexcolor {
+      color: #3e999f; }
+    body .reveal pre .hljs-function,
+    body .reveal pre .python .hljs-decorator,
+    body .reveal pre .python .hljs-title,
+    body .reveal pre .ruby .hljs-function .hljs-title,
+    body .reveal pre .ruby .hljs-title .hljs-keyword,
+    body .reveal pre .perl .hljs-sub,
+    body .reveal pre .javascript .hljs-title,
+    body .reveal pre .coffeescript .hljs-title {
+      color: #4271ae; }
+    body .reveal pre .hljs-keyword,
+    body .reveal pre .javascript .hljs-function {
+      color: #8959a8; }
+    body .reveal pre .hljs {
+      display: block;
+      overflow-x: auto;
+      background: white;
+      color: #4d4d4c;
+      padding: 0.5em;
+      -webkit-text-size-adjust: none; }
+    body .reveal pre .coffeescript .javascript,
+    body .reveal pre .javascript .xml,
+    body .reveal pre .tex .hljs-formula,
+    body .reveal pre .xml .javascript,
+    body .reveal pre .xml .vbscript,
+    body .reveal pre .xml .css,
+    body .reveal pre .xml .hljs-cdata {
+      opacity: 0.5; }
+  body .reveal small {
+    font-size: 24px;
+    line-height: 1.5em; }
   body .reveal .slides {
     text-align: left; }
-  body .reveal pre {
-    margin: 0;
-    width: 100%; }
-    body .reveal pre code {
-      font-size: 24px; }
-  body .reveal small {
-    font-size: 24px; }
+    body .reveal .slides .slide h1:first-child {
+      background: #fff;
+      padding: 0.12em 0.35em;
+      margin-bottom: 30px;
+      border: 1px solid #efefef;
+      box-shadow: 0 0 0.1em #efefef;
+      border-radius: 4px; }
+      body .reveal .slides .slide h1:first-child:before {
+        content: "\0E4F\00A0"; }
   body .reveal header .title {
     font-size: 60px;
     margin-bottom: 0px; }
   body .reveal header .subtitle {
     margin-bottom: 0px;
     margin-top: 15px; }
+  @media print {
+    body .reveal .print-hide {
+      display: none; } }
 
 /*# sourceMappingURL=boonjot.css.map */

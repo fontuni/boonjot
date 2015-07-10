@@ -24,6 +24,9 @@ $font-family: "BoonJot";
   font-style: normal;
 }
 
+// monospaced font
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
 @mixin vendor-prefix($name, $argument) {
   -webkit-#{$name}: #{$argument};
   -moz-#{$name}: #{$argument};
@@ -50,7 +53,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: capitalize;
 $headingFontWeight: 400;
-$linkColor: #2a76dd;
+$linkColor: #2ad;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
@@ -71,6 +74,8 @@ section.has-dark-background {
 
 // BoonJot customizations
 body .reveal {
+
+  font-family: $font-family;
 
   @include ot-feature('"locl"');
   @include vendor-prefix(font-kerning, normal);
@@ -94,18 +99,22 @@ body .reveal {
   
   sup, .sups {
     @include ot-feature('"sups"');
+    vertical-align: unset;
   }
   
   sub, .subs {
     @include ot-feature('"subs"');
+    vertical-align: unset;
   }
   
   .numr {
     @include ot-feature('"numr"');
+    vertical-align: unset;
   }
   
   .dnom {
     @include ot-feature('"dnom"');
+    vertical-align: unset;
   }
   
   .frac {
@@ -116,17 +125,38 @@ body .reveal {
     line-height: 1.5;
   }
 
-  .slides {
-    text-align: left;
-  }
-
   pre {
+    @import "tomorrow";
+
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 24px;
     margin: 0;
     width: 100%;
-    code { font-size: 24px; }
+    border: 1px solid darken( $backgroundColor, 10% );
+    box-shadow: 0 0 0 transparent;
   }
 
-  small { font-size: 24px; }
+  small {
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+
+  .slides {
+    text-align: left;
+    .slide h1:first-child {
+      background: #fff;
+      //color: $backgroundColor;
+      padding: 0.12em 0.35em;
+      margin-bottom: 30px;
+      border: 1px solid darken( $backgroundColor, 5% );
+      box-shadow: 0 0 0.1em darken( $backgroundColor, 5% );
+      border-radius: 4px;
+      &:before {
+        content: "\0E4F\00A0";
+      }
+    }
+  }
   
   header {
     .title {
@@ -137,6 +167,10 @@ body .reveal {
       margin-bottom: 0px;
       margin-top: 15px;
     }
+  }
+
+  @media print {
+    .print-hide { display: none; }
   }
 
 } // end .reveal

@@ -35,6 +35,5 @@ for (var i = 0, len = texts.length; i<len; i++) {
   texts[i].nodeValue = _nv.replace(glyphReplace, function(matched){return glyphObj[matched]});
   
   // debugging
-  console.log(texts[i].nodeValue);
+  // console.log(texts[i].nodeValue);
 }
-

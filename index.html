@@ -11,6 +11,11 @@
   <link rel="stylesheet" href="libraries/reveal.js/css/reveal.css"/>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="css/boonjot.css" id="theme">
+
+<!-- For syntax highlight.js -->
+<!-- <link rel="stylesheet" href="libraries/reveal.js/lib/css/zenburn.css"> -->
+<!-- <link rel="stylesheet" href="css/xcode.css"> -->
+
   <!-- If the query includes 'print-pdf', include the PDF print sheet -->
   <script>
     if( window.location.search.match( /print-pdf/gi ) ) {
@@ -30,24 +35,22 @@
     <div class="slides">
 
 
-<section>
+<section id="cover">
 
     <header>
     <h1 class="title">บุญจด ฟอนต์หรรษา</h1>
         <h2 class="subtitle">BoonJot Font</h2>
       </header>
   
-    <div><small class="meta">
-    <span class="author">สังศิต ไสววรรณ</span> <span class="date">๑๐ กรกฎาคม ๒๕๕๘</span>
-  </small></div>
+    <div class="print-hide" style="margin-top:120px;">
+    <p><small>Press arrow keys or swipe to navigate.</small></p>
+  </div>
   
-  <small style="margin-top:120px;">Press arrow keys or swipe to navigate.</small>
-
 </section>
 
 
 <section id="ภาษาไทยมาตรฐาน" class="slide level1">
-<h1>๏ ภาษาไทยมาตรฐาน</h1>
+<h1>ภาษาไทยมาตรฐาน</h1>
 <p>ฝุ่นน้ำท้องฟ้า<br />
 ทุ่งหญ้าป้ำเป๋อ<br />
 ชนชั้นกระฎุมพี<br />
@@ -55,40 +58,36 @@
 <p><small>ถึงหน้าตาจะขี้เล่น แต่บุญจดรู้เรื่องการวางตำแหน่งตัวอักษรและเข้าใจวิธีเขียนภาษาไทยมาตรฐานในเว็บบราวเซอร์สมัยใหม่นะฮะ</small></p>
 </section>
 <section id="ภาษาบาลสนสกฤต" class="slide level1">
-<h1>๏ ภาษาบาลี/สันสกฤต</h1>
+<h1>ภาษาบาลี/สันสกฤต</h1>
 <p lang="pi-Thai">
 ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ
 </p>
-<p><small>แถมใช้บุญจดเขียนบาลี/สันสกฤตใน HTML ได้ด้วย <code>lang=&quot;pi-Thai&quot;</code> แต่ต้องใช้ CSS+JS ช่วยนิดหน่อยสำหรับบราวเซอร์รุ่นโบราณ</small></p>
+<p><small>บุญจดใช้เขียนบาลี/สันสกฤตใน HTML ได้ด้วย <code>lang=&quot;pi-Thai&quot;</code> แต่ต้องใช้ CSS+JS ช่วยนิดหน่อยสำหรับบราวเซอร์รุ่นโบราณ</small></p>
 <pre class="html"><code>&lt;p lang=&quot;pi-Thai&quot;&gt;ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ&lt;/p&gt;</code></pre>
 <pre class="css"><code>body { font-feature-settings: &quot;locl&quot;; }</code></pre>
 </section>
 <section id="ภาษาชาตพนธ" class="slide level1">
-<h1>๏ ภาษาชาติพันธุ์</h1>
+<h1>ภาษาชาติพันธุ์</h1>
 <p>ปะเฺติ็ลฺ โฺญฺ็จฺ ปั็วฮฺ ทฺ็อง เปฺิ็ว มูํย แต็่ง เจฺํอ<br />
 เปรฺิ่ห์ โจ๊่ เปฺี่ย โฺทร ม็่อง เติ็ง อาื ยาึ จือรฺุ การฺู</p>
 <p><small>บุญจดรับมือวิธีเขียนที่ซับซ้อนกว่าภาษาไทยมาตรฐานได้แต่กำเนิดอีกต่างหาก <span style="font-size:120px;line-height:2.1em;">ฮฺูุ็ํ้!!!</span></small></p>
 </section>
 <section id="thai-ligatures" class="slide level1">
-<h1>๏ Thai Ligatures</h1>
+<h1>Thai Ligatures</h1>
 <p>ฤๅ ฦๅ ๏่่ ๏..</p>
 <p><small>อันนี้ของแถมสำหรับภาษาไทย เปิดใช้งาน Ligatures ได้ด้วย CSS</small></p>
 <pre><code>ฤๅ ฦๅ ๏่่ ๏..</code></pre>
 <pre class="css"><code>body { font-variant: common-ligatures; }</code></pre>
 </section>
 <section id="mixed-language-paragraphs" class="slide level1">
-<h1>๏ Mixed language paragraphs</h1>
-<p style="font-size:21px; text-align:left;">
-ฝุ่นน้ำท้องฟ้า ทุ่งหญ้าป้ำเป๋อ ชนชั้นกระฎุมพี เป่าปี่กตัญญู <span lang="pi-Thai">ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ</span> ปะเฺติ็ลฺ โฺญฺ็จฺ ปั็วฮฺ ทฺ็อง เปฺิ็ว มูํย แต็่ง เจฺํอ เปรฺิ่ห์ โจ๊่ เปฺี่ย โฺทร ม็่อง เติ็ง อาื ยาึ จือรฺุ การฺู Quick zephyrs blow, vexing daft Jim. Do bạch kim rất quý, sẽ để lắp vô xương. „Fix, Schwyz!“ quäkt Jürgen blöd vom Paß. „Oh, welch Zynismus!“, quiekte Xavers jadegrüne Bratpfanne. Voyez le brick géant que j'examine près du wharf Quel vituperabile xenofobo zelante assaggia il whisky ed esclama: alleluja! Queda gazpacho, fibra, látex, jamón, kiwi y viñas. Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português.
+<h1>Mixed language paragraphs</h1>
+<p style="font-size:24px; text-align:left;">
+ฝุ่นน้ำท้องฟ้า ทุ่งหญ้าป้ำเป๋อ ชนชั้นกระฎุมพี เป่าปี่กตัญญู <span lang="pi-Thai">ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ</span> ปะเฺติ็ลฺ โฺญฺ็จฺ ปั็วฮฺ ทฺ็อง เปฺิ็ว มูํย แต็่ง เจฺํอ เปรฺิ่ห์ โจ๊่ เปฺี่ย โฺทร ม็่อง เติ็ง อาื ยาึ จือรฺุ การฺู Quick zephyrs blow, vexing daft Jim. Do bạch kim rất quý, sẽ để lắp vô xương. „Fix, Schwyz!“ quäkt Jürgen blöd vom Paß. „Oh, welch Zynismus!“, quiekte Xavers jadegrüne Bratpfanne. Voyez le brick géant que j'examine près du wharf Quel vituperabile xenofobo zelante assaggia il whisky ed esclama: alleluja! Queda gazpacho, fibra, látex, jamón, kiwi y viñas. Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português. Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi! Laŭ Ludoviko Zamenhof bongustas freŝa ĉeĥa manĝaĵo kun spicoj. Høj bly gom vandt fræk sexquiz på wc Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi. Pójdźże, kiń tę chmurność w głąb flaszy! Příliš žluťoučký kůň úpěl ďábelské ódy Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa. Egy hűtlen vejét fülöncsípő, dühös mexikói úr Wesselényinél mázol Quitóban.
 </p>
-<p style="font-size:21px; text-align:left;">
-Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi! Laŭ Ludoviko Zamenhof bongustas freŝa ĉeĥa manĝaĵo kun spicoj. Høj bly gom vandt fræk sexquiz på wc Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi. Pójdźże, kiń tę chmurność w głąb flaszy! Příliš žluťoučký kůň úpěl ďábelské ódy Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa. <span lang="ro">Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie kilowaţioră.</span> Egy hűtlen vejét fülöncsípő, dühös mexikói úr Wesselényinél mázol Quitóban.
-</p>
-<p><small>Enable font kerning with CSS code above if you want this feature for small texts.</small></p>
 <pre class="css"><code>body { font-kerning: normal; }</code></pre>
 </section>
 <section id="subscripts-superscripts" class="slide level1">
-<h1>๏ Subscripts &amp; Superscripts</h1>
+<h1>Subscripts &amp; Superscripts</h1>
 <p>H<sub>2</sub>O × 9.87<sup>654</sup> ≠ √π ÷ World<sup>3</sup>!</p>
 <p><small>You can easily write subscripts &amp; superscripts with <code>&lt;sub&gt;</code> &amp; <code>&lt;sup&gt;</code> elements, just enable BoonJot’s features.</small></p>
 <pre class="html"><code>H&lt;sub&gt;2&lt;/sub&gt;O &amp;times; 9.87&lt;sup&gt;654&lt;/sup&gt; &amp;#x2260; &amp;radic;&amp;pi; &amp;divide; World&lt;sup&gt;3&lt;/sup&gt;!</code></pre>
@@ -96,7 +95,7 @@ Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi! Laŭ Ludoviko Zamenh
 sup { font-feature-settings: &quot;sups&quot;; }</code></pre>
 </section>
 <section id="fractions" class="slide level1">
-<h1>๏ Fractions</h1>
+<h1>Fractions</h1>
 <p>1 ¼ 5 ½ 9 ¾ <span class="frac">1/3 2/3 1/8 3/8 5/8 7/8</span></p>
 <p class="frac">
 123456789123456789/98765432109876543210
@@ -107,7 +106,7 @@ sup { font-feature-settings: &quot;sups&quot;; }</code></pre>
 <pre class="css"><code>.frac { font-feature-settings: &quot;frac&quot;; }</code></pre>
 </section>
 <section id="localized-forms" class="slide level1">
-<h1>๏ Localized forms</h1>
+<h1>Localized forms</h1>
 <p lang="ro">
 Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie kilowaţioră.
 </p>
@@ -115,7 +114,7 @@ Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie
 <pre class="html"><code>&lt;p lang=&quot;ro&quot;&gt;Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie kilowaţioră.&lt;/p&gt;</code></pre>
 </section>
 <section id="fork-me-on-github" class="slide level1">
-<h1>๏ Fork me on GitHub</h1>
+<h1>Fork me on GitHub</h1>
 <p><a href="https://github.com/fontuni/boonjot" class="uri">https://github.com/fontuni/boonjot</a></p>
 </section>
     </div>
@@ -143,11 +142,14 @@ Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie
         // Optional libraries used to extend on reveal.js
         dependencies: [
           { src: 'libraries/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'libraries/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
           { src: 'libraries/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
           { src: 'libraries/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
 //          { src: 'libraries/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
 //          { src: 'libraries/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 ]});
     </script>
-    </body>
+  
+  
+  </body>
 </html>
