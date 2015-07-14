@@ -1,0 +1,20 @@
+# BoonJot Font
+
+BoonJot is left-handed comic sans, I supposed. It’s machine-made family with unique stroke speed, pen shape & drawing direction especially Thai glyphs. 
+
+# ChangeLog
+
+v1.0-beta2: 14 July 2015
+- Improved kerning
+
+v1.0-beta1: 10 July 2015
+- Added Latin kerning
+
+v1.0-alpha2: 5 July 2015
+- Improved Thai OpenType features
+- Added more essential OpenType features
+
+v1.0-alpha1: 2 July 2015
+- Renamed from BoonThing to BoonJot
+- Added full Adobe Latin-4 + Thai glyphs
+- Added basic OpenType features

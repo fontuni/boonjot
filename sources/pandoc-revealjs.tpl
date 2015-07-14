@@ -68,14 +68,14 @@ $endfor$
   <header>
     <h1 class="title">$title$</h1>
     $if(subtitle)$
-    <h2 class="subtitle">$subtitle$</h2>
+    <h2 class="subtitle">$subtitle$$if(date)$ : $date$$endif$</h2>
     $endif$
   </header>
   $endif$
 
   $for(author)$
   <div class="print-hide" style="margin-top:120px;">
-    <p><small>Press arrow keys or swipe to navigate.</small></p>
+    <p><small>Press arrow keys or swipe the screen to navigate.</small></p>
   </div>
   $endfor$
 

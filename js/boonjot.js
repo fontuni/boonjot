@@ -37,3 +37,7 @@ for (var i = 0, len = texts.length; i<len; i++) {
   // debugging
   // console.log(texts[i].nodeValue);
 }
+
+// To-do:
+// - Check Thanthakhat vs Yamakkan transliterate for writing English with Thai script http://www.bflybook.com/Article/Yamakkan/Yamakkan.htm.
+// - OT `locl` feature for `lang="en-TH"` for example.

@@ -2,19 +2,30 @@
 title: บุญจด ฟอนต์หรรษา
 subtitle: BoonJot Font
 author: สังศิต ไสววรรณ
-date: ๑๐ กรกฎาคม ๒๕๕๘
+date: 2015/07/14
 ---
 
-# ภาษาไทยมาตรฐาน
+# ภาษาไทยมาตรฐาน (Standard Thai)
 
-ฝุ่นน้ำท้องฟ้า  
-ทุ่งหญ้าป้ำเป๋อ  
-ชนชั้นกระฎุมพี  
-เป่าปี่กตัญญู
+<div class="thai-pangram poem">
 
-<small>ถึงหน้าตาจะขี้เล่น แต่บุญจดรู้เรื่องการวางตำแหน่งตัวอักษรและเข้าใจวิธีเขียนภาษาไทยมาตรฐานในเว็บบราวเซอร์สมัยใหม่นะฮะ</small>
+กีฬาบังลังก์  | ลำดับที่ ๑,๒๓๔,๕๖๗,๘๙๐
+---------------------- | -------------------------
+๏ จับฅอคนบั่นต้อง   | อาญา
+ขุดฆ่าโคตรฃัตติยา     | ซ่านม้วย
+ธรรมฤๅผ่อนรักษา     | ใจชั่ว โฉดแฮ
+สืบอยู่เต็มศึกด้วย      | ฝุ่นฟ้ากีฬา กามฦๅ ฯ
+๏ กตัญญูไป่พร้อม    | ปฐมฌาน
+เกมส๎วัฒน์ปฏิภาณ     | ห่อนล้ำ
+ทฤษฎีถ่อยๆ สังหาร   | เกณฑ์โทษ
+โกรธจี๊ดจ๋อยจ่มถ้ำ      | อยู่เฝ้า “อตฺตา” ๚ะ๛
 
-# ภาษาบาลี/สันสกฤต
+[สังศิต ไสววรรณ ๑๒ กรกฎาคม ๒๕๕๘](https://fontuni.com/articles/2015-07-12-thai-poetgram.html)
+</div>
+
+<small>ถึงหน้าตาจะขี้เล่น แต่บุญจดรู้เรื่องการวางตำแหน่งตัวอักษรและเข้าใจวิธีเขียนภาษาไทยมาตรฐานในเว็บบราวเซอร์สมัยใหม่นะ</small>
+
+# ภาษาบาลี/สันสกฤต (Pali/Sanskrit orthography)
 
 <p lang="pi-Thai">ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ</p>
 
@@ -28,7 +39,7 @@ date: ๑๐ กรกฎาคม ๒๕๕๘
 body { font-feature-settings: "locl"; }
 ~~~
 
-# ภาษาชาติพันธุ์
+# ภาษาชาติพันธุ์ (Minority languages)
 
 ปะเฺติ็ลฺ โฺญฺ็จฺ ปั็วฮฺ ทฺ็อง เปฺิ็ว มูํย แต็่ง เจฺํอ  
 เปรฺิ่ห์ โจ๊่ เปฺี่ย โฺทร ม็่อง เติ็ง อาื ยาึ จือรฺุ การฺู
@@ -49,29 +60,26 @@ body { font-feature-settings: "locl"; }
 body { font-variant: common-ligatures; }
 ~~~
 
-# Mixed language paragraphs
+# Mixed paragraph
 
 <p style="font-size:24px; text-align:left;">
-ฝุ่นน้ำท้องฟ้า ทุ่งหญ้าป้ำเป๋อ ชนชั้นกระฎุมพี เป่าปี่กตัญญู <span lang="pi-Thai">ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ</span> ปะเฺติ็ลฺ โฺญฺ็จฺ ปั็วฮฺ ทฺ็อง เปฺิ็ว มูํย แต็่ง เจฺํอ เปรฺิ่ห์ โจ๊่ เปฺี่ย โฺทร ม็่อง เติ็ง อาื ยาึ จือรฺุ การฺู Quick zephyrs blow, vexing daft Jim. Do bạch kim rất quý, sẽ để lắp vô xương. „Fix, Schwyz!“ quäkt Jürgen blöd vom Paß. „Oh, welch Zynismus!“, quiekte Xavers jadegrüne Bratpfanne. Voyez le brick géant que j'examine près du wharf Quel vituperabile xenofobo zelante assaggia il whisky ed esclama: alleluja! Queda gazpacho, fibra, látex, jamón, kiwi y viñas. Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português. Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi! Laŭ Ludoviko Zamenhof bongustas freŝa ĉeĥa manĝaĵo kun spicoj. Høj bly gom vandt fræk sexquiz på wc Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi. Pójdźże, kiń tę chmurność w głąb flaszy! Příliš žluťoučký kůň úpěl ďábelské ódy Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa. Egy hűtlen vejét fülöncsípő, dühös mexikói úr Wesselényinél mázol Quitóban.
+ฝุ่นน้ำท้องฟ้า ทุ่งหญ้าป้ำเป๋อ ชนชั้นกระฎุมพี เป่าปี่กตัญญู <span lang="pi-Thai">ฐาตุํ ญาติํ อุปฺปฏฺฐานํ ปุํลิงฺคํ วาปิํ ปํสุํ วฏฺฏุํ</span> ปะเฺติ็ลฺ โฺญฺ็จฺ ปั็วฮฺ ทฺ็อง เปฺิ็ว มูํย แต็่ง เจฺํอ เปรฺิ่ห์ โจ๊่ เปฺี่ย โฺทร ม็่อง เติ็ง อาื ยาึ จือรฺุ การฺู Quick zephyrs blow, vexing daft Jim. Do bạch kim rất quý, sẽ để lắp vô xương. „Fix, Schwyz!“ quäkt Jürgen blöd vom Paß. Voyez le brick géant que j'examine près du wharf Quel vituperabile xenofobo zelante assaggia il whisky ed esclama: alleluja! Queda gazpacho, fibra, látex, jamón, kiwi y viñas. Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português. Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi! Laŭ Ludoviko Zamenhof bongustas freŝa ĉeĥa manĝaĵo kun spicoj. Høj bly gom vandt fræk sexquiz på wc Vår sære Zulu fra badeøya spilte jo whist og quickstep i min taxi. Pójdźże, kiń tę chmurność w głąb flaszy! Příliš žluťoučký kůň úpěl ďábelské ódy Kæmi ný öxi hér ykist þjófum nú bæði víl og ádrepa. Egy hűtlen vejét fülöncsípő, dühös mexikói úr Wesselényinél mázol Quitóban.
 </p>
 
 ~~~css
 body { font-kerning: normal; }
 ~~~
 
-# Subscripts & Superscripts
+# Proportional & Tabular Figures
 
-H<sub>2</sub>O &times; 9.87<sup>654</sup> &#x2260; &radic;&pi; &divide; World<sup>3</sup>!
+<span class="pnum">0123456789</span><br>
+<span class="tnum">0123456789</span>
 
-<small>You can easily write subscripts & superscripts with `<sub>` & `<sup>` elements, just enable BoonJot&rsquo;s features.</small>
+<small>Default is proportional.</small>
 
 ~~~html
-H<sub>2</sub>O &times; 9.87<sup>654</sup> &#x2260; &radic;&pi; &divide; World<sup>3</sup>!
-~~~
-
-~~~css
-sub { font-feature-settings: "sups"; }
-sup { font-feature-settings: "sups"; }
+<span class="pnum">0123456789</span><br>
+<span class="tnum">0123456789</span>
 ~~~
 
 # Fractions
@@ -93,6 +101,21 @@ sup { font-feature-settings: "sups"; }
 .frac { font-feature-settings: "frac"; }
 ~~~
 
+# Subscripts & Superscripts
+
+H<sub>2</sub>O &times; 9.87<sup>654</sup> &#x2260; &radic;&pi; &divide; World<sup>3</sup>!
+
+<small>You can easily write subscripts & superscripts with `<sub>` & `<sup>` elements, just enable BoonJot&rsquo;s features.</small>
+
+~~~html
+H<sub>2</sub>O &times; 9.87<sup>654</sup> &#x2260; &radic;&pi; &divide; World<sup>3</sup>!
+~~~
+
+~~~css
+sub { font-feature-settings: "sups"; }
+sup { font-feature-settings: "sups"; }
+~~~
+
 # Localized forms
 
 <p lang="ro">Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie kilowaţioră.</p>
@@ -103,6 +126,6 @@ sup { font-feature-settings: "sups"; }
 <p lang="ro">Gheorghe, obezul, a reuşit să obţină jucându-se un flux în Quebec de o mie kilowaţioră.</p>
 ~~~
 
-# Fork me on GitHub
+# GitHub repository
 
 <https://github.com/fontuni/boonjot>

@@ -14,7 +14,7 @@ import subprocess
 
 # Predifined vars
 family = 'BoonJot'
-version = '1.0-beta1'
+version = '1.0-beta2'
 source = 'sources/boonjot-master.sfd'
 weights = [400]
 copyright =  'Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).'
@@ -56,6 +56,7 @@ def ttfHint(unhinted,hinted):
     '--hinting-range-max=50',
     '--hinting-limit=200',
     '--increase-x-height=12',
+    '--no-info',
     '--verbose',
     unhinted,
     hinted

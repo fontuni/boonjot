@@ -151,7 +151,7 @@ body .reveal {
       margin-bottom: 30px;
       border: 1px solid darken( $backgroundColor, 5% );
       box-shadow: 0 0 0.1em darken( $backgroundColor, 5% );
-      border-radius: 4px;
+      //border-radius: 4px;
       &:before {
         content: "\0E4F\00A0";
       }
@@ -166,6 +166,24 @@ body .reveal {
     .subtitle {
       margin-bottom: 0px;
       margin-top: 15px;
+    }
+  }
+
+  .poem {
+    font-size: 0.4em;
+    margin-bottoom: 0.4em;
+
+    table {
+      margin: 0;
+      padding: 0;
+      
+      th,td {
+        font-weight: 400;
+        border: 0 none;
+        margin: 0;
+        padding: 0.2em 1.5em 0.2em 0;
+      }
+      th { padding-bottom: 0.5em; }
     }
   }
 
