@@ -53,7 +53,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: capitalize;
 $headingFontWeight: 400;
-$linkColor: #2ad;
+$linkColor: #f71;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
@@ -125,6 +125,8 @@ body .reveal {
     line-height: 1.5;
   }
 
+  h1,h2,h3,h4,h5,h6 { text-shadow: 0 0 0 transparent !important; }
+
   pre {
     @import "tomorrow";
 
@@ -136,6 +138,8 @@ body .reveal {
     border: 1px solid darken( $backgroundColor, 10% );
     box-shadow: 0 0 0 transparent;
   }
+
+  pre + pre { margin-top: -1px; }
 
   small {
     font-size: 24px;
@@ -150,7 +154,7 @@ body .reveal {
       padding: 0.12em 0.35em;
       margin-bottom: 30px;
       border: 1px solid darken( $backgroundColor, 5% );
-      box-shadow: 0 0 0.1em darken( $backgroundColor, 5% );
+      //box-shadow: 0 0 0.1em darken( $backgroundColor, 5% );
       //border-radius: 4px;
       &:before {
         content: "\0E4F\00A0";
@@ -160,12 +164,21 @@ body .reveal {
   
   header {
     .title {
-      font-size: 60px;
+      font-size: 150px;
+      line-height: 1em;
       margin-bottom: 0px;
     }
     .subtitle {
-      margin-bottom: 0px;
-      margin-top: 15px;
+      font-size: 115px;
+      line-height: 1em;
+      margin: 0px;
+      color: $linkColor;
+    }
+    .date {
+      font-size: 160px;
+      line-height: 1.22em;
+      margin: 0px;
+      color: lighten( $mainColor, 75% );
     }
   }
 
@@ -187,8 +200,23 @@ body .reveal {
     }
   }
 
+  .controls div.enabled { opacity: 1; }
+
   @media print {
     .print-hide { display: none; }
+
+    * { box-shadow: 0 0 0 transparent; }
+
+    #cover {
+      text-align: center;
+      .title {
+        margin-top: 30px;
+      }
+      .date {
+        font-size: 60px;
+        margin-top: 30px;
+      }
+    }
   }
 
 } // end .reveal

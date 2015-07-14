@@ -1,6 +1,6 @@
 ---
-title: บุญจด ฟอนต์หรรษา
-subtitle: BoonJot Font
+title: BoonJot Font
+subtitle: บุญจด ฟอนต์หรรษา
 author: สังศิต ไสววรรณ
 date: 2015/07/14
 ---

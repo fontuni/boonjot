@@ -68,7 +68,10 @@ $endfor$
   <header>
     <h1 class="title">$title$</h1>
     $if(subtitle)$
-    <h2 class="subtitle">$subtitle$$if(date)$ : $date$$endif$</h2>
+    <h2 class="subtitle">$subtitle$</h2>
+    $endif$
+    $if(date)$
+    <h3 class="date">$if(date)$$date$$endif$</h3>
     $endif$
   </header>
   $endif$

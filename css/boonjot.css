@@ -28,7 +28,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #91d5ee;
+  background: #ffc091;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -212,20 +212,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #2ad;
+  color: #f71;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #64c4e7;
+  color: #ffa35e;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #18779b; }
+  background: #c45400; }
 
 /*********************************************
  * IMAGES
@@ -243,7 +243,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #2ad;
+  border-color: #f71;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -251,31 +251,31 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #2ad; }
+  border-right-color: #f71; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #2ad; }
+  border-left-color: #f71; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #2ad; }
+  border-bottom-color: #f71; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #2ad; }
+  border-top-color: #f71; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #64c4e7; }
+  border-right-color: #ffa35e; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #64c4e7; }
+  border-left-color: #ffa35e; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #64c4e7; }
+  border-bottom-color: #ffa35e; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #64c4e7; }
+  border-top-color: #ffa35e; }
 
 /*********************************************
  * PROGRESS BAR
@@ -284,7 +284,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #2ad;
+  background: #f71;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -293,7 +293,7 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #2ad; }
+  color: #f71; }
 
 body .reveal {
   font-family: "BoonJot";
@@ -359,6 +359,8 @@ body .reveal {
     font-feature-settings: "frac"; }
   body .reveal p {
     line-height: 1.5; }
+  body .reveal h1, body .reveal h2, body .reveal h3, body .reveal h4, body .reveal h5, body .reveal h6 {
+    text-shadow: 0 0 0 transparent !important; }
   body .reveal pre {
     /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
     /* Tomorrow Comment */
@@ -440,6 +442,8 @@ body .reveal {
     body .reveal pre .xml .css,
     body .reveal pre .xml .hljs-cdata {
       opacity: 0.5; }
+  body .reveal pre + pre {
+    margin-top: -1px; }
   body .reveal small {
     font-size: 24px;
     line-height: 1.5em; }
@@ -449,16 +453,23 @@ body .reveal {
       background: #fff;
       padding: 0.12em 0.35em;
       margin-bottom: 30px;
-      border: 1px solid #efefef;
-      box-shadow: 0 0 0.1em #efefef; }
+      border: 1px solid #efefef; }
       body .reveal .slides .slide h1:first-child:before {
         content: "\0E4F\00A0"; }
   body .reveal header .title {
-    font-size: 60px;
+    font-size: 150px;
+    line-height: 1em;
     margin-bottom: 0px; }
   body .reveal header .subtitle {
-    margin-bottom: 0px;
-    margin-top: 15px; }
+    font-size: 115px;
+    line-height: 1em;
+    margin: 0px;
+    color: #f71; }
+  body .reveal header .date {
+    font-size: 160px;
+    line-height: 1.22em;
+    margin: 0px;
+    color: #e1e1e1; }
   body .reveal .poem {
     font-size: 0.4em;
     margin-bottoom: 0.4em; }
@@ -472,8 +483,19 @@ body .reveal {
         padding: 0.2em 1.5em 0.2em 0; }
       body .reveal .poem table th {
         padding-bottom: 0.5em; }
+  body .reveal .controls div.enabled {
+    opacity: 1; }
   @media print {
     body .reveal .print-hide {
-      display: none; } }
+      display: none; }
+    body .reveal * {
+      box-shadow: 0 0 0 transparent; }
+    body .reveal #cover {
+      text-align: center; }
+      body .reveal #cover .title {
+        margin-top: 30px; }
+      body .reveal #cover .date {
+        font-size: 60px;
+        margin-top: 30px; } }
 
 /*# sourceMappingURL=boonjot.css.map */
