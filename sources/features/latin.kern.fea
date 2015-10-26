@@ -1,0 +1,129 @@
+#
+# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
+#
+
+include(latin-classes.fea)
+
+@bowl.cap = [\zero \six \eight \nine @G @O @Q \uni018F ];
+@lbowl.cap = [ @bowl.cap @C @OE @Ohorn ];
+@rbowl.cap = [ @bowl.cap \three @B @D @Thorn @SS ];
+
+@bowl = [ @e @o @s ];
+@lbowl = [ @bowl @a @c @g @d @q @oe @ohorn \uni0251 \uni0259 \uni0261 ];
+@rbowl = [ @bowl @b @p @ss @thorn ];
+@semi.rbowl = [ @h @m @n  ];
+
+lookup Latin.kern {
+
+  # 2 sides kerning
+  pos [ @rbowl.cap ] [ @A @V @Y] -30;
+  pos [ @A @V @Y ] [ @lbowl.cap ] -30;
+
+  pos @A [ @S @U ] -20;
+  pos [ @J @S @U ] @A -20;
+
+  pos @A @T -120;
+  pos @T @A -120;
+
+  pos @A [ @V @Y ] -80;
+  pos [ @V @Y ] @A -80;
+  pos [ @V @Y ] @AE -50;
+
+  pos @A [ @W ] -40;
+  pos [ @W ] @A -40;
+
+  pos @S @T -30;
+  pos @T @S -30;
+
+  pos @T @lbowl.cap -60;
+  pos @rbowl.cap @T -60;
+
+  pos @T @lbowl -120;
+  pos @rbowl @T -120;
+
+  pos @T @semi.rbowl -30;
+  pos @semi.rbowl @T -45;
+
+  pos [ @V @Y ] @lbowl -45;
+  pos @rbowl [ @V @Y ] -45;
+
+  pos @W @lbowl.cap -20;
+  pos @rbowl.cap @W -20;
+
+  pos @W @lbowl -30;
+  pos @rbowl @W -30;
+  
+  pos @X @lbowl.cap -60;
+  pos @rbowl.cap @X -60;
+
+  pos @X @lbowl -30;
+  pos @rbowl @X -30;
+
+  pos @Z @lbowl.cap -20;
+  pos @rbowl.cap @Z -20;
+
+  pos @Z @lbowl -20;
+  pos @rbowl @Z -20;
+
+
+  pos [ @v @y ] @lbowl -20;
+  pos @rbowl [ @v @y ] -20;
+
+  pos @w @lbowl -15;
+  pos @rbowl @w -15;
+
+  pos @x @lbowl -25;
+  pos @rbowl @x -25;
+
+  pos @z @lbowl -15;
+  pos @rbowl @z -15;
+
+  # right side kerning
+  pos [ \one ] [ \one ] -60;
+  pos [ \one ] @lbowl.cap -20;
+  pos [ \one ] @lbowl -30;
+
+  pos @C @lbowl -10;
+
+  pos @F @A -100;
+  pos @F @lbowl.cap -45;
+  pos @F @lbowl -70;
+
+  pos @K @lbowl.cap -60;
+
+  pos @L [ @A ] -45;
+  pos @L [ @AE ] -15;
+  pos @L [ @J @S @U ] -15;
+  pos @L [ @lbowl.cap ] -60;
+  pos @L [ @T @V @Y ] -120;
+  pos @L [ @W ] -90;
+  pos @L @lbowl -15;
+
+  pos @P @A -90;
+  pos @P [ @V @Y ] -30;
+  pos @P @lbowl -30;
+
+  pos @R [ @A @V @Y ] -30;
+
+  pos @f @lbowl -45;
+  pos @f @t -45;
+  pos @k @lbowl -30;
+  pos @r @lbowl -30;
+  pos @t @lbowl -30;
+  pos @t @f -30;
+
+  # punctuations
+  pos [\slash] [\slash] -90;
+  # numerals
+  pos [\six] [\seven] -75;
+
+
+} Latin.kern;
+
+feature kern {
+  lookup Latin.kern;
+} kern;

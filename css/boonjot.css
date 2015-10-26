@@ -7,7 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
 @font-face {
   font-family: "BoonJot";
-  src: url("/fonts/BoonJot-400.woff2") format("woff2"), url("/fonts/BoonJot-400.woff") format("woff"), url("/fonts/BoonJot-400.ttf") format("truetype");
+  src: url("/fonts/woff2/BoonJot-400.woff2") format("woff2"), url("/fonts/woff/BoonJot-400.woff") format("woff"), url("/fonts/ttf/BoonJot-400.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {

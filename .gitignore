@@ -20,3 +20,18 @@ sources/*.ttf
 # Jekyll
 *.sass-cache
 *_site
+
+*.*~
+components/*
+.sass-cache/*
+
+*backup/*
+*.sfd-*
+*/unhinted/*
+*-temp*
+*-backup*
+*.bak
+
+# Package
+BoonJot-v*.zip
+sfd/*

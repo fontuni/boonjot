@@ -2,7 +2,7 @@
 title: BoonJot Font
 subtitle: บุญจด ฟอนต์หรรษา
 author: สังศิต ไสววรรณ
-date: 2015/07/14
+date: 2015/10/27
 ---
 
 # ภาษาไทยมาตรฐาน (Standard Thai)
@@ -44,7 +44,7 @@ body { font-feature-settings: "locl"; }
 ปะเฺติ็ลฺ โฺญฺ็จฺ ปั็วฮฺ ทฺ็อง เปฺิ็ว มูํย แต็่ง เจฺํอ  
 เปรฺิ่ห์ โจ๊่ เปฺี่ย โฺทร ม็่อง เติ็ง อาื ยาึ จือรฺุ การฺู
 
-<small>บุญจดรับมือวิธีเขียนที่ซับซ้อนกว่าภาษาไทยมาตรฐานได้แต่กำเนิดอีกต่างหาก <span style="font-size:120px;line-height:2.1em;">ฮฺูุ็ํ้!!!</span></small>
+<small>บุญจดรับมือวิธีเขียนที่ซับซ้อนกว่าภาษาไทยมาตรฐานได้แต่กำเนิดอีกต่างหาก!</small>
 
 # Thai Ligatures
 
@@ -133,4 +133,4 @@ sup { font-feature-settings: "sups"; }
 
 # GitHub repository
 
-<https://github.com/fontuni/boonjot>
+[github.com/fontuni/boonjot](https://github.com/fontuni/boonjot)

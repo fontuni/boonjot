@@ -1,0 +1,38 @@
+languagesystem DFLT dflt;
+languagesystem thai dflt;
+languagesystem thai PAL ;
+languagesystem thai SAN ;
+
+#
+# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
+#
+
+# Todo: rearrange this
+lookup Thai.kern {
+  lookupflag 0;
+    @kc0_first_1 = [\uni0E40 \uni0E41 \uni0E42 \uni0E43 \uni0E44 ];
+    @kc0_first_2 = [\uni0E09 \uni0E13 \uni0E19 ];
+    @kc0_first_3 = [\uni0E50 \uni0E51 ];
+    @kc0_first_4 = [\uni0E54 \uni0E55 \uni0E59 ];
+    @kc0_second_1 = [\uni0E27 \uni0E2F \uni0E32 \uni0E45 \uni0E46 ];
+    @kc0_second_2 = [\uni0E02 \uni0E03 \uni0E07 \uni0E08 \uni0E0A \uni0E0B \uni0E10 \uni0E10.rd 
+	\uni0E11 \uni0E17 \uni0E19 \uni0E1A \uni0E1B \uni0E1E \uni0E1F \uni0E23 
+	\uni0E29 \uni0E2B \uni0E2C ];
+    @kc0_second_3 = [\uni0E50 \uni0E51 \uni0E54 \uni0E55 \uni0E58 \uni0E59 ];
+    @kc0_second_4 = [\uni0E56 ];
+    pos @kc0_first_1 @kc0_second_1 -30;
+    pos @kc0_first_1 @kc0_second_2 -15;
+    pos @kc0_first_2 @kc0_second_1 -20;
+    pos @kc0_first_2 @kc0_second_2 -10;
+    pos @kc0_first_3 @kc0_second_4 -20;
+    pos @kc0_first_4 @kc0_second_3 -20;
+    pos @kc0_first_4 @kc0_second_4 20;
+} Thai.kern;
+
+feature kern {
+  lookup Thai.kern;
+} kern;
