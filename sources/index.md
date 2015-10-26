@@ -82,6 +82,11 @@ body { font-kerning: normal; }
 <span class="tnum">0123456789</span>
 ~~~
 
+~~~css
+.pnum { font-feature-settings: "pnum"; }
+.tnum { font-feature-settings: "tnum"; }
+~~~
+
 # Fractions
 
 1&thinsp;&frac14; 5&thinsp;&frac12; 9&thinsp;&frac34; <span class="frac">1/3 2/3 1/8 3/8 5/8 7/8</span>
@@ -112,7 +117,7 @@ H<sub>2</sub>O &times; 9.87<sup>654</sup> &#x2260; &radic;&pi; &divide; World<su
 ~~~
 
 ~~~css
-sub { font-feature-settings: "sups"; }
+sub { font-feature-settings: "subs"; }
 sup { font-feature-settings: "sups"; }
 ~~~
 
