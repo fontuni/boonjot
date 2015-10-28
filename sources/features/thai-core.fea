@@ -3,7 +3,7 @@ languagesystem thai dflt;
 languagesystem thai PAL ;
 languagesystem thai SAN ;
 #
-# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+# Copyright (c) 2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
 # You should have received a copy of the OFL License along with this file.
@@ -12,7 +12,9 @@ languagesystem thai SAN ;
 
 # Shared functionalities for Thai shaping
 
-include(thai-basic-classes.fea)
+include(thai-classes.fea)
+
+# Basic subsitutions
 
 # Remove descender
 lookup ThaiRC.rd {
@@ -20,34 +22,13 @@ lookup ThaiRC.rd {
 } ThaiRC.rd;
 
 lookup ThaiContextRC.rd {
-  sub @RC' lookup ThaiRC.rd @BV;
+  sub @RC'lookup ThaiRC.rd @BV;
 } ThaiContextRC.rd;
 
-# Thai Sara Am decomposition: The extra zero-width joiner (@ZWJ) is required
-# to distinguish decomposed Sara AA from user's input one.
-# Thai Sara Am decomposition:
+# Thai Sara Am decomposition (Don't include any zero-width space here, it causes Mac OS bug) 
 lookup ThaiDecomp {
   sub \uni0E33 by \uni0E4D \uni0E32;
 } ThaiDecomp;
-
-lookup ThaiContext.decomp {
-  sub [ @NC @AC @DC @RC @RC.rd ]' \uni0E33' lookup ThaiDecomp;
-} ThaiContext.decomp;
-
-lookup Thai0E33.0E32 {
-  sub \uni0E33 by \uni0E32;
-} Thai0E33.0E32;
-
-lookup ThaiTone.0E4D {
-  sub \uni0E48 by \uni0E4D \uni0E48;
-  sub \uni0E49 by \uni0E4D \uni0E49;
-  sub \uni0E4A by \uni0E4D \uni0E4A;
-  sub \uni0E4B by \uni0E4D \uni0E4B;
-} ThaiTone.0E4D;
-
-lookup ThaiContext.0E4D {
-  sub [ @NC @AC @DC @RC @RC.rd ]' @T' lookup ThaiTone.0E4D \uni0E33' lookup Thai0E33.0E32;
-} ThaiContext.0E4D;
 
 # Phinthu reordering fix for Uniscribe & Harfbuzz
 lookup ThaiBV.0E3A {
@@ -63,49 +44,42 @@ lookup Thai0E3A.0E39 {
 } Thai0E3A.0E39;
 
 lookup ThaiPhinthu.ro {
-  sub @BASE' [ \uni0E38 ]' lookup ThaiBV.0E3A [ \uni0E3A ]' lookup Thai0E3A.0E38;
-  sub @BASE' [ \uni0E39 ]' lookup ThaiBV.0E3A [ \uni0E3A ]' lookup Thai0E3A.0E39;
+  sub [ \uni0E38 ]'lookup ThaiBV.0E3A [ \uni0E3A ]'lookup Thai0E3A.0E38;
+  sub [ \uni0E39 ]'lookup ThaiBV.0E3A [ \uni0E3A ]'lookup Thai0E3A.0E39;
 } ThaiPhinthu.ro;
 
-# GSUB features
+@BASE.nc = [ @NC @RC.rd @LV \uni0E30 \uni0E32 ];
+@BASE.dc = [ @DC @RC @IV \uni0E45 ];
+@AM = [ \uni0E33 ];
+
+# Mac OS & Safari fix
+lookup ThaiTone.liga {
+  sub \uni0E48 \uni0E4D by \uni0E48.0E4D;
+  sub \uni0E49 \uni0E4D by \uni0E49.0E4D;
+  sub \uni0E4A \uni0E4D by \uni0E4A.0E4D;
+  sub \uni0E4B \uni0E4D by \uni0E4B.0E4D;
+} ThaiTone.liga;
 
 feature locl {
-
   script thai;
     language PAL exclude_dflt;
       lookup ThaiRC.rd;
     language SAN exclude_dflt;
       lookup ThaiRC.rd;
-
 } locl;
 
-feature ccmp {
+feature ss01 {
+  lookup ThaiRC.rd;
+} ss01;
 
+feature ccmp {
+  lookup ThaiDecomp;
+  lookup ThaiContextRC.rd;
+  lookup ThaiPhinthu.ro;
+  lookup ThaiTone.liga;
   script thai;
-    language dflt;
-      lookup ThaiContextRC.rd;
-      lookup ThaiContext.decomp;
-      lookup ThaiContext.0E4D;
-      lookup ThaiPhinthu.ro;
     language PAL exclude_dflt;
       lookup ThaiRC.rd;
-      lookup ThaiContext.decomp;
-      lookup ThaiContext.0E4D;
-      lookup ThaiPhinthu.ro;
     language SAN exclude_dflt;
       lookup ThaiRC.rd;
-      lookup ThaiContext.decomp;
-      lookup ThaiContext.0E4D;
-      lookup ThaiPhinthu.ro;
-
 } ccmp;
-
-# Because many applications don't quite well support language specific features
-# like `locl` (or even `ccmp`) for Thai script, `salt` & `ss01` features are alternatives 
-# to Pali/Sanskrit prefered form of uni0E0D (ญ) and uni0E10 (ฐ).
-
-feature ss01 {
-  script thai;
-    language dflt ;
-      lookup ThaiRC.rd;
-} ss01;

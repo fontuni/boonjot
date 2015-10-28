@@ -1,0 +1,131 @@
+languagesystem DFLT dflt;
+
+#
+# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
+#
+
+lookup LatinAbove.mark {
+  lookupflag 0;
+  markClass [\uni0300 \uni0301 \uni0302 \uni0303 \uni0306 \uni0307 \uni0308 \uni030A \uni0304 \uni0309 \uni030B \uni030C \uni030D \uni030E \uni030F \uni0305 \uni0311 \uni0312 \uni0313 \uni0314 \uni0351 \uni0357 ] <anchor -60 0> @LatinAbove.mark;
+  pos base [\uni25CC ] <anchor 300 0> mark @LatinAbove.mark;
+  pos base [\A \Aogonek \uni1EA0 ] <anchor 397 180> mark @LatinAbove.mark;
+  pos base [\B ] <anchor 387 180> mark @LatinAbove.mark;
+  pos base [\C \V \Ccedilla ] <anchor 392 180> mark @LatinAbove.mark;
+  pos base [\D \Z \Eth \Dcroat ] <anchor 367 180> mark @LatinAbove.mark;
+  pos base [\E \P \R \Eogonek \uni0156 \uni1E5A \uni1E5E \uni1EB8 ] <anchor 377 180> mark @LatinAbove.mark;
+  pos base [\F \K \S \Scedilla \uni0218 \uni1E62 ] <anchor 357 180> mark @LatinAbove.mark;
+  pos base [\G \O \Q \Oslash \Ohorn \uni1ECC \uni1EE2 \uni01EA ] <anchor 407 180> mark @LatinAbove.mark;
+  pos base [\H \N \U \Uogonek \Hbar \Uhorn \uni1EE4 \uni1EF0 ] <anchor 402 180> mark @LatinAbove.mark;
+  pos base [\I \Thorn \Iogonek \uni1ECA ] <anchor 227 180> mark @LatinAbove.mark;
+  pos base [\J ] <anchor 317 180> mark @LatinAbove.mark;
+  pos base [\L \uni013B \uni1E36 \uni1E3A ] <anchor 177 180> mark @LatinAbove.mark;
+  pos base [\M ] <anchor 442 180> mark @LatinAbove.mark;
+  pos base [\T \Y \uni1E9E ] <anchor 352 180> mark @LatinAbove.mark;
+  pos base [\W ] <anchor 537 180> mark @LatinAbove.mark;
+  pos base [\X ] <anchor 382 180> mark @LatinAbove.mark;
+  pos base [\a \g \p \q \aogonek \uni0251 \uni0261 \uni1EA1 ] <anchor 295 0> mark @LatinAbove.mark;
+  pos base [\b \h \k \thorn ] <anchor 152 180> mark @LatinAbove.mark;
+  pos base [\c \n \o \u \ccedilla \oslash \uogonek \kgreenlandic \ohorn \uhorn \uni1ECD \uni1ECF \uni1EE3 \uni1EE5 \uni1EF1 \uni01EB ] <anchor 265 0> mark @LatinAbove.mark;
+  pos base [\d ] <anchor 502 180> mark @LatinAbove.mark;
+  pos base [\e \eogonek \uni1EB9 ] <anchor 275 0> mark @LatinAbove.mark;
+  pos base [\f ] <anchor 292 180> mark @LatinAbove.mark;
+  pos base [\i \igrave \iacute \icircumflex \idieresis \imacron \iogonek \itilde \uni01D0 \uni1EC9 ] <anchor 177 210> mark @LatinAbove.mark
+	<anchor 167 180> mark @LatinAbove.mark;
+  pos base [\j \l \uni013C \uni1E37 \uni1E3B ] <anchor 167 180> mark @LatinAbove.mark;
+  pos base [\m ] <anchor 445 0> mark @LatinAbove.mark;
+  pos base [\r \uni0157 \uni1E5B \uni1E5F ] <anchor 145 0> mark @LatinAbove.mark;
+  pos base [\s \scedilla \uni0219 \uni1E63 ] <anchor 225 0> mark @LatinAbove.mark;
+  pos base [\t ] <anchor 148 120> mark @LatinAbove.mark;
+  pos base [\v \y \uni1EF5 ] <anchor 240 0> mark @LatinAbove.mark;
+  pos base [\w ] <anchor 345 0> mark @LatinAbove.mark;
+  pos base [\x \z \uni0259 ] <anchor 235 0> mark @LatinAbove.mark;
+  pos base [\Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \Amacron \Abreve \uni01CD \uni1EA2 ] <anchor 464 390> mark @LatinAbove.mark;
+  pos base [\Egrave \Eacute \Ecircumflex \Edieresis \Emacron \Edotaccent \Ecaron \Ebreve \uni1EBA \uni1EBC ] <anchor 444 390> mark @LatinAbove.mark;
+  pos base [\Igrave \Iacute \Icircumflex \Idieresis \Imacron \Idotaccent \Itilde \uni01CF \uni1EC8 ] <anchor 294 390> mark @LatinAbove.mark;
+  pos base [\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Omacron \Ohungarumlaut \uni01D1 \uni1ECE \uni1EDA \uni1EDC \uni1EDE \uni1EE0 ] <anchor 474 390> mark @LatinAbove.mark;
+  pos base [\Ugrave \Uacute \Ucircumflex \Udieresis \Umacron \Uring \Uhungarumlaut \Utilde \Ubreve \uni01D3 \uni1EE6 ] <anchor 469 390> mark @LatinAbove.mark;
+  pos base [\Yacute \Ydieresis \Ycircumflex \uni1E8E \Ygrave \uni1EF6 \uni1EF8 ] <anchor 419 390> mark @LatinAbove.mark;
+  pos base [\germandbls \eth ] <anchor 332 180> mark @LatinAbove.mark;
+  pos base [\agrave \aacute \acircumflex \atilde \adieresis \aring \amacron \abreve \uni01CE \uni1EA3 ] <anchor 362 210> mark @LatinAbove.mark;
+  pos base [\egrave \eacute \ecircumflex \edieresis \emacron \edotaccent \ecaron \ebreve \uni1EBB \uni1EBD ] <anchor 342 210> mark @LatinAbove.mark;
+  pos base [\ograve \oacute \ocircumflex \otilde \odieresis \ugrave \uacute \ucircumflex \udieresis \omacron \ohungarumlaut \umacron \uring \uhungarumlaut \utilde \ubreve \uni01D2 \uni01D4 \uni1EDB \uni1EDD \uni1EDF \uni1EE1 \uni1EE7 ] <anchor 332 210> mark @LatinAbove.mark;
+  pos base [\yacute \ydieresis \ycircumflex \uni1E8F \ygrave \uni1EF7 \uni1EF9 ] <anchor 307 210> mark @LatinAbove.mark;
+  pos base [\dotlessi \uni0237 ] <anchor 110 0> mark @LatinAbove.mark;
+  pos base [\AE \OE ] <anchor 557 180> mark @LatinAbove.mark;
+  pos base [\ae \oe ] <anchor 400 0> mark @LatinAbove.mark;
+  pos base [\uni018F ] <anchor 372 180> mark @LatinAbove.mark;
+} LatinAbove.mark;
+
+lookup LatinBelow.mark {
+  lookupflag 0;
+  markClass [\uni0323 \uni0324 \uni0326 \uni032E \uni0331 \uni0329 ] <anchor -60 0> @LatinBelow.mark;
+  markClass [\uni0300 \uni0301 \uni0302 \uni0303 \uni0306 \uni0307 \uni0308 \uni030A \uni0304 \uni0309 \uni030B \uni030C \uni030D \uni030E \uni030F \uni0305 \uni0311 \uni0312 \uni0313 \uni0314 \uni0351 \uni0357 ] <anchor -60 0> @LatinAbove.mark_1;
+  pos base [\uni25CC \S ] <anchor 300 0> mark @LatinBelow.mark;
+  pos base [\A \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \Amacron \Abreve \uni01CD \uni1EA2 ] <anchor 340 0> mark @LatinBelow.mark;
+  pos base [\B \R ] <anchor 330 0> mark @LatinBelow.mark;
+  pos base [\C \V \Cacute \Ccaron \Ccircumflex \Cdotaccent ] <anchor 335 0> mark @LatinBelow.mark;
+  pos base [\D \Z \Eth \Dcroat \uni018F ] <anchor 310 0> mark @LatinBelow.mark;
+  pos base [\E \Egrave \Eacute \Ecircumflex \Edieresis \Emacron \Edotaccent \Ecaron \Ebreve \uni1EBA \uni1EBC ] <anchor 320 0> mark @LatinBelow.mark;
+  pos base [\F \P ] <anchor 120 0> mark @LatinBelow.mark;
+  pos base [\G \O \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash \Omacron \Ohungarumlaut \Ohorn \uni01D1 \uni1E9E \uni1ECE \uni1EDA \uni1EDC \uni1EDE \uni1EE0 ] <anchor 350 0> mark @LatinBelow.mark;
+  pos base [\H \N \U \w \Ntilde \Ugrave \Uacute \Ucircumflex \Udieresis \Nacute \Umacron \Uring \Uhungarumlaut \Hbar \Utilde \Ubreve \Uhorn \uni01D3 \uni1E44 \uni1EE6 \uni1EE8 \uni1EEA \uni1EEC \uni1EEE ] <anchor 345 0> mark @LatinBelow.mark;
+  pos base [\I \J \Igrave \Iacute \Icircumflex \Idieresis \Thorn \Imacron \Idotaccent \Itilde \uni01CF \uni1EC8 ] <anchor 170 0> mark @LatinBelow.mark;
+  pos base [\K \L ] <anchor 305 0> mark @LatinBelow.mark;
+  pos base [\M ] <anchor 385 0> mark @LatinBelow.mark;
+  pos base [\Q \T \Y \a \d \u \Yacute \agrave \aacute \acircumflex \atilde \adieresis \aring \ugrave \uacute \ucircumflex \udieresis \Ydieresis \amacron \abreve \umacron \uring \uhungarumlaut \utilde \ubreve \Ycircumflex \uhorn \uni01CE \uni01D4 \uni0251 \uni1E8E \uni1EA3 \uni1EE7 \uni1EE9 \uni1EEB \uni1EED \uni1EEF \Ygrave \uni1EF6 \uni1EF8 ] <anchor 295 0> mark @LatinBelow.mark;
+  pos base [\W ] <anchor 480 0> mark @LatinBelow.mark;
+  pos base [\X ] <anchor 325 0> mark @LatinBelow.mark;
+  pos base [\b \c \h \k \n \o \eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \oslash \cacute \ccaron \nacute \omacron \ohungarumlaut \ccircumflex \cdotaccent \kgreenlandic \ohorn \uni01D2 \uni1E45 \uni1ECF \uni1EDB \uni1EDD \uni1EDF \uni1EE1 ] <anchor 265 0> mark @LatinBelow.mark;
+  pos base [\e \egrave \eacute \ecircumflex \edieresis \emacron \edotaccent \ecaron \ebreve \uni1EBB \uni1EBD ] <anchor 275 0> mark @LatinBelow.mark;
+  pos base [\f ] <anchor 150 0> mark @LatinBelow.mark;
+  pos base [\g \uni0261 ] <anchor 238 -180> mark @LatinBelow.mark;
+  pos base [\i \igrave \iacute \icircumflex \idieresis \dotlessi \imacron \iogonek \itilde \uni01D0 \uni1EC9 ] <anchor 115 0> mark @LatinBelow.mark;
+  pos base [\j \p \thorn \uni0237 ] <anchor 58 -180> mark @LatinBelow.mark;
+  pos base [\l ] <anchor 140 0> mark @LatinBelow.mark;
+  pos base [\m ] <anchor 445 0> mark @LatinBelow.mark;
+  pos base [\q ] <anchor 328 -180> mark @LatinBelow.mark;
+  pos base [\r ] <anchor 145 0> mark @LatinBelow.mark;
+  pos base [\s ] <anchor 225 0> mark @LatinBelow.mark;
+  pos base [\t ] <anchor 210 0> mark @LatinBelow.mark;
+  pos base [\v ] <anchor 240 0> mark @LatinBelow.mark;
+  pos base [\x \z \uni0259 ] <anchor 235 0> mark @LatinBelow.mark;
+  pos base [\y \yacute \ydieresis \ycircumflex \uni1E8F \ygrave \uni1EF7 \uni1EF9 ] <anchor 183 -180> mark @LatinBelow.mark;
+  pos base [\germandbls ] <anchor 360 0> mark @LatinAbove.mark_1;
+  pos base [\AE \OE ] <anchor 475 0> mark @LatinBelow.mark;
+  pos base [\ae \oe ] <anchor 400 0> mark @LatinBelow.mark;
+} LatinBelow.mark;
+
+lookup LatinCedilla.mark {
+  lookupflag 0;
+  markClass [\uni0327 ] <anchor -60 0> @LatinCedilla.mark;
+  pos base [\uni25CC \S ] <anchor 320 0> mark @LatinCedilla.mark;
+  pos base [\C ] <anchor 370 0> mark @LatinCedilla.mark;
+  pos base [\T ] <anchor 295 0> mark @LatinCedilla.mark;
+  pos base [\c ] <anchor 280 0> mark @LatinCedilla.mark;
+  pos base [\s ] <anchor 230 0> mark @LatinCedilla.mark;
+  pos base [\t ] <anchor 210 0> mark @LatinCedilla.mark;
+} LatinCedilla.mark;
+
+lookup LatinOgonek.mark {
+  lookupflag 0;
+  markClass [\uni0328 ] <anchor -60 0> @LatinOgonek.mark;
+  pos base [\A ] <anchor 630 0> mark @LatinOgonek.mark;
+  pos base [\E ] <anchor 500 0> mark @LatinOgonek.mark;
+  pos base [\I ] <anchor 230 0> mark @LatinOgonek.mark;
+  pos base [\O \U ] <anchor 400 0> mark @LatinOgonek.mark;
+  pos base [\a \u ] <anchor 510 0> mark @LatinOgonek.mark;
+  pos base [\e ] <anchor 320 0> mark @LatinOgonek.mark;
+  pos base [\i \dotlessi ] <anchor 100 0> mark @LatinOgonek.mark;
+  pos base [\o ] <anchor 300 0> mark @LatinOgonek.mark;
+} LatinOgonek.mark;
+
+feature mark {
+  lookup LatinAbove.mark;
+  lookup LatinBelow.mark;
+  lookup LatinCedilla.mark;
+  lookup LatinOgonek.mark;
+} mark;

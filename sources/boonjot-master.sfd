@@ -5,7 +5,7 @@ FamilyName: BoonJot
 Weight: 400
 Copyright: Copyright 2015, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 FontLog: "BoonJot is left-handed comic sans, I supposed. It+IBkA-s machine-made family with unique stroke speed, pen shape & drawing direction especially Thai glyphs. +AAoACgAA-ChangeLog+AAoACgAA-v1.0-beta2:+AAoA-- Improved kerning+AAoACgAA-v1.0-beta1: 10 July 2015+AAoA-- Added Latin kerning+AAoACgAA-v1.0-alpha2: 5 July 2015+AAoA-- Improved Thai OpenType features+AAoA-- Added more essential OpenType features+AAoACgAA-v1.0-alpha1: 2 July 2015+AAoA-- Renamed from BoonThing to BoonJot+AAoA-- Added full Adobe Latin-4 +- Thai glyphs+AAoA-- Added basic OpenType features"
-Version: 1.0-beta3
+Version: 1.0
 ItalicAngle: 0
 UnderlinePosition: -90
 UnderlineWidth: 30
@@ -19,17 +19,17 @@ Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 Layer: 2 0 "400" 0
 FSType: 0
-OS2Version: 4
+OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435153839
-ModificationTime: 1445878158
+ModificationTime: 1445991306
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 90
 VLineGap: 0
-Panose: 2 0 2 3 0 0 0 0 0 0
+Panose: 2 0 6 3 0 0 0 0 0 0
 OS2TypoAscent: 960
 OS2TypoAOffset: 0
 OS2TypoDescent: -240
@@ -43,19 +43,9 @@ HheadAscent: 1320
 HheadAOffset: 0
 HheadDescent: -480
 HheadDOffset: 0
-OS2SubXSize: 780
-OS2SubYSize: 840
-OS2SubXOff: 0
-OS2SubYOff: 180
-OS2SupXSize: 780
-OS2SupYSize: 840
-OS2SupXOff: 0
-OS2SupYOff: 600
-OS2StrikeYSize: 60
-OS2StrikeYPos: 300
 OS2Vendor: 'FUni'
-OS2CodePages: 00010000.00000000
-OS2UnicodeRanges: 81000003.1000200a.00000000.00000000
+OS2CodePages: 20010193.00000000
+OS2UnicodeRanges: a10000ff.5000207b.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "FontUni" "Sungsit Sawaiwan" "" "https://boonuni.com/" "https://sungsit.com/" "" "http://scripts.sil.org/OFL" "" "BoonJot"
@@ -67,11 +57,10 @@ DisplaySize: -48
 DisplayLayer: 2
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 672 14 7
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "LatinAbove.mark_1" "" 
-BeginChars: 1114143 765
+BeginChars: 1114148 770
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -34811,6 +34800,82 @@ Flags: HMW
 LayerCount: 3
 Layer: 2
 Validated: 1
+EndChar
+
+StartChar: uni0E48.0E4D
+Encoding: 1114143 -1 765
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Layer: 2
+Refer: 711 3656 S 1 0 0 1 0 0 2
+Refer: 716 3661 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0E49.0E4D
+Encoding: 1114144 -1 766
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Layer: 2
+Refer: 712 3657 S 1 0 0 1 0 0 2
+Refer: 716 3661 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0E4A.0E4D
+Encoding: 1114145 -1 767
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Layer: 2
+Refer: 713 3658 S 1 0 0 1 0 0 2
+Refer: 716 3661 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0E4B.0E4D
+Encoding: 1114146 -1 768
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Layer: 2
+Refer: 714 3659 S 1 0 0 1 0 0 2
+Refer: 716 3661 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: FontUni
+Encoding: 1114147 -1 769
+Width: 840
+VWidth: 0
+Flags: HW
+LayerCount: 3
+Layer: 2
+SplineSet
+0 40 m 2
+ 0 800 l 2
+ 0 822 18 840 40 840 c 2
+ 800 840 l 2
+ 822 840 840 822 840 800 c 2
+ 840 40 l 2
+ 840 18 822 0 800 0 c 2
+ 672 0 l 1
+ 672 420 l 2
+ 672 561 561 672 420 672 c 0
+ 279 672 168 561 168 420 c 0
+ 168 279 279 168 420 168 c 0
+ 438 168 456 170 472 173 c 1
+ 472 0 l 1
+ 40 0 l 2
+ 18 0 0 18 0 40 c 2
+315 420 m 0
+ 315 479 361 525 420 525 c 0
+ 479 525 525 479 525 420 c 0
+ 525 361 479 315 420 315 c 0
+ 361 315 315 361 315 420 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

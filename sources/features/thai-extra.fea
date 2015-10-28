@@ -11,7 +11,7 @@ languagesystem thai SAN ;
 # If not, see http://scripts.sil.org/OFL
 #
 
-include(thai-basic-classes.fea)
+include(thai-classes.fea)
 
 # These are optional required features for Thai fonts.
 

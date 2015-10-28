@@ -11,22 +11,22 @@
 import fontforge
 
 # Predifined vars
-source = 'sources/boonjot-master.sfd'
+source = 'sources/boonjot-master-italic.sfd'
 
 # I just can't find better ways to list all anchors yet ...
 anchors = [
-  'ThaiBelow.mark',
-  'ThaiAbove.mark',
-  'ThaiAbove.left.mark',
-  'ThaiOpt.mark',
-  'ThaiBelow.mkmk',
-  'ThaiAbove.mkmk',
   'LatinBelow.mark',
   'LatinAbove.mark',
   'LatinCedilla.mark',
   'LatinOgonek.mark',
   'LatinBelow.mkmk',
-  'LatinAbove.mkmk'
+  'LatinAbove.mkmk',
+  'ThaiBelow.mark',
+  'ThaiAbove.mark',
+  'ThaiAbove.left.mark',
+  'ThaiOpt.mark',
+  'ThaiAbove.mkmk',
+  'ThaiBelow.mkmk'
 ]
 
 font = fontforge.open(source)

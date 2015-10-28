@@ -9,11 +9,10 @@
 # Thai global classes
 
 # Normal (baseline) consonants
-
 # Dotted Circle (uni25CC) was included here so it can be used as mark base placeholder.
 @NC = [ \uni0E01 \uni0E02 \uni0E03 \uni0E04 \uni0E05 \uni0E06 \uni0E07 \uni0E08 \uni0E09 \uni0E0A \uni0E0B \uni0E0C \uni0E11 \uni0E12 \uni0E13 \uni0E14 \uni0E15 \uni0E16 \uni0E17 \uni0E18 \uni0E19 \uni0E1A \uni0E1C \uni0E1E \uni0E20 \uni0E21 \uni0E22 \uni0E23 \uni0E24 \uni0E25 \uni0E26 \uni0E27 \uni0E28 \uni0E29 \uni0E2A \uni0E2B \uni0E2C \uni0E2D \uni0E2E \uni0E2F \uni25CC ];
 
-# Ascender consonants (ป, ฝ, & ฟ) 
+# Ascender consonants (ป, ฝ, ฟ)
 @AC = [ \uni0E1B \uni0E1D \uni0E1F ];
 
 # Strict Descender consonants (ฎ, ฏ)
@@ -47,6 +46,8 @@
 
 # Above tone/diacritic
 @T     = [ \uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C ];
+@T.nig  = [ \uni0E48.0E4D  \uni0E49.0E4D  \uni0E4A.0E4D  \uni0E4B.0E4D ];
+@T.all = [ @T @T.nig ];
 
 # Zero-width space
 @ZWJ = [ \uni200D ];
@@ -54,36 +55,13 @@
 # These classes maybe useful for referencing and GDEF table.
 @BASE = [ @NC @AC @DC @RC @RC.rd @LV @FV @IV @SB @DIGIT ];
 @LIGATURES = [ \uni0E240E45.liga \uni0E260E45.liga \uni0E4F.extra ];
-@MARKS = [ @AV @BV @T ];
+@MARKS = [ @AV @BV @T.all ];
 
-# Thai extended classes (vender's legacy)
+# FontForge automagically adds GDEF table whenever it generates new font. 
+# But it doesn't add @MARKS correctly when import feature files from GUI.
+# So including predefined GDEF here will never hurt anyone!
+# And it seems Adobe complex layout engine (World-Ready) needs GDEF to display Thai @MARKS correctly.
 
-# These class and glyph naming are derived and modified from
-# Theppitak Karoonboonyanan's Thai script shaping logic.
-# http://linux.thai.net/~thep/th-otf/shaping.html
-#
-# Thai positional variants: SD = shift down, SDL = shift down-left, SL = shift left
-# Additional classes for minority languages: SU = shift up and SUL = shift up-left
-
-# Below vowel/diacritic
-@BV.sd  = [ \uni0E38.sd \uni0E39.sd \uni0E3A.sd ];
-@BV.all = [ @BV @BV.sd ];
-
-# Above vowel/diacritic
-@AV.sl  = [ \uni0E31.sl \uni0E34.sl \uni0E35.sl \uni0E36.sl \uni0E37.sl \uni0E47.sl \uni0E4D.sl \uni0E4E.sl ];
-@AV.su  = [ \uni0E47.su \uni0E4D.su ];
-@AV.sul = [ \uni0E47.sul \uni0E4D.sul ];
-@AV.all = [ @AV @AV.sl @AV.su @AV.sul ];
-
-# Above tone/diacritic
-@T.sd  = [ \uni0E48.sd  \uni0E49.sd  \uni0E4A.sd  \uni0E4B.sd  \uni0E4C.sd  ];
-@T.sdl = [ \uni0E48.sdl \uni0E49.sdl \uni0E4A.sdl \uni0E4B.sdl \uni0E4C.sdl ];
-@T.sl  = [ \uni0E48.sl  \uni0E49.sl  \uni0E4A.sl  \uni0E4B.sl  \uni0E4C.sl  ];
-@T.all = [ @T @T.sd @T.sdl @T.sl ];
-
-@MARKS_LEGACY = [ @MARKS @BV.all @AV.all @T.all ];
-
-# Add GDEF
 table GDEF {
-  GlyphClassDef @BASE, @LIGATURES, @MARKS_LEGACY, ;
+  GlyphClassDef @BASE, @LIGATURES, @MARKS, ;
 } GDEF;

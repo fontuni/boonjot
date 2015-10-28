@@ -11,7 +11,7 @@ languagesystem thai SAN ;
 # If not, see http://scripts.sil.org/OFL
 #
 
-include(thai-basic-classes.fea)
+include(thai-classes.fea)
 
 lookup ThaiBelow.mark {
   lookupflag 0;
@@ -31,7 +31,7 @@ lookup ThaiBelow.mark {
 
 lookup ThaiAbove.mark {
   lookupflag 0;
-  markClass [\uni0E31 \uni0E34 \uni0E35 \uni0E36 \uni0E37 \uni0E47 \uni0E4D \uni0E4E ] <anchor 0 0> @ThaiAbove.mark;
+  markClass [\uni0E31 \uni0E34 \uni0E35 \uni0E36 \uni0E37 \uni0E47 \uni0E4D \uni0E4E @T.nig ] <anchor 0 0> @ThaiAbove.mark;
   markClass [\uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C ] <anchor 0 270> @ThaiAbove.mark;
   pos base [\uni0E01 \uni0E04 \uni0E05 \uni0E0E \uni0E0F \uni0E14 \uni0E16 \uni0E17 \uni0E20 \uni0E21 \uni0E28 \uni0E4F \uni25CC ] <anchor 660 0> mark @ThaiAbove.mark;
   pos base [\uni0E02 \uni0E09 \uni0E19 \uni0E2D \uni0E2E ] <anchor 630 0> mark @ThaiAbove.mark;
@@ -53,7 +53,7 @@ lookup ThaiAbove.mark {
 lookup ThaiAbove.left.mark {
   lookupflag 0;
   markClass [ \uni0E31 ] <anchor -80 0> @ThaiAbove.left.mark;
-  markClass [ \uni0E4D ] <anchor -120 0> @ThaiAbove.left.mark;
+  markClass [ \uni0E4D @T.nig ] <anchor -120 0> @ThaiAbove.left.mark;
   markClass [ \uni0E34 \uni0E35 \uni0E36 \uni0E37 \uni0E47 ] <anchor -180 0> @ThaiAbove.left.mark;
   markClass [ \uni0E4E ] <anchor -240 0> @ThaiAbove.left.mark;
   markClass [ \uni0E48 ] <anchor -120 270> @ThaiAbove.left.mark;
@@ -67,7 +67,7 @@ lookup ThaiAbove.left.mark {
 lookup ThaiOpt.mark {
   lookupflag 0;
   markClass [ \uni0E47 ] <anchor 60 0> @ThaiOpt.mark;
-  markClass [ \uni0E31 \uni0E4D ] <anchor 120 0> @ThaiOpt.mark;
+  markClass [ \uni0E31 \uni0E4D @T.nig ] <anchor 120 0> @ThaiOpt.mark;
   markClass [ \uni0E48 ] <anchor 60 270> @ThaiOpt.mark;
   markClass [ \uni0E49 \uni0E4A \uni0E4B \uni0E4C ] <anchor 120 270> @ThaiOpt.mark;
 
@@ -91,8 +91,8 @@ lookup ThaiOpt.mark {
 lookup ThaiContext.mark {
   lookupflag 0;
 
-    pos [@NC @DC @RC @RC.rd ] [ @T \uni0E31 \uni0E47 \uni0E4D ]'lookup ThaiOpt.mark [ @LV.tall ];
-    pos [ @T \uni0E31 \uni0E47 \uni0E4D ]'lookup ThaiOpt.mark @AC [ \uni0E34 - \uni0E37 ];
+    pos [@NC @DC @RC @RC.rd ] [ @T \uni0E31 \uni0E47 \uni0E4D @T.nig ]'lookup ThaiOpt.mark [ @LV.tall ];
+    pos [ @T \uni0E31 \uni0E47 \uni0E4D @T.nig ]'lookup ThaiOpt.mark @AC [ \uni0E34 - \uni0E37 ];
     
 } ThaiContext.mark;
 

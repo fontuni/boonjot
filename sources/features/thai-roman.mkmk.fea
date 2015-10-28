@@ -11,23 +11,26 @@ languagesystem thai SAN ;
 # If not, see http://scripts.sil.org/OFL
 #
 
-include(thai-basic-classes.fea)
+include(thai-classes.fea)
 
 lookup ThaiBelow.mkmk {
   lookupflag 0;
-  markClass [\uni0E38 \uni0E39 \uni0E3A ] <anchor 0 0> @ThaiBelow.mkmk;
-  pos mark [\uni0E38 \uni0E39 ] <anchor 0 -240> mark @ThaiBelow.mkmk;
-  pos mark [\uni0E3A ] <anchor 0 -180> mark @ThaiBelow.mkmk;
+  markClass [\uni0E38 \uni0E3A ] <anchor 0 0> @ThaiBelow.mkmk;
+  markClass [\uni0E39 ] <anchor -75 0> @ThaiBelow.mkmk;
+  pos mark [\uni0E38 ] <anchor 0 -270> mark @ThaiBelow.mkmk;
+  pos mark [\uni0E39 ] <anchor -75 -270> mark @ThaiBelow.mkmk;
+  pos mark [\uni0E3A ] <anchor 0 -210> mark @ThaiBelow.mkmk;
 } ThaiBelow.mkmk;
 
 lookup ThaiAbove.mkmk {
   lookupflag 0;
   markClass [\uni0E47 ] <anchor -60 690> @ThaiAbove.mkmk;
   markClass [\uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C ] <anchor 0 960> @ThaiAbove.mkmk;
-  markClass [\uni0E4D ] <anchor 0 690> @ThaiAbove.mkmk;
+  markClass [\uni0E4D @T.nig ] <anchor 0 690> @ThaiAbove.mkmk;
   pos mark [\uni0E31 \uni0E34 \uni0E35 \uni0E36 \uni0E37 \uni0E4D ] <anchor 0 960> mark @ThaiAbove.mkmk;
   pos mark [\uni0E47 ] <anchor -60 960> mark @ThaiAbove.mkmk;
-  pos mark @T <anchor 0 1230> mark @ThaiAbove.mkmk;
+  pos mark [ @T @T.nig ] <anchor 0 1230> mark @ThaiAbove.mkmk;
+
 } ThaiAbove.mkmk;
 
 feature mkmk {

@@ -62,7 +62,7 @@ lookup LatinAbove.mark {
     pos base [ @i.abv ] <anchor 170 210> mark @LatinAbove.mark;
   pos base [ \m ] <anchor 505 0> mark @LatinAbove.mark;
   pos base [ \n @o.base @o.blw \ohorn @ohorn.blw @u.base @u.blw \uhorn @uhorn.blw \kgreenlandic ] <anchor 325 0> mark @LatinAbove.mark;
-    pos base [ @o.abv \ohorn @ohorn.abv @u.abv ] <anchor 325 210> mark @LatinAbove.mark;
+    pos base [ @o.abv @ohorn.abv @u.abv ] <anchor 325 210> mark @LatinAbove.mark;
   pos base [ \p ] <anchor 355 0> mark @LatinAbove.mark;
   pos base [ \r @r.blw ] <anchor 205 0> mark @LatinAbove.mark;
   pos base [ \s @s.blw ] <anchor 285 0> mark @LatinAbove.mark;

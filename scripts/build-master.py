@@ -18,11 +18,11 @@ import datetime
 # Predifined vars
 foundry = 'FontUni'
 family = 'BoonJot'
-version = '1.0-beta3'
-sources = ['sources/boonjot-master.sfd']
+version = '1.0'
+sources = ['sources/boonjot-master.sfd','sources/boonjot-master-italic.sfd']
 layers = ['400']
 copyright =  'Copyright 2015, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).'
-features = ['boonjot-roman']
+features = ['boonjot-roman','boonjot-italic']
 feature_dir = 'sources/'
 
 build_dir = 'fonts/'
@@ -159,7 +159,7 @@ def buildFont(source,family):
   font.copyright = copyright
   font.save()
 
-  if source.endswith('oblique.sfd'):
+  if source.endswith('italic.sfd'):
     font.mergeFeature(feature_dir + features[1] + '.fea')
   else:
     font.mergeFeature(feature_dir + features[0] + '.fea')
@@ -179,15 +179,16 @@ def buildFont(source,family):
     font.familyname = msFamilyName(font.os2_weight)
 
     # Customize preferred subfamily & styles
-    if source.endswith('oblique.sfd'):
+    if source.endswith('italic.sfd'):
       font.fontname += 'i'
-      font.fullname += ' Oblique'
+      font.fullname += ' Italic'
       font.italicangle = -9.0
       if subfamily == 'Bold':
-        font.appendSFNTName('English (US)', 'SubFamily', 'Bold Oblique')
+        font.appendSFNTName('English (US)', 'SubFamily', 'Bold Italic')
       else:
-        font.appendSFNTName('English (US)', 'SubFamily', 'Oblique')
-      font.appendSFNTName('English (US)', 'Preferred Styles', subfamily + ' Oblique')
+        font.appendSFNTName('English (US)', 'SubFamily', 'Italic')
+      font.appendSFNTName('English (US)', 'Preferred Styles', 'Italic')
+      font.fullname = family + ' Italic'
   
     else:
       font.appendSFNTName('English (US)', 'SubFamily', 'Regular')

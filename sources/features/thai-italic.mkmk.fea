@@ -1,0 +1,38 @@
+languagesystem DFLT dflt;
+languagesystem thai dflt;
+languagesystem thai PAL ;
+languagesystem thai SAN ;
+
+#
+# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
+#
+
+include(thai-classes.fea)
+
+lookup ThaiBelow.mkmk {
+  lookupflag 0;
+  markClass [\uni0E38 \uni0E3A ] <anchor -60 0> @ThaiBelow.mkmk;
+  markClass [\uni0E39 ] <anchor -135 0> @ThaiBelow.mkmk;
+  pos mark [\uni0E38 ] <anchor -146 -270> mark @ThaiBelow.mkmk;
+  pos mark [\uni0E39 ] <anchor -221 -270> mark @ThaiBelow.mkmk;
+  pos mark [\uni0E3A ] <anchor -127 -210> mark @ThaiBelow.mkmk;
+} ThaiBelow.mkmk;
+
+lookup ThaiAbove.mkmk {
+  lookupflag 0;
+  markClass [\uni0E47 ] <anchor 99 690> @ThaiAbove.mkmk;
+  markClass [\uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C ] <anchor 244 960> @ThaiAbove.mkmk;
+  markClass [\uni0E4D @T.nig ] <anchor 159 690> @ThaiAbove.mkmk;
+  pos mark [\uni0E31 \uni0E34 \uni0E35 \uni0E36 \uni0E37 \uni0E4D ] <anchor 244 960> mark @ThaiAbove.mkmk;
+  pos mark [\uni0E47 ] <anchor 184 960> mark @ThaiAbove.mkmk;
+  pos mark [ @T @T.nig ] <anchor 330 1230> mark @ThaiAbove.mkmk;
+} ThaiAbove.mkmk;
+
+feature mkmk {
+  lookup ThaiBelow.mkmk;
+  lookup ThaiAbove.mkmk;
+} mkmk;

@@ -2,7 +2,7 @@
 title: BoonJot Font
 subtitle: บุญจด ฟอนต์หรรษา
 author: สังศิต ไสววรรณ
-date: 2015/10/27
+date: 2015/10/28
 ---
 
 # ภาษาไทยมาตรฐาน (Standard Thai)
