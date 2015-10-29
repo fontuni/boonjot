@@ -6,10 +6,15 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
 @font-face {
-  font-family: "BoonJot";
-  src: url("/fonts/woff2/BoonJot-400.woff2") format("woff2"), url("/fonts/woff/BoonJot-400.woff") format("woff"), url("/fonts/ttf/BoonJot-400.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "BoonJot-v1.0";
+  src: url(../fonts/woff2/BoonJot-400.woff2) format("woff2"), url(../fonts/woff/BoonJot-400.woff) format("woff"), url(../fonts/ttf/BoonJot-400.ttf) format("truetype");
+  font-weight: 400;
   font-style: normal; }
+@font-face {
+  font-family: "BoonJot-v1.0";
+  src: url(../fonts/woff2/BoonJot-400i.woff2) format("woff2"), url(../fonts/woff/BoonJot-400i.woff) format("woff"), url(../fonts/ttf/BoonJot-400i.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic; }
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
@@ -21,7 +26,7 @@ body {
   background-color: #fcfcfc; }
 
 .reveal {
-  font-family: "BoonJot";
+  font-family: "BoonJot-v1.0";
   font-size: 60px;
   font-weight: normal;
   color: #222; }
@@ -47,7 +52,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #222;
-  font-family: "BoonJot";
+  font-family: "BoonJot-v1.0";
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: normal;
@@ -296,7 +301,7 @@ body {
   color: #f71; }
 
 body .reveal {
-  font-family: "BoonJot";
+  font-family: "BoonJot-v1.0";
   -webkit-font-feature-settings: "locl";
   -moz-font-feature-settings: "locl";
   -ms-font-feature-settings: "locl";
@@ -457,7 +462,7 @@ body .reveal {
       body .reveal .slides .slide h1:first-child:before {
         content: "\0E4F\00A0"; }
   body .reveal header .title {
-    font-size: 150px;
+    font-size: 138px;
     line-height: 1em;
     margin-bottom: 0px; }
   body .reveal header .subtitle {
@@ -466,7 +471,7 @@ body .reveal {
     margin: 0px;
     color: #f71; }
   body .reveal header .date {
-    font-size: 160px;
+    font-size: 165px;
     line-height: 1.22em;
     margin: 0px;
     color: #e1e1e1; }
@@ -485,17 +490,45 @@ body .reveal {
         padding-bottom: 0.5em; }
   body .reveal .controls div.enabled {
     opacity: 1; }
-  @media print {
-    body .reveal .print-hide {
-      display: none; }
-    body .reveal * {
-      box-shadow: 0 0 0 transparent; }
-    body .reveal #cover {
-      text-align: center; }
-      body .reveal #cover .title {
-        margin-top: 30px; }
-      body .reveal #cover .date {
-        font-size: 60px;
-        margin-top: 30px; } }
+
+@media print {
+  .print-hide,
+  body .reveal .print-hide {
+    display: none; }
+
+  body .reveal * {
+    box-shadow: 0 0 0 transparent; }
+
+  body .reveal #cover {
+    text-align: center; }
+    body .reveal #cover .title {
+      margin-top: 30px; }
+    body .reveal #cover .date {
+      font-size: 60px;
+      margin-top: 30px; } }
+body.boonjot-400 .reveal {
+  font-weight: 400 !important; }
+  body.boonjot-400 .reveal h1, body.boonjot-400 .reveal h2, body.boonjot-400 .reveal h3, body.boonjot-400 .reveal h4, body.boonjot-400 .reveal h5, body.boonjot-400 .reveal h6 {
+    font-weight: 400 !important; }
+body.boonjot-400i .reveal {
+  font-weight: 400 !important;
+  font-style: italic !important; }
+  body.boonjot-400i .reveal h1, body.boonjot-400i .reveal h2, body.boonjot-400i .reveal h3, body.boonjot-400i .reveal h4, body.boonjot-400i .reveal h5, body.boonjot-400i .reveal h6 {
+    font-weight: 400 !important;
+    font-style: italic !important; }
+
+.select-form {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  right: 0; }
+  .select-form #font-selector {
+    padding: 02px 5px;
+    border: 1px solid #efefef;
+    border-radius: 0;
+    overflow: hidden;
+    background-color: #fff; }
+    .select-form #font-selector:focus {
+      outline: none; }
 
 /*# sourceMappingURL=boonjot.css.map */

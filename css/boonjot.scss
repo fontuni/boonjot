@@ -11,17 +11,23 @@
 @import "../libraries/reveal.js/css/theme/template/settings";
 // ---------------------------------------------
 
+// Theme-specific fonts
+$font-family: "BoonJot-v1.0";
 
-// Include theme-specific fonts
-$font-family: "BoonJot";
+@mixin font-include($name, $weight, $style) {
+  font-family: $font-family;
+  src: url(../fonts/woff2/#{$name}.woff2) format('woff2'),
+       url(../fonts/woff/#{$name}.woff) format('woff'),
+       url(../fonts/ttf/#{$name}.ttf) format('truetype');
+  font-weight: $weight;
+  font-style: $style;
+}
 
 @font-face {
-  font-family: $font-family;
-  src: url('/fonts/woff2/BoonJot-400.woff2') format('woff2'),
-       url('/fonts/woff/BoonJot-400.woff') format('woff'),
-       url('/fonts/ttf/BoonJot-400.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  @include font-include(BoonJot-400, 400, normal);
+}
+@font-face {
+  @include font-include(BoonJot-400i, 400, italic);
 }
 
 // monospaced font
@@ -164,7 +170,7 @@ body .reveal {
   
   header {
     .title {
-      font-size: 150px;
+      font-size: 138px;
       line-height: 1em;
       margin-bottom: 0px;
     }
@@ -175,7 +181,7 @@ body .reveal {
       color: $linkColor;
     }
     .date {
-      font-size: 160px;
+      font-size: 165px;
       line-height: 1.22em;
       margin: 0px;
       color: lighten( $mainColor, 75% );
@@ -202,21 +208,55 @@ body .reveal {
 
   .controls div.enabled { opacity: 1; }
 
-  @media print {
-    .print-hide { display: none; }
+} // end .reveal
 
-    * { box-shadow: 0 0 0 transparent; }
+@media print {
+  .print-hide,
+  body .reveal .print-hide { display: none; }
 
-    #cover {
-      text-align: center;
-      .title {
-        margin-top: 30px;
-      }
-      .date {
-        font-size: 60px;
-        margin-top: 30px;
-      }
+  body .reveal  * { box-shadow: 0 0 0 transparent; }
+
+  body .reveal  #cover {
+    text-align: center;
+    .title {
+      margin-top: 30px;
+    }
+    .date {
+      font-size: 60px;
+      margin-top: 30px;
     }
   }
+}
 
-} // end .reveal
+// Font options
+body {
+  &.boonjot-400 .reveal {
+    font-weight: 400 !important;
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 400 !important;
+    }
+  }
+  &.boonjot-400i .reveal {
+    font-weight: 400 !important;
+    font-style: italic !important;
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 400 !important;
+      font-style: italic !important;
+    }
+  }
+}
+
+.select-form {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  #font-selector {
+    padding: 02px 5px;
+    border: 1px solid darken( $backgroundColor, 5% );;
+    border-radius: 0;
+    overflow: hidden;
+    background-color: #fff;
+    &:focus{ outline: none; }
+  }
+}

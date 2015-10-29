@@ -1,10 +1,12 @@
 # บุญจด สุดหรรษา (BoonJot)
 
-![BoonJot Screenshoot](images/boonjot-screenshot.png?raw=true)
+![BoonJot Screenshoot](images/boonjot-header.png?raw=true)
 
 BoonJot is left-handed comic sans family (I supposed). It’s machine-made family with unique stroke speed, pen shape & drawing direction especially Thai glyphs. I designed & drew each glyph as single stroke before expanded it to get proper weight with [FontForge](http://fontforge.github.io/en-US/) then worked in detail with [Inkscape](https://inkscape.org/en/). Glyph style is up-right italic but unlike many handwriting fonts, BoonJot doesn’t try to connect glyphs together. That maintains its casual look & still somewhat legible on screen at small size.
 
-Specimen and test pages can be found here <https://fontuni.com/boonjot/> or in PDF format here <https://fontuni.com/boonjot/docs/boonjot-specimen.pdf>.
+Specimen and test pages can be found as slideshow here <https://fontuni.com/boonjot/slideshow.html> or in PDF format here <https://fontuni.com/boonjot/docs/boonjot-specimen.pdf>.
+
+Many thanks to [f0nt.com community](http://www.f0nt.com/forum/index.php/topic,22790.0.html) for testing & review. 
 
 ## Build Fonts
 
