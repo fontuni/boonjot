@@ -2,6 +2,7 @@
 
 # Covert scss to css
 sass css/boonjot.scss css/boonjot.css
+sass css/boonjot-all.scss css/boonjot-all.css
 
 # Convert markdown to reveal.js slides
 #pandoc -t revealjs --template=sources/pandoc-revealjs.tpl --standalone \

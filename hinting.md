@@ -1,7 +1,10 @@
 ---
 layout: font
 title: BoonJot Hinting Preview
-fontfamily: "BoonJot-v1.0"
+titleclass: "boonjot-400"
+fontfamily: "BoonJot"
+css: "/boonjot/css/boonjot-all.css"
+class: "boonjot-400"
 ---
 
 ### 18px

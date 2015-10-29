@@ -33,7 +33,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #ffc091;
+  background: #91d5ee;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -217,20 +217,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #f71;
+  color: #2ad;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #ffa35e;
+  color: #64c4e7;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #c45400; }
+  background: #18779b; }
 
 /*********************************************
  * IMAGES
@@ -248,7 +248,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #f71;
+  border-color: #2ad;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -256,31 +256,31 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #f71; }
+  border-right-color: #2ad; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #f71; }
+  border-left-color: #2ad; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #f71; }
+  border-bottom-color: #2ad; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #f71; }
+  border-top-color: #2ad; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #ffa35e; }
+  border-right-color: #64c4e7; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #ffa35e; }
+  border-left-color: #64c4e7; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #ffa35e; }
+  border-bottom-color: #64c4e7; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #ffa35e; }
+  border-top-color: #64c4e7; }
 
 /*********************************************
  * PROGRESS BAR
@@ -289,7 +289,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #f71;
+  background: #2ad;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -298,7 +298,7 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #f71; }
+  color: #2ad; }
 
 body .reveal {
   font-family: "BoonJot-v1.0";
@@ -469,7 +469,7 @@ body .reveal {
     font-size: 115px;
     line-height: 1em;
     margin: 0px;
-    color: #f71; }
+    color: #2ad; }
   body .reveal header .date {
     font-size: 165px;
     line-height: 1.22em;

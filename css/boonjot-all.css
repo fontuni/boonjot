@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "BoonJot";
+  src: url(../fonts/woff2/BoonJot-400.woff2) format("woff2"), url(../fonts/woff/BoonJot-400.woff) format("woff"), url(../fonts/ttf/BoonJot-400.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "BoonJot";
+  src: url(../fonts/woff2/BoonJot-400i.woff2) format("woff2"), url(../fonts/woff/BoonJot-400i.woff) format("woff"), url(../fonts/ttf/BoonJot-400i.ttf) format("truetype");
+  font-weight: 400;
+  font-style: oblique; }
+.boonjot-400 {
+  font-family: "BoonJot";
+  font-weight: 400;
+  font-style: normal; }
+
+.boonjot-400i {
+  font-family: "BoonJot";
+  font-weight: 400;
+  font-style: oblique; }
+
+/*# sourceMappingURL=boonjot-all.css.map */
