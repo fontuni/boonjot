@@ -11,6 +11,7 @@ class: "boonjot-400"
 {: .boonjot-400}
 
 - Fixed various bugs for Mac OS & Safari browser
+- Hinted by [ttfautohint v1.4.1](http://www.freetype.org/ttfautohint/) (Thai & Lao script support)
 
 ### BoonJot 1.0-beta2: 2015-07-14
 {: .boonjot-400}
