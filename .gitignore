@@ -4,8 +4,6 @@
 *~
 *.DS_Store
 *.swp
-*.psd
-*.svg
 *.bak
 
 # FontForge backup files
