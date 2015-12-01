@@ -25,7 +25,9 @@ components/*
 
 *backup/*
 *.sfd-*
-*/unhinted/*
+fonts/unhinted/*
+fonts/eot/*
+fonts/svg/*
 *-temp*
 *-backup*
 *.bak
