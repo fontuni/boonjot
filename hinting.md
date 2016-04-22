@@ -7,6 +7,9 @@ fontfamily: "BoonJot"
 css: "/boonjot/css/boonjot-all.css"
 class: "boonjot-400"
 theme: /css/theme-boonjot.css
+cover:
+  path: /boonjot/images/boonjot-cover.png
+excerpt: "BoonJot Hinting Preview"
 ---
 
 ### 18px
