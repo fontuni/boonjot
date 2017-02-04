@@ -1,11 +1,11 @@
 SplineFontDB: 3.0
-FontName: BoonJot-400i
+FontName: BoonJot-Italic
 FullName: BoonJot Italic
 FamilyName: BoonJot
 Weight: 400
-Copyright: Copyright 2015, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+Copyright: Copyright 2015-2017, Sungsit Sawaiwan (https://fontuni.com | uni@fontuni.com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 FontLog: "BoonJot is left-handed comic sans, I supposed. It+IBkA-s machine-made family with unique stroke speed, pen shape & drawing direction especially Thai glyphs. +AAoACgAA-ChangeLog+AAoACgAA-v1.0-beta2:+AAoA-- Improved kerning+AAoACgAA-v1.0-beta1: 10 July 2015+AAoA-- Added Latin kerning+AAoACgAA-v1.0-alpha2: 5 July 2015+AAoA-- Improved Thai OpenType features+AAoA-- Added more essential OpenType features+AAoACgAA-v1.0-alpha1: 2 July 2015+AAoA-- Renamed from BoonThing to BoonJot+AAoA-- Added full Adobe Latin-4 +- Thai glyphs+AAoA-- Added basic OpenType features"
-Version: 1.0.1
+Version: 2.0
 ItalicAngle: -9
 UnderlinePosition: -90
 UnderlineWidth: 30
@@ -18,13 +18,14 @@ LayerCount: 3
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 Layer: 2 0 "400" 0
+StyleMap: 0x0001
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435153839
-ModificationTime: 1445997812
-PfmFamily: 33
+ModificationTime: 1486210341
+PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 90
@@ -43,12 +44,13 @@ HheadAscent: 1320
 HheadAOffset: 0
 HheadDescent: -480
 HheadDOffset: 0
+OS2FamilyClass: 2566
 OS2Vendor: 'FUni'
 OS2CodePages: 20010193.00000000
 OS2UnicodeRanges: a10000ff.5000207b.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "FontUni" "Sungsit Sawaiwan" "" "https://boonuni.com/" "https://sungsit.com/" "" "http://scripts.sil.org/OFL" "" "BoonJot"
+LangName: 1033 "" "" "" "" "" "" "" "" "FontUni" "Sungsit Sawaiwan" "" "https://fontuni.com/" "https://sungsit.com/" "" "http://scripts.sil.org/OFL" "" "BoonJot"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -60,7 +62,7 @@ FitToEm: 0
 WinInfo: 480 20 8
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "LatinAbove.mark_1" "" 
+AnchorClass2: "LatinAbove.mark_1""" 
 BeginChars: 1114148 770
 
 StartChar: .notdef

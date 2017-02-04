@@ -1,37 +1,33 @@
-# temp dirs
-*bak
-*temp*
-*~
-*.DS_Store
-*.swp
-*.bak
+*.tar
+*.tar.*
+*.zip
+*.tgz
+*.log
+*.log.*
+*.sig
+pkg/
+src/
 
-# FontForge backup files
 *.sfd-*
-
-# Binary files
-#*.otf
-sources/*.ttf
-#*.woff
-#*.woff2
-
-# Jekyll
-*.sass-cache
-*_site
-
-*.*~
-components/*
-.sass-cache/*
-
-*backup/*
-*.sfd-*
+notes.txt
+*-temp*
+sources/*.*tf
+*/bak/*
 fonts/unhinted/*
 fonts/eot/*
 fonts/svg/*
+.sass-cache/*
+__pycache*
+*.pyc
+
+*backup/*
+*.sfd-*
+*/unhinted/*
 *-temp*
 *-backup*
 *.bak
+*-bak*
 
 # Package
-BoonJot-v*.zip
 sfd/*
+*-v*.zip
