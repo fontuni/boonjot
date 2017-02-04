@@ -162,7 +162,6 @@ def fontZip(family,version,pkg):
   os.chdir('..')
   print(package, 'created.')
 
-pkgs = ['otf', 'ttf', 'woff-otf', 'woff-ttf', 'woff2-otf', 'woff2-ttf']
-
 for pkg in pkgs:
   fontZip(family,version,pkg)
+
