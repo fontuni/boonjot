@@ -1,18 +1,18 @@
 // Theme-specific fonts
 @mixin font-include($family, $name, $weight, $style) {
   font-family: $family;
-  src: url(../fonts/woff2/#{$name}.woff2) format('woff2'),
-       url(../fonts/woff/#{$name}.woff) format('woff'),
-       url(../fonts/ttf/#{$name}.ttf) format('truetype');
+  src: url(../fonts/woff2-otf/#{$name}.woff2) format('woff2'),
+       url(../fonts/woff-otf/#{$name}.woff) format('woff'),
+       url(../fonts/otf/#{$name}.ttf) format('truetype');
   font-weight: $weight;
   font-style: $style;
 }
 
 @font-face {
-  @include font-include("BoonJot", BoonJot-400, 400, normal);
+  @include font-include("BoonJot", BoonJot-Regular, 400, normal);
 }
 @font-face {
-  @include font-include("BoonJot", BoonJot-400i, 400, oblique);
+  @include font-include("BoonJot", BoonJot-Italic, 400, italic);
 }
 
 // Font options
@@ -23,4 +23,4 @@
 }
 
 .boonjot-400 { @include font-class("BoonJot", normal); }
-.boonjot-400i { @include font-class("BoonJot", oblique); }
+.boonjot-400i { @include font-class("BoonJot", italic); }

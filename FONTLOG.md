@@ -12,6 +12,14 @@ cover:
 excerpt: "BoonJot FONTLOG"
 ---
 
+### BoonJot v2.0, 2017-02-05
+{: .section-title }
+
+- Added new building process
+- Used generic names for all fonts
+- Corrected OS/2 Style Map for Windows
+- Removed EOT & SVG font packages
+
 ### BoonJot v1.0.1, 2015-12-01
 {: .section-title }
 

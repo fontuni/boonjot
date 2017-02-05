@@ -6,13 +6,13 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
 @font-face {
-  font-family: "BoonJot-v1.0";
-  src: url(../fonts/woff2/BoonJot-400.woff2) format("woff2"), url(../fonts/woff/BoonJot-400.woff) format("woff"), url(../fonts/ttf/BoonJot-400.ttf) format("truetype");
+  font-family: "BoonJot";
+  src: url(../fonts/woff2-otf/BoonJot-Regular.woff2) format("woff2"), url(../fonts/woff-otf/BoonJot-Regular.woff) format("woff"), url(../fonts/otf/BoonJot-Regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal; }
 @font-face {
-  font-family: "BoonJot-v1.0";
-  src: url(../fonts/woff2/BoonJot-400i.woff2) format("woff2"), url(../fonts/woff/BoonJot-400i.woff) format("woff"), url(../fonts/ttf/BoonJot-400i.ttf) format("truetype");
+  font-family: "BoonJot";
+  src: url(../fonts/woff2-otf/BoonJot-Italic.woff2) format("woff2"), url(../fonts/woff-otf/BoonJot-Italic.woff) format("woff"), url(../fonts/otf/BoonJot-Italic.ttf) format("truetype");
   font-weight: 400;
   font-style: italic; }
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
@@ -26,7 +26,7 @@ body {
   background-color: #fcfcfc; }
 
 .reveal {
-  font-family: "BoonJot-v1.0";
+  font-family: "BoonJot";
   font-size: 60px;
   font-weight: normal;
   color: #222; }
@@ -52,7 +52,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #222;
-  font-family: "BoonJot-v1.0";
+  font-family: "BoonJot";
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: normal;
@@ -301,7 +301,7 @@ body {
   color: #b3b; }
 
 body .reveal {
-  font-family: "BoonJot-v1.0";
+  font-family: "BoonJot";
   -webkit-font-feature-settings: "locl";
   -moz-font-feature-settings: "locl";
   -ms-font-feature-settings: "locl";
